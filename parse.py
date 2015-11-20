@@ -1,4 +1,5 @@
 import csv
+import json
 from collections import Counter
 
 game_id = 'Game ID'
@@ -71,8 +72,6 @@ def file_len(fname):
             pass
     return i + 1
 
-print(file_len('bfz-games.csv'))
-
 with open('bfz-games.csv') as csvfile:
     reader = csv.DictReader(csvfile, fieldnames=games_columns)
     for row in reader:
@@ -86,8 +85,8 @@ with open('bfz-games.csv') as csvfile:
             else:
                 cards_by_name[card_name].losses += 1
 
-for card in cards_by_name.values():
-    # print(card)
-    pass
-
-print(len(games))
+with open('nodes.js', 'w') as outfile:
+    outfile.write("var nodes = ")
+    nodes = [{'id': card.name, 'label': card.name, 'value': card.win_rate()}
+             for card in cards_by_name.values()]
+    json.dump(nodes, outfile, indent="")
