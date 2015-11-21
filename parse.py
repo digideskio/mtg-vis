@@ -184,7 +184,7 @@ edges = [{'from': synergy.card1, 'to': synergy.card2, 'value': win_rate(synergy)
           'color': {'opacity': win_rate(synergy)}
          }
          for synergy in synergies_by_card_tuple.values()
-         if loss_rate(synergy) < .99 * min(loss_rate(cards_by_name[synergy.card1]), loss_rate(cards_by_name[synergy.card2]))
-         and plays(synergy) > max(25, .19 * min(plays(cards_by_name[synergy.card1]), plays(cards_by_name[synergy.card2])))
+         if loss_rate(synergy) < min(loss_rate(cards_by_name[synergy.card1]), loss_rate(cards_by_name[synergy.card2]))
+         and plays(synergy) > max(25, .18 * min(plays(cards_by_name[synergy.card1]), plays(cards_by_name[synergy.card2])))
         ]
 write('edges.js', "var edges = ", edges)
