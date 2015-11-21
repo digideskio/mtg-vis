@@ -15,7 +15,8 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    /*position: relative;*/
+    position: relative;
+    background: rgb(202,197,192);
   }
 
   #mtg-network {
@@ -44,20 +45,22 @@
   };
   var options = {
     nodes: {
-      shape: 'dot'
+      font: {
+        strokeWidth: 1,
+      },
+      shape: 'circularImage',
+      shadow: true,
     },
     edges: {
       smooth: {
         type: 'continuous',
       },
+      color: {
+        inherit: 'both',
+      }
     },
     physics: {
-      solver: 'barnesHut',
-      barnesHut: {
-        centralGravity: 0.4,
-        springConstant: 0.005,
-        springLength: 190,
-      },
+      solver: 'forceAtlas2Based',
     },
   };
   var network = new vis.Network(container, data, options);

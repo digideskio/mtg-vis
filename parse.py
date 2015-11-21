@@ -30,6 +30,30 @@ games_columns = (game_id, starting_hand_size, tournament_id, match_id, player,
 
 cards_columns = (name, mana_cost, rarity) = 'Name', 'Mana cost', 'Rarity'
 
+color_map = {'w': "white",
+             'u': "blue",
+             'b': "black",
+             'r': "red",
+             'g': "green",
+             'gold': "gold",
+             'colorless': "lightgray"}
+symbol_map = {'': "symbol_x.svg",
+              'w': "symbol_w.svg",
+              'u': "symbol_u.svg",
+              'b': "symbol_b.svg",
+              'r': "symbol_r.svg",
+              'g': "symbol_g.svg",
+              'wu': "symbol_w_or_u.svg",
+              'ub': "symbol_u_or_b.svg",
+              'br': "symbol_b_or_r.svg",
+              'rg': "symbol_r_or_g.svg",
+              'gw': "symbol_g_or_w.svg",
+              'wb': "symbol_w_or_b.svg",
+              'ur': "symbol_u_or_r.svg",
+              'bg': "symbol_b_or_g.svg",
+              'rw': "symbol_r_or_w.svg",
+              'gu': "symbol_g_or_u.svg"}
+
 class Card(object):
     wins = 0
     losses = 0
@@ -43,6 +67,28 @@ class Card(object):
     def __str__(self):
         return str.format("Card('{}',win_rate()={})",
                           self.name, win_rate(self))
+    def color(self):
+        colors = 0;
+        color = color_map['colorless']
+        for c in "wubrg":
+            if c in self.mana_cost:
+                colors += 1
+                color = color_map[c]
+        if colors > 1:
+            return color_map["gold"]
+        else:
+            return color
+
+    def symbol(self):
+        colors = ''
+        for c in "wubrg":
+            if c in self.mana_cost:
+                colors = c
+        for c in ("wu", "ub", "br", "rg", "gw", "wb", "ur", "bg", "rw", "gu"):
+            if c in self.mana_cost:
+                colors = c
+        return symbol_map[colors]
+
 
 def plays(element):
     return element.wins + element.losses
@@ -122,22 +168,23 @@ def write(filename, declaration, value):
         outfile.write(declaration)
         json.dump(value, outfile, indent="")
 
-nodes = [{'id': card.name, 'label': card.name, 'value': win_rate(card),
-          'title': str.format("{}<br>{:.0f}%, {} games", card.name,
-                              100 * win_rate(card), plays(card))}
+nodes = [{'id': card.name, 'value': win_rate(card), 'color': card.color(), 'image': card.symbol(),
+          'label': str.format("{}", card.name),
+          'title': str.format("{}<br>{:.0f}% win rate over {} games",
+                              card.name, 100 * win_rate(card), plays(card))}
          for card in cards_by_name.values()]
 write('nodes.js', "var nodes = ", nodes)
 
-edges = [{'from': synergy.card1, 'to': synergy.card2,
-          'value': win_rate(synergy),
-          'title': str.format("{}<br>{:.0f}%, {} games<br>{}", synergy.card1,
-                              100 * win_rate(synergy), plays(synergy),
-                              synergy.card2),
-          'color': {'opacity': 2 * (win_rate(synergy) - .5)}
+edges = [{'from': synergy.card1, 'to': synergy.card2, 'value': win_rate(synergy),
+          'length': (15 * loss_rate(synergy))**2,
+          'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
+          'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
+                              synergy.card1, synergy.card2,
+                              100 * win_rate(synergy), plays(synergy)),
+          'color': {'opacity': win_rate(synergy)}
          }
          for synergy in synergies_by_card_tuple.values()
-         if win_rate(synergy) > .5
-         and loss_rate(synergy) < .9 * min(loss_rate(cards_by_name[synergy.card1]), loss_rate(cards_by_name[synergy.card2]))
-         and plays(synergy) > .1 * min(plays(cards_by_name[synergy.card1]), plays(cards_by_name[synergy.card2]))
+         if loss_rate(synergy) < .99 * min(loss_rate(cards_by_name[synergy.card1]), loss_rate(cards_by_name[synergy.card2]))
+         and plays(synergy) > max(25, .19 * min(plays(cards_by_name[synergy.card1]), plays(cards_by_name[synergy.card2])))
         ]
 write('edges.js', "var edges = ", edges)
