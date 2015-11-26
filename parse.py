@@ -178,7 +178,7 @@ def write(filename, declaration, value):
         json.dump(value, outfile, indent="")
 
 nodes = [{'id': card.name,
-          'value': win_rate(card),
+          'value': 100 * win_rate(card),
           'image': card.symbol(),
           'color': card.color(),
           'label': str.format("{}", card.name),
@@ -199,15 +199,16 @@ for synergy in synergies_by_card_tuple.values():
 
     max_win = max(win_rate(card1), win_rate(card2))
 
-    if (binom.sf(synergy.wins - 1, plays(synergy), combined_win_rate) < 0.05
+    if (binom.sf(synergy.wins - 1, plays(synergy), combined_win_rate) < 0.01
             # and synergy.wins / min(card1.wins, card2.wins) > .1 and synergy.losses < synergy.wins
-            and win_rate(synergy) > .7
+            and win_rate(synergy) > .5
             ):
         edges.append({'from': synergy.card1,
                       'to': synergy.card2,
-                      'color': {'opacity': win_rate(synergy)},
+                    #   'color': {'opacity': win_rate(synergy)},
+                      'hidden': True,
                       'value': 10 * win_rate(synergy),
-                      'length':  200 - 100 * (2 * win_rate(synergy) - 1),
+                    #   'length':  200 - 100 * (2 * win_rate(synergy) - 1),
                       'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
                       'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
                                           synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy))
