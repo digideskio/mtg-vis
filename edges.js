@@ -1,4369 +1,2455 @@
 var edges = [
 {
-"title": "Brood Butcher + Lifespring Druid<br>61% win rate over 455 games",
-"length": 34.04914865354426,
-"from": "Brood Butcher",
-"label": "61%",
-"value": 0.610989010989011,
 "color": {
-"opacity": 0.610989010989011
+"opacity": 0.9444444444444444
 },
-"to": "Lifespring Druid"
-},
-{
-"title": "Drana's Emissary + March from the Tomb<br>63% win rate over 180 games",
-"length": 30.25,
-"from": "Drana's Emissary",
-"label": "63%",
-"value": 0.6333333333333333,
-"color": {
-"opacity": 0.6333333333333333
-},
-"to": "March from the Tomb"
-},
-{
-"title": "Benthic Infiltrator + Ugin's Insight<br>63% win rate over 563 games",
-"length": 31.006896573481953,
-"from": "Benthic Infiltrator",
-"label": "63%",
-"value": 0.6287744227353463,
-"color": {
-"opacity": 0.6287744227353463
-},
-"to": "Ugin's Insight"
-},
-{
-"title": "Quarantine Field + Shadow Glider<br>68% win rate over 205 games",
-"length": 23.32183224271267,
-"from": "Quarantine Field",
-"label": "68%",
-"value": 0.6780487804878049,
-"color": {
-"opacity": 0.6780487804878049
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Brood Butcher + Eyeless Watcher<br>59% win rate over 607 games",
-"length": 37.5585223463763,
-"from": "Brood Butcher",
-"label": "59%",
-"value": 0.5914332784184514,
-"color": {
-"opacity": 0.5914332784184514
-},
-"to": "Eyeless Watcher"
-},
-{
-"title": "Angel of Renewal + Gideon's Reproach<br>65% win rate over 1053 games",
-"length": 27.779806982086182,
-"from": "Angel of Renewal",
-"label": "65%",
-"value": 0.6486229819563153,
-"color": {
-"opacity": 0.6486229819563153
-},
-"to": "Gideon's Reproach"
-},
-{
-"title": "Stonefury + Valakut Predator<br>54% win rate over 1869 games",
-"length": 46.6469266661342,
-"from": "Stonefury",
-"label": "54%",
-"value": 0.5446762974852862,
-"color": {
-"opacity": 0.5446762974852862
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Kozilek's Sentinel + Serpentine Spike<br>69% win rate over 394 games",
-"length": 21.572959880440106,
-"from": "Kozilek's Sentinel",
-"label": "69%",
-"value": 0.6903553299492385,
-"color": {
-"opacity": 0.6903553299492385
-},
-"to": "Serpentine Spike"
-},
-{
-"title": "Carrier Thrall + Complete Disregard<br>57% win rate over 1316 games",
-"length": 41.03395432414705,
-"from": "Carrier Thrall",
-"label": "57%",
-"value": 0.5729483282674772,
-"color": {
-"opacity": 0.5729483282674772
-},
-"to": "Complete Disregard"
-},
-{
-"title": "Adverse Conditions + Mist Intruder<br>54% win rate over 1169 games",
-"length": 48.54596684670498,
-"from": "Adverse Conditions",
-"label": "54%",
-"value": 0.5355004277159966,
-"color": {
-"opacity": 0.5355004277159966
-},
-"to": "Mist Intruder"
-},
-{
-"title": "Kalastria Healer + Zulaport Cutthroat<br>57% win rate over 1613 games",
-"length": 40.81570077897001,
-"from": "Kalastria Healer",
-"label": "57%",
-"value": 0.574085554866708,
-"color": {
-"opacity": 0.574085554866708
-},
-"to": "Zulaport Cutthroat"
-},
-{
-"title": "Dominator Drone + Dust Stalker<br>58% win rate over 413 games",
-"length": 39.47977065000087,
-"from": "Dominator Drone",
-"label": "58%",
-"value": 0.5811138014527845,
-"color": {
-"opacity": 0.5811138014527845
-},
-"to": "Dust Stalker"
-},
-{
-"title": "Eyeless Watcher + Vampiric Rites<br>57% win rate over 620 games",
-"length": 41.10464360041623,
-"from": "Eyeless Watcher",
-"label": "57%",
-"value": 0.5725806451612904,
-"color": {
-"opacity": 0.5725806451612904
-},
-"to": "Vampiric Rites"
-},
-{
-"title": "Culling Drone + Wasteland Strangler<br>64% win rate over 678 games",
-"length": 29.620565431905398,
-"from": "Culling Drone",
-"label": "64%",
-"value": 0.6371681415929203,
-"color": {
-"opacity": 0.6371681415929203
-},
-"to": "Wasteland Strangler"
-},
-{
-"title": "Ondu Champion + Shatterskull Recruit<br>55% win rate over 1290 games",
-"length": 45.32733910221741,
-"from": "Ondu Champion",
-"label": "55%",
-"value": 0.5511627906976744,
-"color": {
-"opacity": 0.5511627906976744
-},
-"to": "Shatterskull Recruit"
-},
-{
-"title": "Grave Birthing + Sludge Crawler<br>57% win rate over 1836 games",
-"length": 40.9223615916955,
-"from": "Grave Birthing",
-"label": "57%",
-"value": 0.5735294117647058,
-"color": {
-"opacity": 0.5735294117647058
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Boiling Earth + Kozilek's Sentinel<br>58% win rate over 478 games",
-"length": 39.78495211918559,
-"from": "Boiling Earth",
-"label": "58%",
-"value": 0.5794979079497908,
-"color": {
-"opacity": 0.5794979079497908
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Makindi Sliderunner + Outnumber<br>57% win rate over 2505 games",
-"length": 42.28893111979634,
-"from": "Makindi Sliderunner",
-"label": "57%",
-"value": 0.5664670658682635,
-"color": {
-"opacity": 0.5664670658682635
-},
-"to": "Outnumber"
-},
-{
-"title": "Grovetender Druids + Kor Castigator<br>55% win rate over 834 games",
-"length": 45.97620464779256,
-"from": "Grovetender Druids",
-"label": "55%",
-"value": 0.5479616306954437,
-"color": {
-"opacity": 0.5479616306954437
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Clutch of Currents + Windrider Patrol<br>60% win rate over 1283 games",
-"length": 36.53509925648006,
-"from": "Clutch of Currents",
-"label": "60%",
-"value": 0.5970381917381138,
-"color": {
-"opacity": 0.5970381917381138
-},
-"to": "Windrider Patrol"
-},
-{
-"title": "Cliffside Lookout + Kalastria Healer<br>55% win rate over 1720 games",
-"length": 44.97573857490536,
-"from": "Cliffside Lookout",
-"label": "55%",
-"value": 0.5529069767441861,
-"color": {
-"opacity": 0.5529069767441861
-},
-"to": "Kalastria Healer"
-},
-{
-"title": "Grovetender Druids + Tajuru Stalwart<br>54% win rate over 1038 games",
-"length": 46.720780848006946,
-"from": "Grovetender Druids",
-"label": "54%",
-"value": 0.5443159922928709,
-"color": {
-"opacity": 0.5443159922928709
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Courier Griffin + Drana's Emissary<br>65% win rate over 1114 games",
-"length": 27.29452794368394,
-"from": "Courier Griffin",
-"label": "65%",
-"value": 0.651705565529623,
-"color": {
-"opacity": 0.651705565529623
-},
-"to": "Drana's Emissary"
-},
-{
-"title": "Kozilek's Channeler + Ulamog, the Ceaseless Hunger<br>94% win rate over 184 games",
-"length": 0.8041410680529301,
-"from": "Kozilek's Channeler",
+"from": "Exert Influence",
 "label": "94%",
-"value": 0.9402173913043478,
-"color": {
-"opacity": 0.9402173913043478
-},
-"to": "Ulamog, the Ceaseless Hunger"
-},
-{
-"title": "Kozilek's Channeler + Titan's Presence<br>60% win rate over 891 games",
-"length": 35.71772721604372,
-"from": "Kozilek's Channeler",
-"label": "60%",
-"value": 0.6015712682379349,
-"color": {
-"opacity": 0.6015712682379349
-},
-"to": "Titan's Presence"
+"title": "Exert Influence + Greenwarden of Murasa<br>94% win rate over 18 games",
+"to": "Greenwarden of Murasa",
+"length": 111.11111111111111,
+"value": 9.444444444444445
 },
 {
-"title": "Kozilek's Sentinel + Touch of the Void<br>56% win rate over 3210 games",
-"length": 43.65874748886367,
-"from": "Kozilek's Sentinel",
-"label": "56%",
-"value": 0.5595015576323987,
 "color": {
-"opacity": 0.5595015576323987
+"opacity": 0.7666666666666667
 },
-"to": "Touch of the Void"
+"from": "Beastcaller Savant",
+"label": "77%",
+"title": "Beastcaller Savant + Kiora, Master of the Depths<br>77% win rate over 30 games",
+"to": "Kiora, Master of the Depths",
+"length": 146.66666666666666,
+"value": 7.666666666666667
 },
 {
-"title": "Mist Intruder + Ulamog's Despoiler<br>58% win rate over 776 games",
-"length": 40.198214475502176,
-"from": "Mist Intruder",
-"label": "58%",
-"value": 0.5773195876288659,
 "color": {
-"opacity": 0.5773195876288659
+"opacity": 0.7731958762886598
 },
-"to": "Ulamog's Despoiler"
+"from": "Bone Splinters",
+"label": "77%",
+"title": "Bone Splinters + Greenwarden of Murasa<br>77% win rate over 97 games",
+"to": "Greenwarden of Murasa",
+"length": 145.36082474226805,
+"value": 7.731958762886598
 },
 {
-"title": "Murk Strider + Ulamog's Reclaimer<br>56% win rate over 921 games",
-"length": 43.079767424588056,
-"from": "Murk Strider",
-"label": "56%",
-"value": 0.5624321389793703,
 "color": {
-"opacity": 0.5624321389793703
+"opacity": 0.7333333333333333
 },
-"to": "Ulamog's Reclaimer"
+"from": "Felidar Cub",
+"label": "73%",
+"title": "Felidar Cub + Undergrowth Champion<br>73% win rate over 30 games",
+"to": "Undergrowth Champion",
+"length": 153.33333333333334,
+"value": 7.333333333333333
 },
 {
-"title": "Benthic Infiltrator + Ulamog's Nullifier<br>65% win rate over 1144 games",
-"length": 27.370092211110567,
-"from": "Benthic Infiltrator",
-"label": "65%",
-"value": 0.6512237762237763,
 "color": {
-"opacity": 0.6512237762237763
+"opacity": 0.7796610169491526
 },
-"to": "Ulamog's Nullifier"
+"from": "Coastal Discovery",
+"label": "78%",
+"title": "Coastal Discovery + Nissa's Renewal<br>78% win rate over 59 games",
+"to": "Nissa's Renewal",
+"length": 144.0677966101695,
+"value": 7.796610169491526
 },
 {
-"title": "Eldrazi Skyspawner + Scatter to the Winds<br>67% win rate over 474 games",
-"length": 24.684545745874058,
-"from": "Eldrazi Skyspawner",
-"label": "67%",
-"value": 0.6687763713080169,
 "color": {
-"opacity": 0.6687763713080169
+"opacity": 0.896551724137931
 },
-"to": "Scatter to the Winds"
+"from": "Catacomb Sifter",
+"label": "90%",
+"title": "Catacomb Sifter + Guardian of Tazeem<br>90% win rate over 29 games",
+"to": "Guardian of Tazeem",
+"length": 120.6896551724138,
+"value": 8.96551724137931
 },
 {
-"title": "Makindi Sliderunner + Valakut Predator<br>55% win rate over 3538 games",
-"length": 46.18850501747801,
-"from": "Makindi Sliderunner",
-"label": "55%",
-"value": 0.5469191633691352,
 "color": {
-"opacity": 0.5469191633691352
+"opacity": 1.0
 },
-"to": "Valakut Predator"
-},
-{
-"title": "Eldrazi Skyspawner + Wave-Wing Elemental<br>60% win rate over 1474 games",
-"length": 36.4163938847762,
-"from": "Eldrazi Skyspawner",
-"label": "60%",
-"value": 0.5976933514246947,
-"color": {
-"opacity": 0.5976933514246947
-},
-"to": "Wave-Wing Elemental"
-},
-{
-"title": "Stonefury + Touch of the Void<br>55% win rate over 2245 games",
-"length": 45.26982009017813,
-"from": "Stonefury",
-"label": "55%",
-"value": 0.5514476614699332,
-"color": {
-"opacity": 0.5514476614699332
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Complete Disregard + Demon's Grasp<br>57% win rate over 2406 games",
-"length": 41.636284911163486,
-"from": "Complete Disregard",
-"label": "57%",
-"value": 0.5698254364089775,
-"color": {
-"opacity": 0.5698254364089775
-},
-"to": "Demon's Grasp"
-},
-{
-"title": "Eyeless Watcher + Greenwarden of Murasa<br>60% win rate over 190 games",
-"length": 36.0,
-"from": "Eyeless Watcher",
-"label": "60%",
-"value": 0.6,
-"color": {
-"opacity": 0.6
-},
-"to": "Greenwarden of Murasa"
-},
-{
-"title": "Kalastria Nightwatch + Retreat to Hagra<br>59% win rate over 849 games",
-"length": 36.93890546766722,
-"from": "Kalastria Nightwatch",
-"label": "59%",
-"value": 0.5948174322732627,
-"color": {
-"opacity": 0.5948174322732627
-},
-"to": "Retreat to Hagra"
-},
-{
-"title": "Kor Bladewhirl + Kor Castigator<br>53% win rate over 1785 games",
-"length": 49.94569592542899,
-"from": "Kor Bladewhirl",
-"label": "53%",
-"value": 0.5288515406162465,
-"color": {
-"opacity": 0.5288515406162465
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Courier Griffin + Felidar Sovereign<br>64% win rate over 528 games",
-"length": 29.752066115702483,
-"from": "Courier Griffin",
-"label": "64%",
-"value": 0.6363636363636364,
-"color": {
-"opacity": 0.6363636363636364
-},
-"to": "Felidar Sovereign"
-},
-{
-"title": "Call the Scions + Rot Shambler<br>51% win rate over 1271 games",
-"length": 54.058938085637294,
-"from": "Call the Scions",
-"label": "51%",
-"value": 0.5098347757671126,
-"color": {
-"opacity": 0.5098347757671126
-},
-"to": "Rot Shambler"
-},
-{
-"title": "Bloodbond Vampire + Nirkana Assassin<br>57% win rate over 1241 games",
-"length": 40.88371001265517,
-"from": "Bloodbond Vampire",
-"label": "57%",
-"value": 0.5737308622078968,
-"color": {
-"opacity": 0.5737308622078968
-},
-"to": "Nirkana Assassin"
-},
-{
-"title": "Eldrazi Skyspawner + Sire of Stagnation<br>65% win rate over 247 games",
-"length": 27.276303496205475,
-"from": "Eldrazi Skyspawner",
-"label": "65%",
-"value": 0.6518218623481782,
-"color": {
-"opacity": 0.6518218623481782
-},
-"to": "Sire of Stagnation"
-},
-{
-"title": "Dominator Drone + Wasteland Strangler<br>63% win rate over 693 games",
-"length": 30.464665204924938,
-"from": "Dominator Drone",
-"label": "63%",
-"value": 0.6320346320346321,
-"color": {
-"opacity": 0.6320346320346321
-},
-"to": "Wasteland Strangler"
-},
-{
-"title": "Complete Disregard + Rising Miasma<br>59% win rate over 534 games",
-"length": 38.5375899507638,
-"from": "Complete Disregard",
-"label": "59%",
-"value": 0.5861423220973783,
-"color": {
-"opacity": 0.5861423220973783
-},
-"to": "Rising Miasma"
-},
-{
-"title": "Nettle Drone + Vile Aggregate<br>60% win rate over 1805 games",
-"length": 35.50311154764006,
-"from": "Nettle Drone",
-"label": "60%",
-"value": 0.602770083102493,
-"color": {
-"opacity": 0.602770083102493
-},
-"to": "Vile Aggregate"
-},
-{
-"title": "Nettle Drone + Rolling Thunder<br>64% win rate over 933 games",
-"length": 28.49019344299583,
-"from": "Nettle Drone",
-"label": "64%",
-"value": 0.6441586280814576,
-"color": {
-"opacity": 0.6441586280814576
-},
-"to": "Rolling Thunder"
-},
-{
-"title": "Gruesome Slaughter + Incubator Drone<br>66% win rate over 196 games",
-"length": 26.29177946688879,
-"from": "Gruesome Slaughter",
-"label": "66%",
-"value": 0.6581632653061225,
-"color": {
-"opacity": 0.6581632653061225
-},
-"to": "Incubator Drone"
-},
-{
-"title": "Oran-Rief Invoker + Undergrowth Champion<br>54% win rate over 246 games",
-"length": 46.63890541344438,
-"from": "Oran-Rief Invoker",
-"label": "54%",
-"value": 0.5447154471544715,
-"color": {
-"opacity": 0.5447154471544715
-},
-"to": "Undergrowth Champion"
-},
-{
-"title": "Forerunner of Slaughter + Touch of the Void<br>58% win rate over 834 games",
-"length": 39.853333160809484,
-"from": "Forerunner of Slaughter",
-"label": "58%",
-"value": 0.579136690647482,
-"color": {
-"opacity": 0.579136690647482
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Belligerent Whiptail + Touch of the Void<br>54% win rate over 1077 games",
-"length": 46.764263157486376,
-"from": "Belligerent Whiptail",
-"label": "54%",
-"value": 0.5441039925719592,
-"color": {
-"opacity": 0.5441039925719592
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Sludge Crawler + Transgress the Mind<br>57% win rate over 1132 games",
-"length": 40.962261515314204,
-"from": "Sludge Crawler",
-"label": "57%",
-"value": 0.573321554770318,
-"color": {
-"opacity": 0.573321554770318
-},
-"to": "Transgress the Mind"
-},
-{
-"title": "Ondu Champion + Valakut Predator<br>54% win rate over 1607 games",
-"length": 46.68452310190831,
-"from": "Ondu Champion",
-"label": "54%",
-"value": 0.5444928438083385,
-"color": {
-"opacity": 0.5444928438083385
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Benthic Infiltrator + Dampening Pulse<br>55% win rate over 1099 games",
-"length": 45.83006637682863,
-"from": "Benthic Infiltrator",
-"label": "55%",
-"value": 0.5486806187443131,
-"color": {
-"opacity": 0.5486806187443131
-},
-"to": "Dampening Pulse"
-},
-{
-"title": "Murk Strider + Ruination Guide<br>63% win rate over 1404 games",
-"length": 30.864197530864196,
-"from": "Murk Strider",
-"label": "63%",
-"value": 0.6296296296296297,
-"color": {
-"opacity": 0.6296296296296297
-},
-"to": "Ruination Guide"
-},
-{
-"title": "Broodhunter Wurm + Oran-Rief Invoker<br>52% win rate over 1131 games",
-"length": 51.29143243110131,
-"from": "Broodhunter Wurm",
-"label": "52%",
-"value": 0.5225464190981433,
-"color": {
-"opacity": 0.5225464190981433
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Clutch of Currents + Coastal Discovery<br>63% win rate over 1525 games",
-"length": 31.21328675087343,
 "from": "Clutch of Currents",
-"label": "63%",
-"value": 0.6275409836065574,
-"color": {
-"opacity": 0.6275409836065574
-},
-"to": "Coastal Discovery"
-},
-{
-"title": "Gruesome Slaughter + Kozilek's Channeler<br>67% win rate over 203 games",
-"length": 23.783639496226552,
-"from": "Gruesome Slaughter",
-"label": "67%",
-"value": 0.6748768472906403,
-"color": {
-"opacity": 0.6748768472906403
-},
-"to": "Kozilek's Channeler"
+"label": "100%",
+"title": "Clutch of Currents + March from the Tomb<br>100% win rate over 8 games",
+"to": "March from the Tomb",
+"length": 100.0,
+"value": 10.0
 },
 {
-"title": "Kalastria Healer + March from the Tomb<br>68% win rate over 479 games",
-"length": 23.256959305442354,
-"from": "Kalastria Healer",
-"label": "68%",
-"value": 0.6784968684759917,
 "color": {
-"opacity": 0.6784968684759917
+"opacity": 0.7081545064377682
 },
-"to": "March from the Tomb"
+"from": "Rolling Thunder",
+"label": "71%",
+"title": "Rolling Thunder + Sludge Crawler<br>71% win rate over 233 games",
+"to": "Sludge Crawler",
+"length": 158.36909871244634,
+"value": 7.081545064377682
 },
 {
-"title": "Stonefury + Valakut Invoker<br>56% win rate over 1848 games",
-"length": 43.76166143110137,
-"from": "Stonefury",
-"label": "56%",
-"value": 0.558982683982684,
 "color": {
-"opacity": 0.558982683982684
+"opacity": 0.7361111111111112
 },
-"to": "Valakut Invoker"
+"from": "Oracle of Dust",
+"label": "74%",
+"title": "Oracle of Dust + Planar Outburst<br>74% win rate over 72 games",
+"to": "Planar Outburst",
+"length": 152.77777777777777,
+"value": 7.361111111111112
 },
 {
-"title": "Cloud Manta + Wave-Wing Elemental<br>59% win rate over 1375 games",
-"length": 38.5302347107438,
-"from": "Cloud Manta",
-"label": "59%",
-"value": 0.5861818181818181,
 "color": {
-"opacity": 0.5861818181818181
+"opacity": 0.8181818181818182
 },
-"to": "Wave-Wing Elemental"
+"from": "Herald of Kozilek",
+"label": "82%",
+"title": "Herald of Kozilek + Sire of Stagnation<br>82% win rate over 44 games",
+"to": "Sire of Stagnation",
+"length": 136.36363636363635,
+"value": 8.181818181818182
 },
 {
-"title": "Lifespring Druid + Oran-Rief Hydra<br>57% win rate over 483 games",
-"length": 42.53308128544423,
-"from": "Lifespring Druid",
-"label": "57%",
-"value": 0.5652173913043478,
 "color": {
-"opacity": 0.5652173913043478
+"opacity": 0.7834394904458599
 },
-"to": "Oran-Rief Hydra"
+"from": "Pilgrim's Eye",
+"label": "78%",
+"title": "Pilgrim's Eye + Swarm Surge<br>78% win rate over 157 games",
+"to": "Swarm Surge",
+"length": 143.312101910828,
+"value": 7.834394904458599
 },
 {
-"title": "Lifespring Druid + Omnath, Locus of Rage<br>75% win rate over 165 games",
-"length": 13.892561983471072,
-"from": "Lifespring Druid",
-"label": "75%",
-"value": 0.7515151515151515,
 "color": {
-"opacity": 0.7515151515151515
+"opacity": 0.7692307692307693
 },
-"to": "Omnath, Locus of Rage"
+"from": "Akoum Hellkite",
+"label": "77%",
+"title": "Akoum Hellkite + Felidar Cub<br>77% win rate over 65 games",
+"to": "Felidar Cub",
+"length": 146.15384615384613,
+"value": 7.6923076923076925
 },
 {
-"title": "Prism Array + Tajuru Stalwart<br>62% win rate over 53 games",
-"length": 32.039871840512646,
-"from": "Prism Array",
-"label": "62%",
-"value": 0.6226415094339622,
 "color": {
-"opacity": 0.6226415094339622
+"opacity": 0.7692307692307693
 },
-"to": "Tajuru Stalwart"
+"from": "Windrider Patrol",
+"label": "77%",
+"title": "Windrider Patrol + Woodland Wanderer<br>77% win rate over 78 games",
+"to": "Woodland Wanderer",
+"length": 146.15384615384613,
+"value": 7.6923076923076925
 },
 {
-"title": "Clutch of Currents + Eldrazi Skyspawner<br>60% win rate over 3691 games",
-"length": 36.61708964103961,
-"from": "Clutch of Currents",
-"label": "60%",
-"value": 0.5965862909780547,
 "color": {
-"opacity": 0.5965862909780547
+"opacity": 0.8305084745762712
 },
-"to": "Eldrazi Skyspawner"
+"from": "Fathom Feeder",
+"label": "83%",
+"title": "Fathom Feeder + Scatter to the Winds<br>83% win rate over 59 games",
+"to": "Scatter to the Winds",
+"length": 133.89830508474574,
+"value": 8.305084745762713
 },
 {
-"title": "Drana's Emissary + Kalastria Nightwatch<br>67% win rate over 1373 games",
-"length": 24.062133148447664,
-"from": "Drana's Emissary",
-"label": "67%",
-"value": 0.6729788783685361,
 "color": {
-"opacity": 0.6729788783685361
+"opacity": 0.7115384615384616
 },
-"to": "Kalastria Nightwatch"
+"from": "Lantern Scout",
+"label": "71%",
+"title": "Lantern Scout + Vestige of Emrakul<br>71% win rate over 52 games",
+"to": "Vestige of Emrakul",
+"length": 157.69230769230768,
+"value": 7.115384615384616
 },
 {
-"title": "Hagra Sharpshooter + Kalastria Healer<br>57% win rate over 1249 games",
-"length": 40.82074306362623,
-"from": "Hagra Sharpshooter",
-"label": "57%",
-"value": 0.5740592473979184,
 "color": {
-"opacity": 0.5740592473979184
+"opacity": 0.9166666666666666
 },
-"to": "Kalastria Healer"
+"from": "Catacomb Sifter",
+"label": "92%",
+"title": "Catacomb Sifter + Noyan Dar, Roil Shaper<br>92% win rate over 12 games",
+"to": "Noyan Dar, Roil Shaper",
+"length": 116.66666666666667,
+"value": 9.166666666666666
 },
 {
-"title": "Infuse with the Elements + Snapping Gnarlid<br>63% win rate over 298 games",
-"length": 31.217343813341746,
-"from": "Infuse with the Elements",
-"label": "63%",
-"value": 0.62751677852349,
 "color": {
-"opacity": 0.62751677852349
+"opacity": 0.8032786885245902
 },
-"to": "Snapping Gnarlid"
+"from": "Coastal Discovery",
+"label": "80%",
+"title": "Coastal Discovery + Drowner of Hope<br>80% win rate over 244 games",
+"to": "Drowner of Hope",
+"length": 139.34426229508196,
+"value": 8.032786885245901
 },
 {
-"title": "Benthic Infiltrator + Ulamog's Reclaimer<br>58% win rate over 1162 games",
-"length": 38.8744737988097,
-"from": "Benthic Infiltrator",
-"label": "58%",
-"value": 0.5843373493975904,
 "color": {
-"opacity": 0.5843373493975904
+"opacity": 0.7755102040816326
 },
-"to": "Ulamog's Reclaimer"
+"from": "Emeria Shepherd",
+"label": "78%",
+"title": "Emeria Shepherd + Hedron Archive<br>78% win rate over 98 games",
+"to": "Hedron Archive",
+"length": 144.8979591836735,
+"value": 7.755102040816326
 },
 {
-"title": "Brood Butcher + Catacomb Sifter<br>62% win rate over 439 games",
-"length": 33.344705558813,
-"from": "Brood Butcher",
-"label": "62%",
-"value": 0.6150341685649203,
 "color": {
-"opacity": 0.6150341685649203
+"opacity": 0.7971014492753623
 },
-"to": "Catacomb Sifter"
-},
-{
-"title": "Incubator Drone + Scatter to the Winds<br>63% win rate over 399 games",
-"length": 30.12606704731754,
-"from": "Incubator Drone",
-"label": "63%",
-"value": 0.6340852130325815,
-"color": {
-"opacity": 0.6340852130325815
-},
-"to": "Scatter to the Winds"
-},
-{
-"title": "Mist Intruder + Murk Strider<br>56% win rate over 3761 games",
-"length": 43.5684236988853,
-"from": "Mist Intruder",
-"label": "56%",
-"value": 0.5599574581228397,
-"color": {
-"opacity": 0.5599574581228397
-},
-"to": "Murk Strider"
-},
-{
-"title": "Murk Strider + Ulamog's Nullifier<br>62% win rate over 900 games",
-"length": 32.11111111111111,
-"from": "Murk Strider",
-"label": "62%",
-"value": 0.6222222222222222,
-"color": {
-"opacity": 0.6222222222222222
-},
-"to": "Ulamog's Nullifier"
-},
-{
-"title": "Desolation Twin + Kozilek's Channeler<br>69% win rate over 221 games",
-"length": 21.301775147929,
-"from": "Desolation Twin",
-"label": "69%",
-"value": 0.6923076923076923,
-"color": {
-"opacity": 0.6923076923076923
-},
-"to": "Kozilek's Channeler"
-},
-{
-"title": "Ondu Champion + Resolute Blademaster<br>62% win rate over 789 games",
-"length": 31.667365438274373,
-"from": "Ondu Champion",
-"label": "62%",
-"value": 0.6248415716096325,
-"color": {
-"opacity": 0.6248415716096325
-},
-"to": "Resolute Blademaster"
-},
-{
-"title": "Eldrazi Devastator + Kozilek's Channeler<br>64% win rate over 963 games",
-"length": 29.551586261779295,
-"from": "Eldrazi Devastator",
-"label": "64%",
-"value": 0.6375908618899273,
-"color": {
-"opacity": 0.6375908618899273
-},
-"to": "Kozilek's Channeler"
-},
-{
-"title": "Dominator Drone + Fathom Feeder<br>55% win rate over 530 games",
-"length": 44.991189035243856,
-"from": "Dominator Drone",
-"label": "55%",
-"value": 0.5528301886792453,
-"color": {
-"opacity": 0.5528301886792453
-},
-"to": "Fathom Feeder"
-},
-{
-"title": "Chasm Guide + Kor Castigator<br>53% win rate over 721 games",
-"length": 50.329283377032596,
-"from": "Chasm Guide",
-"label": "53%",
-"value": 0.5270457697642164,
-"color": {
-"opacity": 0.5270457697642164
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Murasa Ranger + Oran-Rief Invoker<br>53% win rate over 796 games",
-"length": 50.73877553597131,
-"from": "Murasa Ranger",
-"label": "53%",
-"value": 0.5251256281407035,
-"color": {
-"opacity": 0.5251256281407035
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Defiant Bloodlord + Kalastria Nightwatch<br>64% win rate over 265 games",
-"length": 28.915984336062653,
-"from": "Defiant Bloodlord",
-"label": "64%",
-"value": 0.6415094339622641,
-"color": {
-"opacity": 0.6415094339622641
-},
-"to": "Kalastria Nightwatch"
-},
-{
-"title": "Clutch of Currents + Halimar Tidecaller<br>64% win rate over 1821 games",
-"length": 29.377471508946964,
-"from": "Clutch of Currents",
-"label": "64%",
-"value": 0.6386600768808347,
-"color": {
-"opacity": 0.6386600768808347
-},
-"to": "Halimar Tidecaller"
-},
-{
-"title": "Mist Intruder + Ruination Guide<br>61% win rate over 1787 games",
-"length": 34.426095136515706,
-"from": "Mist Intruder",
-"label": "61%",
-"value": 0.6088416340235031,
-"color": {
-"opacity": 0.6088416340235031
-},
-"to": "Ruination Guide"
-},
-{
-"title": "Kalastria Nightwatch + March from the Tomb<br>66% win rate over 265 games",
-"length": 25.378782484870055,
-"from": "Kalastria Nightwatch",
-"label": "66%",
-"value": 0.6641509433962264,
-"color": {
-"opacity": 0.6641509433962264
-},
-"to": "March from the Tomb"
-},
-{
-"title": "Benthic Infiltrator + Murk Strider<br>55% win rate over 3610 games",
-"length": 44.69718809708335,
-"from": "Benthic Infiltrator",
-"label": "55%",
-"value": 0.5542936288088642,
-"color": {
-"opacity": 0.5542936288088642
-},
-"to": "Murk Strider"
-},
-{
-"title": "Bring to Light + Tajuru Stalwart<br>52% win rate over 81 games",
-"length": 52.16049382716048,
-"from": "Bring to Light",
-"label": "52%",
-"value": 0.5185185185185185,
-"color": {
-"opacity": 0.5185185185185185
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Clutch of Currents + Noyan Dar, Roil Shaper<br>61% win rate over 478 games",
-"length": 34.068468689273644,
-"from": "Clutch of Currents",
-"label": "61%",
-"value": 0.6108786610878661,
-"color": {
-"opacity": 0.6108786610878661
-},
-"to": "Noyan Dar, Roil Shaper"
-},
-{
-"title": "Makindi Patrol + Veteran Warleader<br>58% win rate over 454 games",
-"length": 38.99369772361195,
-"from": "Makindi Patrol",
-"label": "58%",
-"value": 0.5837004405286343,
-"color": {
-"opacity": 0.5837004405286343
-},
-"to": "Veteran Warleader"
-},
-{
-"title": "Blisterpod + Rot Shambler<br>53% win rate over 1211 games",
-"length": 50.022621564914516,
-"from": "Blisterpod",
-"label": "53%",
-"value": 0.5284888521882741,
-"color": {
-"opacity": 0.5284888521882741
-},
-"to": "Rot Shambler"
-},
-{
-"title": "Vestige of Emrakul + Vile Aggregate<br>60% win rate over 1552 games",
-"length": 36.372090551599534,
-"from": "Vestige of Emrakul",
-"label": "60%",
-"value": 0.5979381443298969,
-"color": {
-"opacity": 0.5979381443298969
-},
-"to": "Vile Aggregate"
-},
-{
-"title": "Courier Griffin + Roil Spout<br>66% win rate over 1059 games",
-"length": 26.29103836801515,
-"from": "Courier Griffin",
-"label": "66%",
-"value": 0.6581680830972616,
-"color": {
-"opacity": 0.6581680830972616
-},
-"to": "Roil Spout"
-},
-{
-"title": "Complete Disregard + Ob Nixilis Reignited<br>70% win rate over 250 games",
-"length": 20.793599999999998,
-"from": "Complete Disregard",
-"label": "70%",
-"value": 0.696,
-"color": {
-"opacity": 0.696
-},
-"to": "Ob Nixilis Reignited"
-},
-{
-"title": "Akoum Firebird + Nettle Drone<br>65% win rate over 240 games",
-"length": 26.91015625,
 "from": "Akoum Firebird",
-"label": "65%",
-"value": 0.6541666666666667,
-"color": {
-"opacity": 0.6541666666666667
-},
-"to": "Nettle Drone"
-},
-{
-"title": "Dominator Drone + Grave Birthing<br>55% win rate over 1480 games",
-"length": 46.52530359751644,
-"from": "Dominator Drone",
-"label": "55%",
-"value": 0.5452702702702703,
-"color": {
-"opacity": 0.5452702702702703
-},
-"to": "Grave Birthing"
+"label": "80%",
+"title": "Akoum Firebird + Herald of Kozilek<br>80% win rate over 69 games",
+"to": "Herald of Kozilek",
+"length": 140.57971014492753,
+"value": 7.971014492753623
 },
 {
-"title": "Gideon's Reproach + Planar Outburst<br>61% win rate over 393 games",
-"length": 34.9994172833751,
-"from": "Gideon's Reproach",
-"label": "61%",
-"value": 0.6055979643765903,
 "color": {
-"opacity": 0.6055979643765903
+"opacity": 0.8571428571428571
 },
-"to": "Planar Outburst"
+"from": "Rolling Thunder",
+"label": "86%",
+"title": "Rolling Thunder + Scatter to the Winds<br>86% win rate over 35 games",
+"to": "Scatter to the Winds",
+"length": 128.57142857142858,
+"value": 8.571428571428571
 },
 {
-"title": "Complete Disregard + Silent Skimmer<br>58% win rate over 2861 games",
-"length": 39.64905285938084,
-"from": "Complete Disregard",
-"label": "58%",
-"value": 0.5802167074449494,
 "color": {
-"opacity": 0.5802167074449494
+"opacity": 0.7321428571428571
 },
-"to": "Silent Skimmer"
+"from": "Eldrazi Devastator",
+"label": "73%",
+"title": "Eldrazi Devastator + Radiant Flames<br>73% win rate over 56 games",
+"to": "Radiant Flames",
+"length": 153.57142857142858,
+"value": 7.321428571428571
 },
 {
-"title": "Snapping Gnarlid + Tajuru Warcaller<br>65% win rate over 957 games",
-"length": 27.570729454309603,
-"from": "Snapping Gnarlid",
-"label": "65%",
-"value": 0.6499477533960293,
 "color": {
-"opacity": 0.6499477533960293
+"opacity": 0.85
 },
-"to": "Tajuru Warcaller"
+"from": "Horribly Awry",
+"label": "85%",
+"title": "Horribly Awry + Oran-Rief Hydra<br>85% win rate over 20 games",
+"to": "Oran-Rief Hydra",
+"length": 130.0,
+"value": 8.5
 },
 {
-"title": "Kalastria Healer + Serene Steward<br>63% win rate over 1504 games",
-"length": 30.4184519472895,
-"from": "Kalastria Healer",
-"label": "63%",
-"value": 0.632313829787234,
 "color": {
-"opacity": 0.632313829787234
+"opacity": 0.7464788732394366
 },
-"to": "Serene Steward"
-},
-{
-"title": "Culling Drone + Silent Skimmer<br>52% win rate over 2657 games",
-"length": 51.00120770876853,
-"from": "Culling Drone",
-"label": "52%",
-"value": 0.5238991343620625,
-"color": {
-"opacity": 0.5238991343620625
-},
-"to": "Silent Skimmer"
-},
-{
-"title": "Courier Griffin + Felidar Cub<br>57% win rate over 1953 games",
-"length": 42.120299385796635,
-"from": "Courier Griffin",
-"label": "57%",
-"value": 0.5673323092677931,
-"color": {
-"opacity": 0.5673323092677931
-},
-"to": "Felidar Cub"
-},
-{
-"title": "Incubator Drone + Part the Waterveil<br>66% win rate over 142 games",
-"length": 25.70918468557826,
-"from": "Incubator Drone",
-"label": "66%",
-"value": 0.6619718309859155,
-"color": {
-"opacity": 0.6619718309859155
-},
-"to": "Part the Waterveil"
-},
-{
-"title": "March from the Tomb + Serene Steward<br>62% win rate over 165 games",
-"length": 31.768595041322307,
-"from": "March from the Tomb",
-"label": "62%",
-"value": 0.6242424242424243,
-"color": {
-"opacity": 0.6242424242424243
-},
-"to": "Serene Steward"
-},
-{
-"title": "Oran-Rief Hydra + Snapping Gnarlid<br>57% win rate over 446 games",
-"length": 41.26478010818638,
-"from": "Oran-Rief Hydra",
-"label": "57%",
-"value": 0.5717488789237668,
-"color": {
-"opacity": 0.5717488789237668
-},
-"to": "Snapping Gnarlid"
-},
-{
-"title": "Kor Bladewhirl + Makindi Patrol<br>53% win rate over 1814 games",
-"length": 50.57138585228938,
-"from": "Kor Bladewhirl",
-"label": "53%",
-"value": 0.525909592061742,
-"color": {
-"opacity": 0.525909592061742
-},
-"to": "Makindi Patrol"
-},
-{
-"title": "Kalastria Healer + Stone Haven Medic<br>55% win rate over 1962 games",
-"length": 46.50656042794752,
-"from": "Kalastria Healer",
-"label": "55%",
-"value": 0.545361875637105,
-"color": {
-"opacity": 0.545361875637105
-},
-"to": "Stone Haven Medic"
-},
-{
-"title": "Shadow Glider + Stasis Snare<br>58% win rate over 1151 games",
-"length": 39.78529605578499,
-"from": "Shadow Glider",
-"label": "58%",
-"value": 0.579496090356212,
-"color": {
-"opacity": 0.579496090356212
-},
-"to": "Stasis Snare"
-},
-{
-"title": "Courier Griffin + Kor Castigator<br>56% win rate over 2690 games",
-"length": 43.07555520238803,
-"from": "Courier Griffin",
-"label": "56%",
-"value": 0.562453531598513,
-"color": {
-"opacity": 0.562453531598513
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Nettle Drone + Touch of the Void<br>56% win rate over 3133 games",
-"length": 43.21184432391857,
-"from": "Nettle Drone",
-"label": "56%",
-"value": 0.5617618895627194,
-"color": {
-"opacity": 0.5617618895627194
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Benthic Infiltrator + Incubator Drone<br>56% win rate over 3078 games",
-"length": 43.99076733961827,
-"from": "Benthic Infiltrator",
-"label": "56%",
-"value": 0.5578297595841456,
-"color": {
-"opacity": 0.5578297595841456
-},
-"to": "Incubator Drone"
-},
-{
-"title": "Incubator Drone + Ruination Guide<br>60% win rate over 1528 games",
-"length": 36.21235411926757,
-"from": "Incubator Drone",
-"label": "60%",
-"value": 0.5988219895287958,
-"color": {
-"opacity": 0.5988219895287958
-},
-"to": "Ruination Guide"
-},
-{
-"title": "Kor Castigator + Stasis Snare<br>57% win rate over 1299 games",
-"length": 41.81578652614287,
-"from": "Kor Castigator",
-"label": "57%",
-"value": 0.5688991531947653,
-"color": {
-"opacity": 0.5688991531947653
-},
-"to": "Stasis Snare"
-},
-{
-"title": "Culling Drone + Skitterskin<br>56% win rate over 1042 games",
-"length": 42.71287314738746,
-"from": "Culling Drone",
-"label": "56%",
-"value": 0.564299424184261,
-"color": {
-"opacity": 0.564299424184261
-},
-"to": "Skitterskin"
-},
-{
-"title": "Oran-Rief Invoker + Territorial Baloth<br>53% win rate over 1634 games",
-"length": 49.70508877299851,
-"from": "Oran-Rief Invoker",
-"label": "53%",
-"value": 0.5299877600979193,
-"color": {
-"opacity": 0.5299877600979193
-},
-"to": "Territorial Baloth"
-},
-{
-"title": "Omnath, Locus of Rage + Valakut Predator<br>71% win rate over 126 games",
-"length": 19.401927437641728,
-"from": "Omnath, Locus of Rage",
-"label": "71%",
-"value": 0.7063492063492064,
-"color": {
-"opacity": 0.7063492063492064
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Kozilek's Channeler + Void Winnower<br>75% win rate over 157 games",
-"length": 13.8839303825713,
-"from": "Kozilek's Channeler",
+"from": "Drana, Liberator of Malakir",
 "label": "75%",
-"value": 0.7515923566878981,
-"color": {
-"opacity": 0.7515923566878981
-},
-"to": "Void Winnower"
-},
-{
-"title": "Dominator Drone + Forerunner of Slaughter<br>59% win rate over 1063 games",
-"length": 38.02584407182852,
-"from": "Dominator Drone",
-"label": "59%",
-"value": 0.5888993414863594,
-"color": {
-"opacity": 0.5888993414863594
-},
-"to": "Forerunner of Slaughter"
+"title": "Drana, Liberator of Malakir + Tandem Tactics<br>75% win rate over 71 games",
+"to": "Tandem Tactics",
+"length": 150.70422535211267,
+"value": 7.464788732394366
 },
 {
-"title": "Clutch of Currents + Ulamog's Nullifier<br>64% win rate over 843 games",
-"length": 28.87628069553324,
-"from": "Clutch of Currents",
-"label": "64%",
-"value": 0.641755634638197,
 "color": {
-"opacity": 0.641755634638197
+"opacity": 0.8097560975609757
 },
-"to": "Ulamog's Nullifier"
+"from": "Coastal Discovery",
+"label": "81%",
+"title": "Coastal Discovery + Grip of Desolation<br>81% win rate over 205 games",
+"to": "Grip of Desolation",
+"length": 138.04878048780486,
+"value": 8.097560975609756
 },
 {
-"title": "Eldrazi Skyspawner + Ulamog's Nullifier<br>64% win rate over 932 games",
-"length": 28.379626858111223,
-"from": "Eldrazi Skyspawner",
-"label": "64%",
-"value": 0.6448497854077253,
 "color": {
-"opacity": 0.6448497854077253
+"opacity": 0.7005347593582888
 },
-"to": "Ulamog's Nullifier"
+"from": "Exert Influence",
+"label": "70%",
+"title": "Exert Influence + Oran-Rief Invoker<br>70% win rate over 187 games",
+"to": "Oran-Rief Invoker",
+"length": 159.89304812834223,
+"value": 7.005347593582888
 },
 {
-"title": "Dust Stalker + Nettle Drone<br>63% win rate over 470 games",
-"length": 31.55092802172929,
-"from": "Dust Stalker",
-"label": "63%",
-"value": 0.625531914893617,
 "color": {
-"opacity": 0.625531914893617
+"opacity": 0.9130434782608695
 },
-"to": "Nettle Drone"
+"from": "From Beyond",
+"label": "91%",
+"title": "From Beyond + Ob Nixilis Reignited<br>91% win rate over 23 games",
+"to": "Ob Nixilis Reignited",
+"length": 117.3913043478261,
+"value": 9.130434782608695
 },
 {
-"title": "Outnumber + Valakut Predator<br>57% win rate over 2324 games",
-"length": 41.49266725125238,
-"from": "Outnumber",
-"label": "57%",
-"value": 0.5705679862306369,
 "color": {
-"opacity": 0.5705679862306369
+"opacity": 0.7628865979381443
 },
-"to": "Valakut Predator"
-},
-{
-"title": "Conduit of Ruin + Ruin Processor<br>65% win rate over 582 games",
-"length": 26.836672334998408,
 "from": "Conduit of Ruin",
-"label": "65%",
-"value": 0.654639175257732,
-"color": {
-"opacity": 0.654639175257732
-},
-"to": "Ruin Processor"
-},
-{
-"title": "Greenwarden of Murasa + Lifespring Druid<br>63% win rate over 227 games",
-"length": 31.547769217333933,
-"from": "Greenwarden of Murasa",
-"label": "63%",
-"value": 0.6255506607929515,
-"color": {
-"opacity": 0.6255506607929515
-},
-"to": "Lifespring Druid"
+"label": "76%",
+"title": "Conduit of Ruin + Herald of Kozilek<br>76% win rate over 97 games",
+"to": "Herald of Kozilek",
+"length": 147.42268041237114,
+"value": 7.628865979381443
 },
 {
-"title": "Eldrazi Skyspawner + Herald of Kozilek<br>62% win rate over 1065 games",
-"length": 31.73973417972624,
-"from": "Eldrazi Skyspawner",
-"label": "62%",
-"value": 0.6244131455399061,
 "color": {
-"opacity": 0.6244131455399061
+"opacity": 0.7722772277227723
 },
-"to": "Herald of Kozilek"
+"from": "Infuse with the Elements",
+"label": "77%",
+"title": "Infuse with the Elements + Woodland Wanderer<br>77% win rate over 101 games",
+"to": "Woodland Wanderer",
+"length": 145.54455445544554,
+"value": 7.7227722772277225
 },
 {
-"title": "Makindi Patrol + Serene Steward<br>57% win rate over 1534 games",
-"length": 42.02994829072106,
-"from": "Makindi Patrol",
-"label": "57%",
-"value": 0.5677966101694916,
 "color": {
-"opacity": 0.5677966101694916
+"opacity": 0.7454545454545455
 },
-"to": "Serene Steward"
+"from": "Ondu Rising",
+"label": "75%",
+"title": "Ondu Rising + Scour from Existence<br>75% win rate over 55 games",
+"to": "Scour from Existence",
+"length": 150.9090909090909,
+"value": 7.454545454545455
 },
 {
-"title": "Kor Castigator + Shadow Glider<br>54% win rate over 2687 games",
-"length": 47.45451123128091,
+"color": {
+"opacity": 0.7446808510638298
+},
+"from": "Encircling Fissure",
+"label": "74%",
+"title": "Encircling Fissure + Plated Crusher<br>74% win rate over 47 games",
+"to": "Plated Crusher",
+"length": 151.06382978723406,
+"value": 7.446808510638298
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Plummet",
+"label": "100%",
+"title": "Plummet + Prism Array<br>100% win rate over 7 games",
+"to": "Prism Array",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.7384615384615385
+},
+"from": "Defiant Bloodlord",
+"label": "74%",
+"title": "Defiant Bloodlord + Rising Miasma<br>74% win rate over 65 games",
+"to": "Rising Miasma",
+"length": 152.3076923076923,
+"value": 7.384615384615385
+},
+{
+"color": {
+"opacity": 0.7619047619047619
+},
+"from": "Barrage Tyrant",
+"label": "76%",
+"title": "Barrage Tyrant + Geyserfield Stalker<br>76% win rate over 21 games",
+"to": "Geyserfield Stalker",
+"length": 147.61904761904762,
+"value": 7.619047619047619
+},
+{
+"color": {
+"opacity": 0.8235294117647058
+},
+"from": "Conduit of Ruin",
+"label": "82%",
+"title": "Conduit of Ruin + Pathway Arrows<br>82% win rate over 17 games",
+"to": "Pathway Arrows",
+"length": 135.29411764705884,
+"value": 8.235294117647058
+},
+{
+"color": {
+"opacity": 0.7391304347826086
+},
+"from": "From Beyond",
+"label": "74%",
+"title": "From Beyond + Pathway Arrows<br>74% win rate over 23 games",
+"to": "Pathway Arrows",
+"length": 152.17391304347828,
+"value": 7.391304347826086
+},
+{
+"color": {
+"opacity": 0.7766990291262136
+},
+"from": "Rolling Thunder",
+"label": "78%",
+"title": "Rolling Thunder + Skitterskin<br>78% win rate over 103 games",
+"to": "Skitterskin",
+"length": 144.6601941747573,
+"value": 7.766990291262136
+},
+{
+"color": {
+"opacity": 0.7727272727272727
+},
+"from": "Angelic Gift",
+"label": "77%",
+"title": "Angelic Gift + Ruination Guide<br>77% win rate over 22 games",
+"to": "Ruination Guide",
+"length": 145.45454545454547,
+"value": 7.727272727272727
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Brood Butcher",
+"label": "75%",
+"title": "Brood Butcher + Dutiful Return<br>75% win rate over 36 games",
+"to": "Dutiful Return",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.7068965517241379
+},
 "from": "Kor Castigator",
-"label": "54%",
-"value": 0.5407517677707481,
-"color": {
-"opacity": 0.5407517677707481
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Kozilek's Sentinel + Processor Assault<br>61% win rate over 708 games",
-"length": 34.19276070094801,
-"from": "Kozilek's Sentinel",
-"label": "61%",
-"value": 0.6101694915254238,
-"color": {
-"opacity": 0.6101694915254238
-},
-"to": "Processor Assault"
-},
-{
-"title": "Complete Disregard + Skitterskin<br>60% win rate over 814 games",
-"length": 36.088506420201746,
-"from": "Complete Disregard",
-"label": "60%",
-"value": 0.5995085995085995,
-"color": {
-"opacity": 0.5995085995085995
-},
-"to": "Skitterskin"
-},
-{
-"title": "Courier Griffin + Lithomancer's Focus<br>59% win rate over 1309 games",
-"length": 38.29047418675784,
-"from": "Courier Griffin",
-"label": "59%",
-"value": 0.5874713521772346,
-"color": {
-"opacity": 0.5874713521772346
-},
-"to": "Lithomancer's Focus"
-},
-{
-"title": "Kalastria Nightwatch + Nirkana Assassin<br>60% win rate over 2303 games",
-"length": 35.361949308506404,
-"from": "Kalastria Nightwatch",
-"label": "60%",
-"value": 0.6035605731654364,
-"color": {
-"opacity": 0.6035605731654364
-},
-"to": "Nirkana Assassin"
-},
-{
-"title": "Eyeless Watcher + Tajuru Warcaller<br>71% win rate over 883 games",
-"length": 19.507778101268578,
-"from": "Eyeless Watcher",
 "label": "71%",
-"value": 0.7055492638731596,
+"title": "Kor Castigator + Ruination Guide<br>71% win rate over 116 games",
+"to": "Ruination Guide",
+"length": 158.6206896551724,
+"value": 7.068965517241379
+},
+{
+"color": {
+"opacity": 0.726027397260274
+},
+"from": "Omnath, Locus of Rage",
+"label": "73%",
+"title": "Omnath, Locus of Rage + Seek the Wilds<br>73% win rate over 73 games",
+"to": "Seek the Wilds",
+"length": 154.7945205479452,
+"value": 7.260273972602739
+},
+{
+"color": {
+"opacity": 0.8372093023255814
+},
+"from": "Breaker of Armies",
+"label": "84%",
+"title": "Breaker of Armies + Grovetender Druids<br>84% win rate over 43 games",
+"to": "Grovetender Druids",
+"length": 132.5581395348837,
+"value": 8.372093023255815
+},
+{
+"color": {
+"opacity": 0.7524271844660194
+},
+"from": "Cryptic Cruiser",
+"label": "75%",
+"title": "Cryptic Cruiser + Grip of Desolation<br>75% win rate over 206 games",
+"to": "Grip of Desolation",
+"length": 149.51456310679612,
+"value": 7.524271844660194
+},
+{
+"color": {
+"opacity": 0.896551724137931
+},
+"from": "Conduit of Ruin",
+"label": "90%",
+"title": "Conduit of Ruin + Woodland Wanderer<br>90% win rate over 29 games",
+"to": "Woodland Wanderer",
+"length": 120.6896551724138,
+"value": 8.96551724137931
+},
+{
+"color": {
+"opacity": 0.8333333333333334
+},
+"from": "Bring to Light",
+"label": "83%",
+"title": "Bring to Light + Planar Outburst<br>83% win rate over 12 games",
+"to": "Planar Outburst",
+"length": 133.33333333333331,
+"value": 8.333333333333334
+},
+{
+"color": {
+"opacity": 0.8181818181818182
+},
+"from": "From Beyond",
+"label": "82%",
+"title": "From Beyond + Ruinous Path<br>82% win rate over 33 games",
+"to": "Ruinous Path",
+"length": 136.36363636363635,
+"value": 8.181818181818182
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Sire of Stagnation",
+"label": "100%",
+"title": "Sire of Stagnation + Tunneling Geopede<br>100% win rate over 7 games",
+"to": "Tunneling Geopede",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.7916666666666666
+},
+"from": "Kozilek's Channeler",
+"label": "79%",
+"title": "Kozilek's Channeler + Prism Array<br>79% win rate over 24 games",
+"to": "Prism Array",
+"length": 141.66666666666669,
+"value": 7.916666666666666
+},
+{
+"color": {
+"opacity": 0.717391304347826
+},
+"from": "Call the Scions",
+"label": "72%",
+"title": "Call the Scions + Scatter to the Winds<br>72% win rate over 46 games",
+"to": "Scatter to the Winds",
+"length": 156.52173913043478,
+"value": 7.173913043478261
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Brutal Expulsion",
+"label": "100%",
+"title": "Brutal Expulsion + Nirkana Assassin<br>100% win rate over 6 games",
+"to": "Nirkana Assassin",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Dust Stalker",
+"label": "75%",
+"title": "Dust Stalker + Slab Hammer<br>75% win rate over 28 games",
+"to": "Slab Hammer",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.7049180327868853
+},
+"from": "Guul Draz Overseer",
+"label": "70%",
+"title": "Guul Draz Overseer + Scour from Existence<br>70% win rate over 61 games",
+"to": "Scour from Existence",
+"length": 159.01639344262296,
+"value": 7.049180327868853
+},
+{
+"color": {
+"opacity": 0.7215189873417721
+},
+"from": "Ruinous Path",
+"label": "72%",
+"title": "Ruinous Path + Scour from Existence<br>72% win rate over 79 games",
+"to": "Scour from Existence",
+"length": 155.69620253164558,
+"value": 7.215189873417721
+},
+{
+"color": {
+"opacity": 0.72
+},
+"from": "Processor Assault",
+"label": "72%",
+"title": "Processor Assault + Voracious Null<br>72% win rate over 25 games",
+"to": "Voracious Null",
+"length": 156.0,
+"value": 7.199999999999999
+},
+{
+"color": {
+"opacity": 0.8636363636363636
+},
+"from": "Radiant Flames",
+"label": "86%",
+"title": "Radiant Flames + Scatter to the Winds<br>86% win rate over 22 games",
+"to": "Scatter to the Winds",
+"length": 127.27272727272727,
+"value": 8.636363636363637
+},
+{
+"color": {
+"opacity": 0.9411764705882353
+},
+"from": "Nissa's Renewal",
+"label": "94%",
+"title": "Nissa's Renewal + Planar Outburst<br>94% win rate over 17 games",
+"to": "Planar Outburst",
+"length": 111.76470588235294,
+"value": 9.411764705882353
+},
+{
+"color": {
+"opacity": 0.8181818181818182
+},
+"from": "Aligned Hedron Network",
+"label": "82%",
+"title": "Aligned Hedron Network + Lavastep Raider<br>82% win rate over 11 games",
+"to": "Lavastep Raider",
+"length": 136.36363636363635,
+"value": 8.181818181818182
+},
+{
+"color": {
+"opacity": 0.7419354838709677
+},
+"from": "Belligerent Whiptail",
+"label": "74%",
+"title": "Belligerent Whiptail + Skyrider Elf<br>74% win rate over 31 games",
+"to": "Skyrider Elf",
+"length": 151.61290322580646,
+"value": 7.419354838709678
+},
+{
+"color": {
+"opacity": 0.875
+},
+"from": "Prism Array",
+"label": "88%",
+"title": "Prism Array + Tide Drifter<br>88% win rate over 8 games",
+"to": "Tide Drifter",
+"length": 125.0,
+"value": 8.75
+},
+{
+"color": {
+"opacity": 0.8020833333333334
+},
+"from": "Desolation Twin",
+"label": "80%",
+"title": "Desolation Twin + Unnatural Aggression<br>80% win rate over 96 games",
+"to": "Unnatural Aggression",
+"length": 139.58333333333331,
+"value": 8.020833333333334
+},
+{
+"color": {
+"opacity": 0.8387096774193549
+},
+"from": "From Beyond",
+"label": "84%",
+"title": "From Beyond + Ondu Rising<br>84% win rate over 31 games",
+"to": "Ondu Rising",
+"length": 132.25806451612902,
+"value": 8.387096774193548
+},
+{
+"color": {
+"opacity": 0.8421052631578947
+},
+"from": "Brilliant Spectrum",
+"label": "84%",
+"title": "Brilliant Spectrum + Tajuru Warcaller<br>84% win rate over 19 games",
+"to": "Tajuru Warcaller",
+"length": 131.57894736842107,
+"value": 8.421052631578947
+},
+{
+"color": {
+"opacity": 0.9230769230769231
+},
+"from": "Reclaiming Vines",
+"label": "92%",
+"title": "Reclaiming Vines + Swarm Surge<br>92% win rate over 13 games",
+"to": "Swarm Surge",
+"length": 115.38461538461537,
+"value": 9.230769230769232
+},
+{
+"color": {
+"opacity": 0.8620689655172413
+},
+"from": "Mire's Malice",
+"label": "86%",
+"title": "Mire's Malice + Roil Spout<br>86% win rate over 87 games",
+"to": "Roil Spout",
+"length": 127.58620689655173,
+"value": 8.620689655172413
+},
+{
+"color": {
+"opacity": 0.7169811320754716
+},
+"from": "Incubator Drone",
+"label": "72%",
+"title": "Incubator Drone + Planar Outburst<br>72% win rate over 159 games",
+"to": "Planar Outburst",
+"length": 156.60377358490567,
+"value": 7.169811320754716
+},
+{
+"color": {
+"opacity": 0.7717391304347826
+},
+"from": "Gruesome Slaughter",
+"label": "77%",
+"title": "Gruesome Slaughter + Silent Skimmer<br>77% win rate over 92 games",
+"to": "Silent Skimmer",
+"length": 145.6521739130435,
+"value": 7.717391304347826
+},
+{
+"color": {
+"opacity": 0.7307692307692307
+},
+"from": "Nissa's Renewal",
+"label": "73%",
+"title": "Nissa's Renewal + Retreat to Emeria<br>73% win rate over 52 games",
+"to": "Retreat to Emeria",
+"length": 153.84615384615387,
+"value": 7.3076923076923075
+},
+{
+"color": {
+"opacity": 0.7735849056603774
+},
+"from": "Planar Outburst",
+"label": "77%",
+"title": "Planar Outburst + Ruin Processor<br>77% win rate over 106 games",
+"to": "Ruin Processor",
+"length": 145.2830188679245,
+"value": 7.735849056603774
+},
+{
+"color": {
+"opacity": 0.7777777777777778
+},
+"from": "Call the Scions",
+"label": "78%",
+"title": "Call the Scions + Prism Array<br>78% win rate over 18 games",
+"to": "Prism Array",
+"length": 144.44444444444446,
+"value": 7.777777777777778
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Eldrazi Skyspawner",
+"label": "75%",
+"title": "Eldrazi Skyspawner + Reclaiming Vines<br>75% win rate over 20 games",
+"to": "Reclaiming Vines",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.7341772151898734
+},
+"from": "Bane of Bala Ged",
+"label": "73%",
+"title": "Bane of Bala Ged + Smothering Abomination<br>73% win rate over 79 games",
+"to": "Smothering Abomination",
+"length": 153.1645569620253,
+"value": 7.341772151898734
+},
+{
+"color": {
+"opacity": 0.8461538461538461
+},
+"from": "Hero of Goma Fada",
+"label": "85%",
+"title": "Hero of Goma Fada + Skitterskin<br>85% win rate over 13 games",
+"to": "Skitterskin",
+"length": 130.76923076923077,
+"value": 8.461538461538462
+},
+{
+"color": {
+"opacity": 0.8620689655172413
+},
+"from": "Herald of Kozilek",
+"label": "86%",
+"title": "Herald of Kozilek + Mire's Malice<br>86% win rate over 29 games",
+"to": "Mire's Malice",
+"length": 127.58620689655173,
+"value": 8.620689655172413
+},
+{
+"color": {
+"opacity": 0.7428571428571429
+},
+"from": "Angelic Gift",
+"label": "74%",
+"title": "Angelic Gift + Painful Truths<br>74% win rate over 35 games",
+"to": "Painful Truths",
+"length": 151.42857142857142,
+"value": 7.428571428571429
+},
+{
+"color": {
+"opacity": 0.84375
+},
+"from": "Roil Spout",
+"label": "84%",
+"title": "Roil Spout + Stonefury<br>84% win rate over 32 games",
+"to": "Stonefury",
+"length": 131.25,
+"value": 8.4375
+},
+{
+"color": {
+"opacity": 0.7681159420289855
+},
+"from": "Oblivion Sower",
+"label": "77%",
+"title": "Oblivion Sower + Transgress the Mind<br>77% win rate over 69 games",
+"to": "Transgress the Mind",
+"length": 146.3768115942029,
+"value": 7.6811594202898545
+},
+{
+"color": {
+"opacity": 0.725
+},
+"from": "Skyrider Elf",
+"label": "72%",
+"title": "Skyrider Elf + Tunneling Geopede<br>72% win rate over 40 games",
+"to": "Tunneling Geopede",
+"length": 155.0,
+"value": 7.25
+},
+{
+"color": {
+"opacity": 0.9
+},
+"from": "Ruinous Path",
+"label": "90%",
+"title": "Ruinous Path + Sire of Stagnation<br>90% win rate over 20 games",
+"to": "Sire of Stagnation",
+"length": 120.0,
+"value": 9.0
+},
+{
+"color": {
+"opacity": 0.7473684210526316
+},
+"from": "Tajuru Stalwart",
+"label": "75%",
+"title": "Tajuru Stalwart + Ugin's Insight<br>75% win rate over 95 games",
+"to": "Ugin's Insight",
+"length": 150.5263157894737,
+"value": 7.473684210526316
+},
+{
+"color": {
+"opacity": 0.7692307692307693
+},
+"from": "Dispel",
+"label": "77%",
+"title": "Dispel + Hedron Blade<br>77% win rate over 13 games",
+"to": "Hedron Blade",
+"length": 146.15384615384613,
+"value": 7.6923076923076925
+},
+{
+"color": {
+"opacity": 0.7894736842105263
+},
+"from": "Endless One",
+"label": "79%",
+"title": "Endless One + Guardian of Tazeem<br>79% win rate over 57 games",
+"to": "Guardian of Tazeem",
+"length": 142.10526315789474,
+"value": 7.894736842105264
+},
+{
+"color": {
+"opacity": 0.7248677248677249
+},
+"from": "Deathless Behemoth",
+"label": "72%",
+"title": "Deathless Behemoth + Mire's Malice<br>72% win rate over 189 games",
+"to": "Mire's Malice",
+"length": 155.02645502645504,
+"value": 7.248677248677248
+},
+{
+"color": {
+"opacity": 0.8046875
+},
+"from": "Coastal Discovery",
+"label": "80%",
+"title": "Coastal Discovery + Planar Outburst<br>80% win rate over 128 games",
+"to": "Planar Outburst",
+"length": 139.0625,
+"value": 8.046875
+},
+{
+"color": {
+"opacity": 0.8163265306122449
+},
+"from": "Plated Crusher",
+"label": "82%",
+"title": "Plated Crusher + Stasis Snare<br>82% win rate over 49 games",
+"to": "Stasis Snare",
+"length": 136.73469387755102,
+"value": 8.16326530612245
+},
+{
+"color": {
+"opacity": 0.7575757575757576
+},
+"from": "Ruin Processor",
+"label": "76%",
+"title": "Ruin Processor + Ruinous Path<br>76% win rate over 165 games",
+"to": "Ruinous Path",
+"length": 148.4848484848485,
+"value": 7.575757575757576
+},
+{
+"color": {
+"opacity": 0.7407407407407407
+},
+"from": "Brilliant Spectrum",
+"label": "74%",
+"title": "Brilliant Spectrum + Valakut Invoker<br>74% win rate over 27 games",
+"to": "Valakut Invoker",
+"length": 151.85185185185185,
+"value": 7.4074074074074066
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Crumble to Dust",
+"label": "100%",
+"title": "Crumble to Dust + Sludge Crawler<br>100% win rate over 4 games",
+"to": "Sludge Crawler",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.7058823529411765
+},
+"from": "Noyan Dar, Roil Shaper",
+"label": "71%",
+"title": "Noyan Dar, Roil Shaper + Sylvan Scrying<br>71% win rate over 34 games",
+"to": "Sylvan Scrying",
+"length": 158.8235294117647,
+"value": 7.058823529411765
+},
+{
+"color": {
+"opacity": 0.7435897435897436
+},
+"from": "Mind Raker",
+"label": "74%",
+"title": "Mind Raker + Slab Hammer<br>74% win rate over 39 games",
+"to": "Slab Hammer",
+"length": 151.28205128205127,
+"value": 7.435897435897436
+},
+{
+"color": {
+"opacity": 0.8214285714285714
+},
+"from": "Rolling Thunder",
+"label": "82%",
+"title": "Rolling Thunder + Smothering Abomination<br>82% win rate over 28 games",
+"to": "Smothering Abomination",
+"length": 135.71428571428572,
+"value": 8.214285714285714
+},
+{
+"color": {
+"opacity": 0.8529411764705882
+},
+"from": "Brood Butcher",
+"label": "85%",
+"title": "Brood Butcher + Greenwarden of Murasa<br>85% win rate over 34 games",
+"to": "Greenwarden of Murasa",
+"length": 129.41176470588238,
+"value": 8.529411764705882
+},
+{
 "color": {
 "opacity": 0.7055492638731596
 },
-"to": "Tajuru Warcaller"
-},
-{
-"title": "Complete Disregard + Ruinous Path<br>62% win rate over 479 games",
-"length": 32.84079567296168,
-"from": "Complete Disregard",
-"label": "62%",
-"value": 0.6179540709812108,
-"color": {
-"opacity": 0.6179540709812108
-},
-"to": "Ruinous Path"
-},
-{
-"title": "Brutal Expulsion + Touch of the Void<br>63% win rate over 421 games",
-"length": 30.893529149576,
-"from": "Brutal Expulsion",
-"label": "63%",
-"value": 0.6294536817102138,
-"color": {
-"opacity": 0.6294536817102138
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Kor Castigator + Resolute Blademaster<br>62% win rate over 1074 games",
-"length": 33.27162853843514,
-"from": "Kor Castigator",
-"label": "62%",
-"value": 0.6154562383612663,
-"color": {
-"opacity": 0.6154562383612663
-},
-"to": "Resolute Blademaster"
-},
-{
-"title": "Tajuru Beastmaster + Tajuru Stalwart<br>59% win rate over 1501 games",
-"length": 38.63686700538526,
-"from": "Tajuru Beastmaster",
-"label": "59%",
-"value": 0.5856095936042638,
-"color": {
-"opacity": 0.5856095936042638
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Clutch of Currents + Ulamog's Reclaimer<br>57% win rate over 897 games",
-"length": 41.66508204606212,
-"from": "Clutch of Currents",
-"label": "57%",
-"value": 0.5696767001114827,
-"color": {
-"opacity": 0.5696767001114827
-},
-"to": "Ulamog's Reclaimer"
-},
-{
-"title": "Angelic Captain + Makindi Patrol<br>59% win rate over 486 games",
-"length": 36.969402530102116,
-"from": "Angelic Captain",
-"label": "59%",
-"value": 0.5946502057613169,
-"color": {
-"opacity": 0.5946502057613169
-},
-"to": "Makindi Patrol"
-},
-{
-"title": "Shadow Glider + Tandem Tactics<br>55% win rate over 1435 games",
-"length": 45.739064453860074,
-"from": "Shadow Glider",
-"label": "55%",
-"value": 0.5491289198606272,
-"color": {
-"opacity": 0.5491289198606272
-},
-"to": "Tandem Tactics"
-},
-{
-"title": "Mist Intruder + Processor Assault<br>60% win rate over 592 games",
-"length": 36.06083649105186,
-"from": "Mist Intruder",
-"label": "60%",
-"value": 0.5996621621621622,
-"color": {
-"opacity": 0.5996621621621622
-},
-"to": "Processor Assault"
-},
-{
-"title": "Horribly Awry + Incubator Drone<br>60% win rate over 851 games",
-"length": 36.765483615736514,
-"from": "Horribly Awry",
-"label": "60%",
-"value": 0.5957696827262045,
-"color": {
-"opacity": 0.5957696827262045
-},
-"to": "Incubator Drone"
-},
-{
-"title": "Sludge Crawler + Smothering Abomination<br>54% win rate over 453 games",
-"length": 47.89373273102058,
-"from": "Sludge Crawler",
-"label": "54%",
-"value": 0.5386313465783664,
-"color": {
-"opacity": 0.5386313465783664
-},
-"to": "Smothering Abomination"
-},
-{
-"title": "Grove Rumbler + Makindi Sliderunner<br>56% win rate over 1030 games",
-"length": 44.29354793100198,
-"from": "Grove Rumbler",
-"label": "56%",
-"value": 0.5563106796116505,
-"color": {
-"opacity": 0.5563106796116505
-},
-"to": "Makindi Sliderunner"
-},
-{
-"title": "Munda, Ambush Leader + Ondu Champion<br>59% win rate over 387 games",
-"length": 38.45922720990325,
-"from": "Munda, Ambush Leader",
-"label": "59%",
-"value": 0.58656330749354,
-"color": {
-"opacity": 0.58656330749354
-},
-"to": "Ondu Champion"
-},
-{
-"title": "Call the Scions + Ulamog, the Ceaseless Hunger<br>93% win rate over 164 games",
-"length": 1.2046400951814393,
-"from": "Call the Scions",
-"label": "93%",
-"value": 0.926829268292683,
-"color": {
-"opacity": 0.926829268292683
-},
-"to": "Ulamog, the Ceaseless Hunger"
-},
-{
-"title": "Brutal Expulsion + Kozilek's Sentinel<br>59% win rate over 562 games",
-"length": 37.68474310102455,
-"from": "Brutal Expulsion",
-"label": "59%",
-"value": 0.5907473309608541,
-"color": {
-"opacity": 0.5907473309608541
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Herald of Kozilek + Kozilek's Sentinel<br>58% win rate over 1573 games",
-"length": 39.01284954426028,
-"from": "Herald of Kozilek",
-"label": "58%",
-"value": 0.5835982199618563,
-"color": {
-"opacity": 0.5835982199618563
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Kalastria Healer + Kalastria Nightwatch<br>62% win rate over 3173 games",
-"length": 31.860385586747775,
-"from": "Kalastria Healer",
-"label": "62%",
-"value": 0.6236999684840845,
-"color": {
-"opacity": 0.6236999684840845
-},
-"to": "Kalastria Nightwatch"
-},
-{
-"title": "Oran-Rief Invoker + Plated Crusher<br>65% win rate over 573 games",
-"length": 26.866039856363585,
-"from": "Oran-Rief Invoker",
-"label": "65%",
-"value": 0.6544502617801047,
-"color": {
-"opacity": 0.6544502617801047
-},
-"to": "Plated Crusher"
-},
-{
-"title": "Eldrazi Skyspawner + Ulamog's Reclaimer<br>60% win rate over 903 games",
-"length": 35.96014392777121,
-"from": "Eldrazi Skyspawner",
-"label": "60%",
-"value": 0.6002214839424141,
-"color": {
-"opacity": 0.6002214839424141
-},
-"to": "Ulamog's Reclaimer"
-},
-{
-"title": "Grave Birthing + Silent Skimmer<br>56% win rate over 1584 games",
-"length": 44.19227789256198,
-"from": "Grave Birthing",
-"label": "56%",
-"value": 0.5568181818181818,
-"color": {
-"opacity": 0.5568181818181818
-},
-"to": "Silent Skimmer"
-},
-{
-"title": "Tajuru Stalwart + Tajuru Warcaller<br>63% win rate over 915 games",
-"length": 31.066917495296963,
-"from": "Tajuru Stalwart",
-"label": "63%",
-"value": 0.6284153005464481,
-"color": {
-"opacity": 0.6284153005464481
-},
-"to": "Tajuru Warcaller"
-},
-{
-"title": "Culling Drone + Ulamog's Nullifier<br>63% win rate over 1119 games",
-"length": 30.501189543517167,
-"from": "Culling Drone",
-"label": "63%",
-"value": 0.6318141197497766,
-"color": {
-"opacity": 0.6318141197497766
-},
-"to": "Ulamog's Nullifier"
-},
-{
-"title": "Makindi Sliderunner + Ondu Champion<br>54% win rate over 1600 games",
-"length": 48.650625000000005,
-"from": "Makindi Sliderunner",
-"label": "54%",
-"value": 0.535,
-"color": {
-"opacity": 0.535
-},
-"to": "Ondu Champion"
-},
-{
-"title": "Dust Stalker + Touch of the Void<br>59% win rate over 382 games",
-"length": 38.49195471615361,
-"from": "Dust Stalker",
-"label": "59%",
-"value": 0.5863874345549738,
-"color": {
-"opacity": 0.5863874345549738
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Dominator Drone + Gruesome Slaughter<br>67% win rate over 191 games",
-"length": 24.47918094350484,
-"from": "Dominator Drone",
-"label": "67%",
-"value": 0.6701570680628273,
-"color": {
-"opacity": 0.6701570680628273
-},
-"to": "Gruesome Slaughter"
-},
-{
-"title": "Brood Butcher + Call the Scions<br>61% win rate over 488 games",
-"length": 34.82934694974469,
-"from": "Brood Butcher",
-"label": "61%",
-"value": 0.6065573770491803,
-"color": {
-"opacity": 0.6065573770491803
-},
-"to": "Call the Scions"
-},
-{
-"title": "Nirkana Assassin + Stone Haven Medic<br>56% win rate over 1619 games",
-"length": 44.37584146872321,
-"from": "Nirkana Assassin",
-"label": "56%",
-"value": 0.5558987029030266,
-"color": {
-"opacity": 0.5558987029030266
-},
-"to": "Stone Haven Medic"
-},
-{
-"title": "Dominator Drone + Ulamog's Nullifier<br>63% win rate over 1007 games",
-"length": 31.036074193653366,
-"from": "Dominator Drone",
-"label": "63%",
-"value": 0.6285998013902682,
-"color": {
-"opacity": 0.6285998013902682
-},
-"to": "Ulamog's Nullifier"
-},
-{
-"title": "Drana's Emissary + Kor Castigator<br>64% win rate over 1117 games",
-"length": 29.7254363867919,
-"from": "Drana's Emissary",
-"label": "64%",
-"value": 0.6365264100268576,
-"color": {
-"opacity": 0.6365264100268576
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Culling Drone + Fathom Feeder<br>57% win rate over 539 games",
-"length": 41.68511054278348,
-"from": "Culling Drone",
-"label": "57%",
-"value": 0.5695732838589982,
-"color": {
-"opacity": 0.5695732838589982
-},
-"to": "Fathom Feeder"
-},
-{
-"title": "Nettle Drone + Turn Against<br>56% win rate over 903 games",
-"length": 43.05278087438329,
-"from": "Nettle Drone",
-"label": "56%",
-"value": 0.5625692137320044,
-"color": {
-"opacity": 0.5625692137320044
-},
-"to": "Turn Against"
-},
-{
-"title": "Dust Stalker + Sludge Crawler<br>58% win rate over 402 games",
-"length": 40.23724660280686,
-"from": "Dust Stalker",
-"label": "58%",
-"value": 0.5771144278606966,
-"color": {
-"opacity": 0.5771144278606966
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Barrage Tyrant + Kozilek's Sentinel<br>58% win rate over 591 games",
-"length": 39.93983354376562,
-"from": "Barrage Tyrant",
-"label": "58%",
-"value": 0.5786802030456852,
-"color": {
-"opacity": 0.5786802030456852
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Planar Outburst + Shadow Glider<br>60% win rate over 417 games",
-"length": 36.08638269240723,
-"from": "Planar Outburst",
-"label": "60%",
-"value": 0.5995203836930456,
-"color": {
-"opacity": 0.5995203836930456
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Benthic Infiltrator + Brutal Expulsion<br>58% win rate over 443 games",
-"length": 39.2390534474061,
-"from": "Benthic Infiltrator",
-"label": "58%",
-"value": 0.582392776523702,
-"color": {
-"opacity": 0.582392776523702
-},
-"to": "Brutal Expulsion"
-},
-{
-"title": "Gruesome Slaughter + Murk Strider<br>70% win rate over 198 games",
-"length": 20.661157024793393,
-"from": "Gruesome Slaughter",
-"label": "70%",
-"value": 0.696969696969697,
-"color": {
-"opacity": 0.696969696969697
-},
-"to": "Murk Strider"
-},
-{
-"title": "Complete Disregard + Mire's Malice<br>64% win rate over 994 games",
-"length": 28.376521705686837,
-"from": "Complete Disregard",
-"label": "64%",
-"value": 0.6448692152917505,
-"color": {
-"opacity": 0.6448692152917505
-},
-"to": "Mire's Malice"
-},
-{
-"title": "Snapping Gnarlid + Swell of Growth<br>55% win rate over 1664 games",
-"length": 46.565860545141454,
-"from": "Snapping Gnarlid",
-"label": "55%",
-"value": 0.5450721153846154,
-"color": {
-"opacity": 0.5450721153846154
-},
-"to": "Swell of Growth"
-},
-{
-"title": "Eldrazi Skyspawner + Ruination Guide<br>64% win rate over 1635 games",
-"length": 28.607777123137783,
-"from": "Eldrazi Skyspawner",
-"label": "64%",
-"value": 0.6434250764525994,
-"color": {
-"opacity": 0.6434250764525994
-},
-"to": "Ruination Guide"
-},
-{
-"title": "Lifespring Druid + Plummet<br>51% win rate over 342 games",
-"length": 54.29362880886426,
-"from": "Lifespring Druid",
-"label": "51%",
-"value": 0.5087719298245614,
-"color": {
-"opacity": 0.5087719298245614
-},
-"to": "Plummet"
-},
-{
-"title": "Eyeless Watcher + Tajuru Beastmaster<br>60% win rate over 1344 games",
-"length": 36.05359135841837,
 "from": "Eyeless Watcher",
-"label": "60%",
-"value": 0.5997023809523809,
-"color": {
-"opacity": 0.5997023809523809
-},
-"to": "Tajuru Beastmaster"
-},
-{
-"title": "Lifespring Druid + Territorial Baloth<br>52% win rate over 1473 games",
-"length": 52.71765506199161,
-"from": "Lifespring Druid",
-"label": "52%",
-"value": 0.5159538357094365,
-"color": {
-"opacity": 0.5159538357094365
-},
-"to": "Territorial Baloth"
-},
-{
-"title": "Defiant Bloodlord + Stone Haven Medic<br>68% win rate over 263 games",
-"length": 23.502219202243776,
-"from": "Defiant Bloodlord",
-"label": "68%",
-"value": 0.6768060836501901,
-"color": {
-"opacity": 0.6768060836501901
-},
-"to": "Stone Haven Medic"
-},
-{
-"title": "Clutch of Currents + Murk Strider<br>57% win rate over 2334 games",
-"length": 41.055479741741074,
-"from": "Clutch of Currents",
-"label": "57%",
-"value": 0.5728363324764353,
-"color": {
-"opacity": 0.5728363324764353
-},
-"to": "Murk Strider"
-},
-{
-"title": "Fathom Feeder + Sludge Crawler<br>59% win rate over 533 games",
-"length": 38.68233194527066,
-"from": "Fathom Feeder",
-"label": "59%",
-"value": 0.5853658536585366,
-"color": {
-"opacity": 0.5853658536585366
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Greenwarden of Murasa + Oran-Rief Invoker<br>64% win rate over 195 games",
-"length": 28.99408284023669,
-"from": "Greenwarden of Murasa",
-"label": "64%",
-"value": 0.6410256410256411,
-"color": {
-"opacity": 0.6410256410256411
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Herald of Kozilek + Nettle Drone<br>58% win rate over 1495 games",
-"length": 40.08287379335802,
-"from": "Herald of Kozilek",
-"label": "58%",
-"value": 0.5779264214046823,
-"color": {
-"opacity": 0.5779264214046823
-},
-"to": "Nettle Drone"
-},
-{
-"title": "Kozilek's Sentinel + Vestige of Emrakul<br>54% win rate over 3335 games",
-"length": 48.164016192803146,
-"from": "Kozilek's Sentinel",
-"label": "54%",
-"value": 0.5373313343328335,
-"color": {
-"opacity": 0.5373313343328335
-},
-"to": "Vestige of Emrakul"
-},
-{
-"title": "Bone Splinters + Dutiful Return<br>54% win rate over 179 games",
-"length": 47.2176274148747,
-"from": "Bone Splinters",
-"label": "54%",
-"value": 0.5418994413407822,
-"color": {
-"opacity": 0.5418994413407822
-},
-"to": "Dutiful Return"
-},
-{
-"title": "Brilliant Spectrum + Lifespring Druid<br>51% win rate over 166 games",
-"length": 54.90274350413703,
-"from": "Brilliant Spectrum",
-"label": "51%",
-"value": 0.5060240963855421,
-"color": {
-"opacity": 0.5060240963855421
-},
-"to": "Lifespring Druid"
-},
-{
-"title": "Benthic Infiltrator + Coralhelm Guide<br>54% win rate over 2239 games",
-"length": 46.87876075602405,
-"from": "Benthic Infiltrator",
-"label": "54%",
-"value": 0.5435462259937472,
-"color": {
-"opacity": 0.5435462259937472
-},
-"to": "Coralhelm Guide"
-},
-{
-"title": "Makindi Sliderunner + Sure Strike<br>54% win rate over 1473 games",
-"length": 47.95068877265319,
-"from": "Makindi Sliderunner",
-"label": "54%",
-"value": 0.538357094365241,
-"color": {
-"opacity": 0.538357094365241
-},
-"to": "Sure Strike"
-},
-{
-"title": "Eldrazi Skyspawner + Roil Spout<br>70% win rate over 1008 games",
-"length": 20.19646400226757,
-"from": "Eldrazi Skyspawner",
-"label": "70%",
-"value": 0.7003968253968254,
-"color": {
-"opacity": 0.7003968253968254
-},
-"to": "Roil Spout"
-},
-{
-"title": "Natural Connection + Plated Crusher<br>61% win rate over 486 games",
-"length": 33.668648071940254,
-"from": "Natural Connection",
-"label": "61%",
-"value": 0.6131687242798354,
-"color": {
-"opacity": 0.6131687242798354
-},
-"to": "Plated Crusher"
-},
-{
-"title": "Nettle Drone + Serpentine Spike<br>69% win rate over 328 games",
-"length": 22.18754647531231,
-"from": "Nettle Drone",
-"label": "69%",
-"value": 0.6859756097560976,
-"color": {
-"opacity": 0.6859756097560976
-},
-"to": "Serpentine Spike"
-},
-{
-"title": "Dominator Drone + Skitterskin<br>57% win rate over 1044 games",
-"length": 42.36214328180738,
-"from": "Dominator Drone",
-"label": "57%",
-"value": 0.5660919540229885,
-"color": {
-"opacity": 0.5660919540229885
-},
-"to": "Skitterskin"
-},
-{
-"title": "Complete Disregard + Grave Birthing<br>57% win rate over 1820 games",
-"length": 41.22063307571548,
-"from": "Complete Disregard",
-"label": "57%",
-"value": 0.5719780219780219,
-"color": {
-"opacity": 0.5719780219780219
-},
-"to": "Grave Birthing"
-},
-{
-"title": "Kor Castigator + Ondu Greathorn<br>54% win rate over 1529 games",
-"length": 47.56398104062679,
-"from": "Kor Castigator",
-"label": "54%",
-"value": 0.540222367560497,
-"color": {
-"opacity": 0.540222367560497
-},
-"to": "Ondu Greathorn"
-},
-{
-"title": "Tajuru Stalwart + Veteran Warleader<br>54% win rate over 528 games",
-"length": 46.87580707644628,
-"from": "Tajuru Stalwart",
-"label": "54%",
-"value": 0.5435606060606061,
-"color": {
-"opacity": 0.5435606060606061
-},
-"to": "Veteran Warleader"
-},
-{
-"title": "Angelic Captain + Kor Castigator<br>61% win rate over 517 games",
-"length": 35.03174466588598,
-"from": "Angelic Captain",
-"label": "61%",
-"value": 0.6054158607350096,
-"color": {
-"opacity": 0.6054158607350096
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Courier Griffin + March from the Tomb<br>63% win rate over 178 games",
-"length": 30.933594243151116,
-"from": "Courier Griffin",
-"label": "63%",
-"value": 0.6292134831460674,
-"color": {
-"opacity": 0.6292134831460674
-},
-"to": "March from the Tomb"
-},
-{
-"title": "Grovetender Druids + Makindi Patrol<br>56% win rate over 922 games",
-"length": 44.49266190164736,
-"from": "Grovetender Druids",
-"label": "56%",
-"value": 0.5553145336225597,
-"color": {
-"opacity": 0.5553145336225597
-},
-"to": "Makindi Patrol"
-},
-{
-"title": "Natural Connection + Omnath, Locus of Rage<br>69% win rate over 154 games",
-"length": 21.85866081969978,
-"from": "Natural Connection",
-"label": "69%",
-"value": 0.6883116883116883,
-"color": {
-"opacity": 0.6883116883116883
-},
-"to": "Omnath, Locus of Rage"
-},
-{
-"title": "Courier Griffin + Quarantine Field<br>63% win rate over 251 games",
-"length": 30.888795415945783,
-"from": "Courier Griffin",
-"label": "63%",
-"value": 0.6294820717131474,
-"color": {
-"opacity": 0.6294820717131474
-},
-"to": "Quarantine Field"
-},
-{
-"title": "Fortified Rampart + Ghostly Sentinel<br>57% win rate over 1765 games",
-"length": 41.71769294352736,
-"from": "Fortified Rampart",
-"label": "57%",
-"value": 0.5694050991501416,
-"color": {
-"opacity": 0.5694050991501416
-},
-"to": "Ghostly Sentinel"
-},
-{
-"title": "Drana's Emissary + Kalastria Healer<br>66% win rate over 1989 games",
-"length": 26.375893204479848,
-"from": "Drana's Emissary",
-"label": "66%",
-"value": 0.6576168929110106,
-"color": {
-"opacity": 0.6576168929110106
-},
-"to": "Kalastria Healer"
-},
-{
-"title": "Eyeless Watcher + Rot Shambler<br>56% win rate over 1452 games",
-"length": 42.62686974933406,
-"from": "Eyeless Watcher",
-"label": "56%",
-"value": 0.5647382920110193,
-"color": {
-"opacity": 0.5647382920110193
-},
-"to": "Rot Shambler"
-},
-{
-"title": "Brutal Expulsion + Nettle Drone<br>60% win rate over 493 games",
-"length": 35.92701471719695,
-"from": "Brutal Expulsion",
-"label": "60%",
-"value": 0.6004056795131846,
-"color": {
-"opacity": 0.6004056795131846
-},
-"to": "Nettle Drone"
-},
-{
-"title": "Touch of the Void + Valakut Invoker<br>55% win rate over 2179 games",
-"length": 44.67931616428755,
-"from": "Touch of the Void",
-"label": "55%",
-"value": 0.5543827443781552,
-"color": {
-"opacity": 0.5543827443781552
-},
-"to": "Valakut Invoker"
-},
-{
-"title": "Kozilek's Sentinel + Outnumber<br>57% win rate over 2560 games",
-"length": 40.94000244140625,
-"from": "Kozilek's Sentinel",
-"label": "57%",
-"value": 0.5734375,
-"color": {
-"opacity": 0.5734375
-},
-"to": "Outnumber"
-},
-{
-"title": "Clutch of Currents + Incubator Drone<br>56% win rate over 2970 games",
-"length": 43.240587695133144,
-"from": "Clutch of Currents",
-"label": "56%",
-"value": 0.5616161616161616,
-"color": {
-"opacity": 0.5616161616161616
-},
-"to": "Incubator Drone"
-},
-{
-"title": "Part the Waterveil + Tightening Coils<br>63% win rate over 144 games",
-"length": 30.47960069444445,
-"from": "Part the Waterveil",
-"label": "63%",
-"value": 0.6319444444444444,
-"color": {
-"opacity": 0.6319444444444444
-},
-"to": "Tightening Coils"
-},
-{
-"title": "Courier Griffin + Roil's Retribution<br>56% win rate over 880 games",
-"length": 43.74018595041322,
-"from": "Courier Griffin",
-"label": "56%",
-"value": 0.5590909090909091,
-"color": {
-"opacity": 0.5590909090909091
-},
-"to": "Roil's Retribution"
-},
-{
-"title": "Kor Castigator + Kor Entanglers<br>58% win rate over 1347 games",
-"length": 40.28997872034365,
-"from": "Kor Castigator",
-"label": "58%",
-"value": 0.576837416481069,
-"color": {
-"opacity": 0.576837416481069
-},
-"to": "Kor Entanglers"
-},
-{
-"title": "Plated Crusher + Snapping Gnarlid<br>64% win rate over 572 games",
-"length": 28.900022617242897,
-"from": "Plated Crusher",
-"label": "64%",
-"value": 0.6416083916083916,
-"color": {
-"opacity": 0.6416083916083916
-},
-"to": "Snapping Gnarlid"
-},
-{
-"title": "Outnumber + Touch of the Void<br>59% win rate over 2524 games",
-"length": 37.54232348848832,
-"from": "Outnumber",
-"label": "59%",
-"value": 0.5915213946117274,
-"color": {
-"opacity": 0.5915213946117274
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Grove Rumbler + Snapping Gnarlid<br>58% win rate over 1266 games",
-"length": 40.331528941398446,
-"from": "Grove Rumbler",
-"label": "58%",
-"value": 0.5766192733017378,
-"color": {
-"opacity": 0.5766192733017378
-},
-"to": "Snapping Gnarlid"
-},
-{
-"title": "Complete Disregard + Malakir Familiar<br>58% win rate over 1214 games",
-"length": 40.17721923522658,
-"from": "Complete Disregard",
-"label": "58%",
-"value": 0.5774299835255354,
-"color": {
-"opacity": 0.5774299835255354
-},
-"to": "Malakir Familiar"
-},
-{
-"title": "Makindi Patrol + Stasis Snare<br>56% win rate over 1058 games",
-"length": 43.08966966956236,
-"from": "Makindi Patrol",
-"label": "56%",
-"value": 0.5623818525519849,
-"color": {
-"opacity": 0.5623818525519849
-},
-"to": "Stasis Snare"
-},
-{
-"title": "Serpentine Spike + Vestige of Emrakul<br>69% win rate over 319 games",
-"length": 22.110631774451903,
-"from": "Serpentine Spike",
-"label": "69%",
-"value": 0.6865203761755486,
-"color": {
-"opacity": 0.6865203761755486
-},
-"to": "Vestige of Emrakul"
-},
-{
-"title": "Lifespring Druid + Ulamog, the Ceaseless Hunger<br>93% win rate over 152 games",
-"length": 0.9738573407202216,
-"from": "Lifespring Druid",
-"label": "93%",
-"value": 0.9342105263157895,
-"color": {
-"opacity": 0.9342105263157895
-},
-"to": "Ulamog, the Ceaseless Hunger"
-},
-{
-"title": "Bring to Light + Lifespring Druid<br>55% win rate over 111 games",
-"length": 45.65376186997809,
-"from": "Bring to Light",
-"label": "55%",
-"value": 0.5495495495495496,
-"color": {
-"opacity": 0.5495495495495496
-},
-"to": "Lifespring Druid"
-},
-{
-"title": "Touch of the Void + Valakut Predator<br>55% win rate over 2391 games",
-"length": 46.503158802850706,
-"from": "Touch of the Void",
-"label": "55%",
-"value": 0.5453785027185278,
-"color": {
-"opacity": 0.5453785027185278
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Infuse with the Elements + Tajuru Stalwart<br>61% win rate over 397 games",
-"length": 34.74167084367009,
-"from": "Infuse with the Elements",
-"label": "61%",
-"value": 0.6070528967254408,
-"color": {
-"opacity": 0.6070528967254408
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Gideon, Ally of Zendikar + Kor Castigator<br>73% win rate over 262 games",
-"length": 16.9920167822388,
-"from": "Gideon, Ally of Zendikar",
-"label": "73%",
-"value": 0.7251908396946565,
-"color": {
-"opacity": 0.7251908396946565
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Kozilek's Sentinel + Molten Nursery<br>57% win rate over 1288 games",
-"length": 42.07859035627484,
-"from": "Kozilek's Sentinel",
-"label": "57%",
-"value": 0.5675465838509317,
-"color": {
-"opacity": 0.5675465838509317
-},
-"to": "Molten Nursery"
-},
-{
-"title": "Fathom Feeder + Murk Strider<br>63% win rate over 549 games",
-"length": 31.372241631580522,
-"from": "Fathom Feeder",
-"label": "63%",
-"value": 0.6265938069216758,
-"color": {
-"opacity": 0.6265938069216758
-},
-"to": "Murk Strider"
-},
-{
-"title": "Courier Griffin + Ghostly Sentinel<br>60% win rate over 2499 games",
-"length": 36.10091095261634,
-"from": "Courier Griffin",
-"label": "60%",
-"value": 0.5994397759103641,
-"color": {
-"opacity": 0.5994397759103641
-},
-"to": "Ghostly Sentinel"
-},
-{
-"title": "Eldrazi Skyspawner + Spell Shrivel<br>65% win rate over 2553 games",
-"length": 27.528579772742653,
-"from": "Eldrazi Skyspawner",
-"label": "65%",
-"value": 0.6502154328241285,
-"color": {
-"opacity": 0.6502154328241285
-},
-"to": "Spell Shrivel"
-},
-{
-"title": "Blight Herder + Mist Intruder<br>60% win rate over 489 games",
-"length": 35.413451767096994,
-"from": "Blight Herder",
-"label": "60%",
-"value": 0.6032719836400818,
-"color": {
-"opacity": 0.6032719836400818
-},
-"to": "Mist Intruder"
-},
-{
-"title": "Forerunner of Slaughter + Kozilek's Sentinel<br>57% win rate over 1146 games",
-"length": 41.80874976014912,
-"from": "Forerunner of Slaughter",
-"label": "57%",
-"value": 0.568935427574171,
-"color": {
-"opacity": 0.568935427574171
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Grove Rumbler + Valakut Predator<br>59% win rate over 1081 games",
-"length": 38.47212511798699,
-"from": "Grove Rumbler",
-"label": "59%",
-"value": 0.5864939870490287,
-"color": {
-"opacity": 0.5864939870490287
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Kozilek's Sentinel + Stonefury<br>55% win rate over 2029 games",
-"length": 46.56094928125716,
-"from": "Kozilek's Sentinel",
-"label": "55%",
-"value": 0.5450961064563824,
-"color": {
-"opacity": 0.5450961064563824
-},
-"to": "Stonefury"
-},
-{
-"title": "Mind Raker + Sludge Crawler<br>58% win rate over 2261 games",
-"length": 39.80543985559028,
-"from": "Mind Raker",
-"label": "58%",
-"value": 0.5793896505970809,
-"color": {
-"opacity": 0.5793896505970809
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Planar Outburst + Sheer Drop<br>62% win rate over 391 games",
-"length": 31.80267659159738,
-"from": "Planar Outburst",
-"label": "62%",
-"value": 0.6240409207161125,
-"color": {
-"opacity": 0.6240409207161125
-},
-"to": "Sheer Drop"
-},
-{
-"title": "Barrage Tyrant + Nettle Drone<br>60% win rate over 541 games",
-"length": 35.86703612465449,
-"from": "Barrage Tyrant",
-"label": "60%",
-"value": 0.600739371534196,
-"color": {
-"opacity": 0.600739371534196
-},
-"to": "Nettle Drone"
-},
-{
-"title": "Nettle Drone + Stonefury<br>56% win rate over 1874 games",
-"length": 44.2430840382747,
-"from": "Nettle Drone",
-"label": "56%",
-"value": 0.5565635005336179,
-"color": {
-"opacity": 0.5565635005336179
-},
-"to": "Stonefury"
-},
-{
-"title": "Ondu Champion + Outnumber<br>57% win rate over 1512 games",
-"length": 42.095379818594104,
-"from": "Ondu Champion",
-"label": "57%",
-"value": 0.5674603174603174,
-"color": {
-"opacity": 0.5674603174603174
-},
-"to": "Outnumber"
-},
-{
-"title": "Kozilek's Sentinel + Turn Against<br>54% win rate over 898 games",
-"length": 47.13174165802749,
-"from": "Kozilek's Sentinel",
-"label": "54%",
-"value": 0.5423162583518931,
-"color": {
-"opacity": 0.5423162583518931
-},
-"to": "Turn Against"
-},
-{
-"title": "Sure Strike + Zada, Hedron Grinder<br>58% win rate over 361 games",
-"length": 39.3660653309904,
-"from": "Sure Strike",
-"label": "58%",
-"value": 0.5817174515235457,
-"color": {
-"opacity": 0.5817174515235457
-},
-"to": "Zada, Hedron Grinder"
-},
-{
-"title": "Bloodbond Vampire + Kalastria Healer<br>63% win rate over 1926 games",
-"length": 31.095389214002193,
-"from": "Bloodbond Vampire",
-"label": "63%",
-"value": 0.6282450674974039,
-"color": {
-"opacity": 0.6282450674974039
-},
-"to": "Kalastria Healer"
-},
-{
-"title": "Omnath, Locus of Rage + Territorial Baloth<br>71% win rate over 123 games",
-"length": 19.27424152290303,
-"from": "Omnath, Locus of Rage",
 "label": "71%",
-"value": 0.7073170731707317,
-"color": {
-"opacity": 0.7073170731707317
-},
-"to": "Territorial Baloth"
-},
-{
-"title": "Bone Splinters + Vampiric Rites<br>52% win rate over 709 games",
-"length": 51.135610854597644,
-"from": "Bone Splinters",
-"label": "52%",
-"value": 0.5232722143864598,
-"color": {
-"opacity": 0.5232722143864598
-},
-"to": "Vampiric Rites"
+"title": "Eyeless Watcher + Tajuru Warcaller<br>71% win rate over 883 games",
+"to": "Tajuru Warcaller",
+"length": 158.89014722536808,
+"value": 7.055492638731597
 },
 {
-"title": "Skitterskin + Sludge Crawler<br>57% win rate over 962 games",
-"length": 41.67091687881709,
-"from": "Skitterskin",
-"label": "57%",
-"value": 0.5696465696465697,
 "color": {
-"opacity": 0.5696465696465697
+"opacity": 0.7307692307692307
 },
-"to": "Sludge Crawler"
+"from": "Hedron Archive",
+"label": "73%",
+"title": "Hedron Archive + Planar Outburst<br>73% win rate over 130 games",
+"to": "Planar Outburst",
+"length": 153.84615384615387,
+"value": 7.3076923076923075
 },
 {
-"title": "Lifespring Druid + Unnatural Aggression<br>51% win rate over 1601 games",
-"length": 53.26902767282004,
-"from": "Lifespring Druid",
-"label": "51%",
-"value": 0.5134291068082448,
 "color": {
-"opacity": 0.5134291068082448
+"opacity": 0.7586206896551724
 },
-"to": "Unnatural Aggression"
+"from": "Ondu Champion",
+"label": "76%",
+"title": "Ondu Champion + Windrider Patrol<br>76% win rate over 58 games",
+"to": "Windrider Patrol",
+"length": 148.27586206896552,
+"value": 7.586206896551724
 },
 {
-"title": "Kalastria Healer + Vampiric Rites<br>55% win rate over 620 games",
-"length": 44.911615504682615,
-"from": "Kalastria Healer",
-"label": "55%",
-"value": 0.5532258064516129,
 "color": {
-"opacity": 0.5532258064516129
+"opacity": 0.7153284671532847
 },
-"to": "Vampiric Rites"
+"from": "Halimar Tidecaller",
+"label": "72%",
+"title": "Halimar Tidecaller + Retreat to Emeria<br>72% win rate over 137 games",
+"to": "Retreat to Emeria",
+"length": 156.93430656934305,
+"value": 7.153284671532846
 },
 {
-"title": "Forerunner of Slaughter + Nettle Drone<br>58% win rate over 1143 games",
-"length": 40.51105324432871,
-"from": "Forerunner of Slaughter",
-"label": "58%",
-"value": 0.5756780402449694,
 "color": {
-"opacity": 0.5756780402449694
+"opacity": 0.9230769230769231
 },
-"to": "Nettle Drone"
+"from": "Gideon, Ally of Zendikar",
+"label": "92%",
+"title": "Gideon, Ally of Zendikar + Retreat to Valakut<br>92% win rate over 13 games",
+"to": "Retreat to Valakut",
+"length": 115.38461538461537,
+"value": 9.230769230769232
 },
 {
-"title": "Touch of the Void + Vile Aggregate<br>59% win rate over 1378 games",
-"length": 37.02607689569243,
-"from": "Touch of the Void",
-"label": "59%",
-"value": 0.5943396226415094,
 "color": {
-"opacity": 0.5943396226415094
+"opacity": 0.875
 },
-"to": "Vile Aggregate"
+"from": "Aligned Hedron Network",
+"label": "88%",
+"title": "Aligned Hedron Network + Turn Against<br>88% win rate over 8 games",
+"to": "Turn Against",
+"length": 125.0,
+"value": 8.75
 },
 {
-"title": "Bone Splinters + Catacomb Sifter<br>56% win rate over 1139 games",
-"length": 44.230090316891506,
-"from": "Bone Splinters",
-"label": "56%",
-"value": 0.5566286215978928,
 "color": {
-"opacity": 0.5566286215978928
+"opacity": 0.7586206896551724
 },
-"to": "Catacomb Sifter"
+"from": "Pathway Arrows",
+"label": "76%",
+"title": "Pathway Arrows + Turn Against<br>76% win rate over 29 games",
+"to": "Turn Against",
+"length": 148.27586206896552,
+"value": 7.586206896551724
 },
 {
-"title": "Bone Splinters + Brood Butcher<br>60% win rate over 439 games",
-"length": 35.346952330052254,
-"from": "Bone Splinters",
-"label": "60%",
-"value": 0.6036446469248291,
 "color": {
-"opacity": 0.6036446469248291
+"opacity": 0.8333333333333334
 },
-"to": "Brood Butcher"
+"from": "Belligerent Whiptail",
+"label": "83%",
+"title": "Belligerent Whiptail + Dispel<br>83% win rate over 12 games",
+"to": "Dispel",
+"length": 133.33333333333331,
+"value": 8.333333333333334
 },
 {
-"title": "Akoum Firebird + Touch of the Void<br>65% win rate over 267 games",
-"length": 27.88789294281025,
-"from": "Akoum Firebird",
-"label": "65%",
-"value": 0.6479400749063671,
 "color": {
-"opacity": 0.6479400749063671
+"opacity": 0.875
 },
-"to": "Touch of the Void"
+"from": "Gruesome Slaughter",
+"label": "88%",
+"title": "Gruesome Slaughter + Processor Assault<br>88% win rate over 32 games",
+"to": "Processor Assault",
+"length": 125.0,
+"value": 8.75
 },
 {
-"title": "Clutch of Currents + Ugin's Insight<br>65% win rate over 608 games",
-"length": 27.35565270083102,
-"from": "Clutch of Currents",
-"label": "65%",
-"value": 0.6513157894736842,
 "color": {
-"opacity": 0.6513157894736842
+"opacity": 0.7142857142857143
 },
-"to": "Ugin's Insight"
+"from": "Brilliant Spectrum",
+"label": "71%",
+"title": "Brilliant Spectrum + Radiant Flames<br>71% win rate over 21 games",
+"to": "Radiant Flames",
+"length": 157.14285714285714,
+"value": 7.142857142857143
 },
 {
-"title": "Benthic Infiltrator + Ulamog's Despoiler<br>60% win rate over 833 games",
-"length": 36.60758421015465,
-"from": "Benthic Infiltrator",
-"label": "60%",
-"value": 0.5966386554621849,
 "color": {
-"opacity": 0.5966386554621849
+"opacity": 0.9166666666666666
 },
-"to": "Ulamog's Despoiler"
+"from": "Munda, Ambush Leader",
+"label": "92%",
+"title": "Munda, Ambush Leader + Painful Truths<br>92% win rate over 12 games",
+"to": "Painful Truths",
+"length": 116.66666666666667,
+"value": 9.166666666666666
 },
 {
-"title": "Processor Assault + Touch of the Void<br>62% win rate over 746 games",
-"length": 33.07020822402231,
-"from": "Processor Assault",
-"label": "62%",
-"value": 0.6166219839142091,
 "color": {
-"opacity": 0.6166219839142091
+"opacity": 0.7049180327868853
 },
-"to": "Touch of the Void"
+"from": "Sylvan Scrying",
+"label": "70%",
+"title": "Sylvan Scrying + Titan's Presence<br>70% win rate over 61 games",
+"to": "Titan's Presence",
+"length": 159.01639344262296,
+"value": 7.049180327868853
 },
 {
-"title": "Complete Disregard + Ulamog's Nullifier<br>65% win rate over 992 games",
-"length": 27.21431228050208,
-"from": "Complete Disregard",
-"label": "65%",
-"value": 0.6522177419354839,
 "color": {
-"opacity": 0.6522177419354839
+"opacity": 0.7678571428571429
 },
-"to": "Ulamog's Nullifier"
-},
-{
-"title": "Sludge Crawler + Wasteland Strangler<br>64% win rate over 757 games",
-"length": 29.909484180235893,
-"from": "Sludge Crawler",
-"label": "64%",
-"value": 0.6354029062087186,
-"color": {
-"opacity": 0.6354029062087186
-},
-"to": "Wasteland Strangler"
-},
-{
-"title": "Sludge Crawler + Ulamog's Nullifier<br>65% win rate over 1193 games",
-"length": 28.286705277853702,
-"from": "Sludge Crawler",
-"label": "65%",
-"value": 0.6454316848281643,
-"color": {
-"opacity": 0.6454316848281643
-},
-"to": "Ulamog's Nullifier"
-},
-{
-"title": "Culling Drone + Transgress the Mind<br>53% win rate over 988 games",
-"length": 50.269248184694064,
-"from": "Culling Drone",
-"label": "53%",
-"value": 0.5273279352226721,
-"color": {
-"opacity": 0.5273279352226721
-},
-"to": "Transgress the Mind"
-},
-{
-"title": "Molten Nursery + Touch of the Void<br>60% win rate over 822 games",
-"length": 36.7041398049976,
-"from": "Molten Nursery",
-"label": "60%",
-"value": 0.5961070559610706,
-"color": {
-"opacity": 0.5961070559610706
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Anticipate + Part the Waterveil<br>61% win rate over 143 games",
-"length": 34.50535478507506,
-"from": "Anticipate",
-"label": "61%",
-"value": 0.6083916083916084,
-"color": {
-"opacity": 0.6083916083916084
-},
-"to": "Part the Waterveil"
-},
-{
-"title": "Kalastria Healer + Unified Front<br>62% win rate over 746 games",
-"length": 33.07020822402231,
-"from": "Kalastria Healer",
-"label": "62%",
-"value": 0.6166219839142091,
-"color": {
-"opacity": 0.6166219839142091
-},
-"to": "Unified Front"
-},
-{
-"title": "Grovetender Druids + Tajuru Beastmaster<br>64% win rate over 767 games",
-"length": 29.134660005541495,
 "from": "Grovetender Druids",
-"label": "64%",
-"value": 0.6401564537157758,
-"color": {
-"opacity": 0.6401564537157758
-},
-"to": "Tajuru Beastmaster"
-},
-{
-"title": "Horribly Awry + Spell Shrivel<br>63% win rate over 825 games",
-"length": 30.954049586776858,
-"from": "Horribly Awry",
-"label": "63%",
-"value": 0.6290909090909091,
-"color": {
-"opacity": 0.6290909090909091
-},
-"to": "Spell Shrivel"
+"label": "77%",
+"title": "Grovetender Druids + Noyan Dar, Roil Shaper<br>77% win rate over 56 games",
+"to": "Noyan Dar, Roil Shaper",
+"length": 146.42857142857142,
+"value": 7.678571428571429
 },
 {
-"title": "Benthic Infiltrator + Tide Drifter<br>55% win rate over 1670 games",
-"length": 45.866147943633685,
-"from": "Benthic Infiltrator",
-"label": "55%",
-"value": 0.548502994011976,
 "color": {
-"opacity": 0.548502994011976
+"opacity": 0.9375
 },
-"to": "Tide Drifter"
-},
-{
-"title": "Forerunner of Slaughter + Silent Skimmer<br>58% win rate over 784 games",
-"length": 39.142260060912115,
-"from": "Forerunner of Slaughter",
-"label": "58%",
-"value": 0.5829081632653061,
-"color": {
-"opacity": 0.5829081632653061
-},
-"to": "Silent Skimmer"
-},
-{
-"title": "Incubator Drone + Ugin's Insight<br>64% win rate over 529 games",
-"length": 29.94923903216469,
-"from": "Incubator Drone",
-"label": "64%",
-"value": 0.6351606805293005,
-"color": {
-"opacity": 0.6351606805293005
-},
-"to": "Ugin's Insight"
-},
-{
-"title": "Spell Shrivel + Ulamog's Reclaimer<br>63% win rate over 848 games",
-"length": 30.849640663937343,
-"from": "Spell Shrivel",
-"label": "63%",
-"value": 0.6297169811320755,
-"color": {
-"opacity": 0.6297169811320755
-},
-"to": "Ulamog's Reclaimer"
-},
-{
-"title": "Eldrazi Skyspawner + Guardian of Tazeem<br>68% win rate over 565 games",
-"length": 23.346855666066254,
-"from": "Eldrazi Skyspawner",
-"label": "68%",
-"value": 0.6778761061946903,
-"color": {
-"opacity": 0.6778761061946903
-},
-"to": "Guardian of Tazeem"
-},
-{
-"title": "Blisterpod + Vampiric Rites<br>52% win rate over 645 games",
-"length": 51.30557057869119,
-"from": "Blisterpod",
-"label": "52%",
-"value": 0.5224806201550387,
-"color": {
-"opacity": 0.5224806201550387
-},
-"to": "Vampiric Rites"
-},
-{
-"title": "Sure Strike + Valakut Predator<br>54% win rate over 1312 games",
-"length": 46.58686758718768,
-"from": "Sure Strike",
-"label": "54%",
-"value": 0.5449695121951219,
-"color": {
-"opacity": 0.5449695121951219
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Oran-Rief Invoker + Swell of Growth<br>52% win rate over 1072 games",
-"length": 52.73848661310982,
-"from": "Oran-Rief Invoker",
-"label": "52%",
-"value": 0.5158582089552238,
-"color": {
-"opacity": 0.5158582089552238
-},
-"to": "Swell of Growth"
-},
-{
-"title": "Defiant Bloodlord + Nirkana Assassin<br>61% win rate over 259 games",
-"length": 34.21572427363933,
-"from": "Defiant Bloodlord",
-"label": "61%",
-"value": 0.61003861003861,
-"color": {
-"opacity": 0.61003861003861
-},
-"to": "Nirkana Assassin"
-},
-{
-"title": "Complete Disregard + Mind Raker<br>61% win rate over 1988 games",
-"length": 34.903845861891675,
-"from": "Complete Disregard",
-"label": "61%",
-"value": 0.6061368209255533,
-"color": {
-"opacity": 0.6061368209255533
-},
-"to": "Mind Raker"
-},
-{
-"title": "Catacomb Sifter + Eyeless Watcher<br>56% win rate over 1254 games",
-"length": 44.07308097342093,
 "from": "Catacomb Sifter",
-"label": "56%",
-"value": 0.5574162679425837,
-"color": {
-"opacity": 0.5574162679425837
-},
-"to": "Eyeless Watcher"
-},
-{
-"title": "Outnumber + Valakut Invoker<br>58% win rate over 1973 games",
-"length": 39.24485881241668,
-"from": "Outnumber",
-"label": "58%",
-"value": 0.5823618854536239,
-"color": {
-"opacity": 0.5823618854536239
-},
-"to": "Valakut Invoker"
+"label": "94%",
+"title": "Catacomb Sifter + Quarantine Field<br>94% win rate over 16 games",
+"to": "Quarantine Field",
+"length": 112.5,
+"value": 9.375
 },
 {
-"title": "Bone Splinters + Smothering Abomination<br>52% win rate over 438 games",
-"length": 51.72171139050479,
-"from": "Bone Splinters",
-"label": "52%",
-"value": 0.5205479452054794,
 "color": {
-"opacity": 0.5205479452054794
+"opacity": 0.7790697674418605
 },
-"to": "Smothering Abomination"
+"from": "Horribly Awry",
+"label": "78%",
+"title": "Horribly Awry + Rolling Thunder<br>78% win rate over 86 games",
+"to": "Rolling Thunder",
+"length": 144.1860465116279,
+"value": 7.790697674418605
 },
 {
-"title": "Incubator Drone + Spell Shrivel<br>60% win rate over 2003 games",
-"length": 36.161939068431806,
-"from": "Incubator Drone",
-"label": "60%",
-"value": 0.5991013479780329,
 "color": {
-"opacity": 0.5991013479780329
+"opacity": 0.7307692307692307
 },
-"to": "Spell Shrivel"
+"from": "Angelic Captain",
+"label": "73%",
+"title": "Angelic Captain + Beastcaller Savant<br>73% win rate over 26 games",
+"to": "Beastcaller Savant",
+"length": 153.84615384615387,
+"value": 7.3076923076923075
 },
 {
-"title": "Hero of Goma Fada + Kor Castigator<br>57% win rate over 598 games",
-"length": 42.20653292468764,
-"from": "Hero of Goma Fada",
-"label": "57%",
-"value": 0.5668896321070234,
 "color": {
-"opacity": 0.5668896321070234
+"opacity": 1.0
 },
-"to": "Kor Castigator"
+"from": "Encircling Fissure",
+"label": "100%",
+"title": "Encircling Fissure + Void Winnower<br>100% win rate over 10 games",
+"to": "Void Winnower",
+"length": 100.0,
+"value": 10.0
 },
 {
-"title": "Ghostly Sentinel + Gideon's Reproach<br>57% win rate over 2176 games",
-"length": 42.25597447590019,
-"from": "Ghostly Sentinel",
-"label": "57%",
-"value": 0.5666360294117647,
 "color": {
-"opacity": 0.5666360294117647
+"opacity": 0.7727272727272727
 },
-"to": "Gideon's Reproach"
-},
-{
-"title": "Anticipate + Noyan Dar, Roil Shaper<br>61% win rate over 520 games",
-"length": 33.61769600591716,
-"from": "Anticipate",
-"label": "61%",
-"value": 0.6134615384615385,
-"color": {
-"opacity": 0.6134615384615385
-},
-"to": "Noyan Dar, Roil Shaper"
-},
-{
-"title": "Silent Skimmer + Sludge Crawler<br>55% win rate over 2483 games",
-"length": 45.53396037071417,
-"from": "Silent Skimmer",
-"label": "55%",
-"value": 0.5501409585179219,
-"color": {
-"opacity": 0.5501409585179219
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Brood Monitor + Oran-Rief Invoker<br>60% win rate over 962 games",
-"length": 36.41281914410813,
-"from": "Brood Monitor",
-"label": "60%",
-"value": 0.5977130977130977,
-"color": {
-"opacity": 0.5977130977130977
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Complete Disregard + Wasteland Strangler<br>65% win rate over 611 games",
-"length": 27.343827430013317,
-"from": "Complete Disregard",
-"label": "65%",
-"value": 0.6513911620294599,
-"color": {
-"opacity": 0.6513911620294599
-},
-"to": "Wasteland Strangler"
-},
-{
-"title": "Omnath, Locus of Rage + Stonefury<br>68% win rate over 120 games",
-"length": 22.5625,
 "from": "Omnath, Locus of Rage",
-"label": "68%",
-"value": 0.6833333333333333,
-"color": {
-"opacity": 0.6833333333333333
-},
-"to": "Stonefury"
-},
-{
-"title": "Eyeless Watcher + Oran-Rief Hydra<br>58% win rate over 436 games",
-"length": 40.5091374884269,
-"from": "Eyeless Watcher",
-"label": "58%",
-"value": 0.5756880733944955,
-"color": {
-"opacity": 0.5756880733944955
-},
-"to": "Oran-Rief Hydra"
+"label": "77%",
+"title": "Omnath, Locus of Rage + Retreat to Kazandu<br>77% win rate over 44 games",
+"to": "Retreat to Kazandu",
+"length": 145.45454545454547,
+"value": 7.727272727272727
 },
 {
-"title": "Courier Griffin + Smite the Monstrous<br>58% win rate over 2001 games",
-"length": 38.992254247688756,
-"from": "Courier Griffin",
-"label": "58%",
-"value": 0.5837081459270365,
 "color": {
-"opacity": 0.5837081459270365
+"opacity": 0.7419354838709677
 },
-"to": "Smite the Monstrous"
+"from": "Desolation Twin",
+"label": "74%",
+"title": "Desolation Twin + Giant Mantis<br>74% win rate over 93 games",
+"to": "Giant Mantis",
+"length": 151.61290322580646,
+"value": 7.419354838709678
 },
 {
-"title": "Gideon's Reproach + Stone Haven Medic<br>52% win rate over 1899 games",
-"length": 51.21403382673345,
-"from": "Gideon's Reproach",
-"label": "52%",
-"value": 0.5229067930489731,
 "color": {
-"opacity": 0.5229067930489731
+"opacity": 1.0
 },
-"to": "Stone Haven Medic"
+"from": "Roil Spout",
+"label": "100%",
+"title": "Roil Spout + Skitterskin<br>100% win rate over 12 games",
+"to": "Skitterskin",
+"length": 100.0,
+"value": 10.0
 },
 {
-"title": "Altar's Reap + Blisterpod<br>48% win rate over 785 games",
-"length": 60.78039677066007,
-"from": "Altar's Reap",
-"label": "48%",
-"value": 0.4802547770700637,
 "color": {
-"opacity": 0.4802547770700637
+"opacity": 0.8181818181818182
 },
-"to": "Blisterpod"
+"from": "Earthen Arms",
+"label": "82%",
+"title": "Earthen Arms + Fathom Feeder<br>82% win rate over 11 games",
+"to": "Fathom Feeder",
+"length": 136.36363636363635,
+"value": 8.181818181818182
 },
 {
-"title": "Eldrazi Skyspawner + Windrider Patrol<br>64% win rate over 1433 games",
-"length": 28.3874055327299,
-"from": "Eldrazi Skyspawner",
-"label": "64%",
-"value": 0.64480111653873,
 "color": {
-"opacity": 0.64480111653873
+"opacity": 1.0
 },
-"to": "Windrider Patrol"
+"from": "Retreat to Coralhelm",
+"label": "100%",
+"title": "Retreat to Coralhelm + Veteran Warleader<br>100% win rate over 4 games",
+"to": "Veteran Warleader",
+"length": 100.0,
+"value": 10.0
 },
 {
-"title": "Complete Disregard + Sludge Crawler<br>57% win rate over 2842 games",
-"length": 42.28202577106943,
-"from": "Complete Disregard",
-"label": "57%",
-"value": 0.5665024630541872,
 "color": {
-"opacity": 0.5665024630541872
+"opacity": 0.7087378640776699
 },
-"to": "Sludge Crawler"
+"from": "Encircling Fissure",
+"label": "71%",
+"title": "Encircling Fissure + Mire's Malice<br>71% win rate over 103 games",
+"to": "Mire's Malice",
+"length": 158.252427184466,
+"value": 7.087378640776699
 },
 {
-"title": "Broodhunter Wurm + Snapping Gnarlid<br>53% win rate over 1425 games",
-"length": 50.33529085872576,
-"from": "Broodhunter Wurm",
-"label": "53%",
-"value": 0.5270175438596492,
 "color": {
-"opacity": 0.5270175438596492
+"opacity": 0.7272727272727273
 },
-"to": "Snapping Gnarlid"
-},
-{
-"title": "Emeria Shepherd + Gideon's Reproach<br>65% win rate over 355 games",
-"length": 28.34437611585003,
-"from": "Emeria Shepherd",
-"label": "65%",
-"value": 0.6450704225352113,
-"color": {
-"opacity": 0.6450704225352113
-},
-"to": "Gideon's Reproach"
-},
-{
-"title": "Courier Griffin + Shadow Glider<br>58% win rate over 3218 games",
-"length": 39.59843075058297,
-"from": "Courier Griffin",
-"label": "58%",
-"value": 0.5804847731510255,
-"color": {
-"opacity": 0.5804847731510255
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Firemantle Mage + Makindi Sliderunner<br>55% win rate over 1000 games",
-"length": 45.15839999999999,
-"from": "Firemantle Mage",
-"label": "55%",
-"value": 0.552,
-"color": {
-"opacity": 0.552
-},
-"to": "Makindi Sliderunner"
-},
-{
-"title": "Ghostly Sentinel + Shadow Glider<br>57% win rate over 2382 games",
-"length": 42.561655743009595,
-"from": "Ghostly Sentinel",
-"label": "57%",
-"value": 0.5650713685978169,
-"color": {
-"opacity": 0.5650713685978169
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Blisterpod + Catacomb Sifter<br>55% win rate over 1223 games",
-"length": 45.50456666949695,
-"from": "Blisterpod",
-"label": "55%",
-"value": 0.5502861815208504,
-"color": {
-"opacity": 0.5502861815208504
-},
-"to": "Catacomb Sifter"
-},
-{
-"title": "Bloodbond Vampire + Stone Haven Medic<br>62% win rate over 1127 games",
-"length": 33.05994902879944,
-"from": "Bloodbond Vampire",
-"label": "62%",
-"value": 0.616681455190772,
-"color": {
-"opacity": 0.616681455190772
-},
-"to": "Stone Haven Medic"
-},
-{
-"title": "Eldrazi Skyspawner + Ugin's Insight<br>67% win rate over 652 games",
-"length": 24.923371692574058,
-"from": "Eldrazi Skyspawner",
-"label": "67%",
-"value": 0.6671779141104295,
-"color": {
-"opacity": 0.6671779141104295
-},
-"to": "Ugin's Insight"
-},
-{
-"title": "Eldrazi Skyspawner + Fathom Feeder<br>60% win rate over 485 games",
-"length": 36.74609416516101,
-"from": "Eldrazi Skyspawner",
-"label": "60%",
-"value": 0.5958762886597938,
-"color": {
-"opacity": 0.5958762886597938
-},
-"to": "Fathom Feeder"
-},
-{
-"title": "Lifespring Druid + Prism Array<br>61% win rate over 71 games",
-"length": 34.993056933148175,
-"from": "Lifespring Druid",
-"label": "61%",
-"value": 0.6056338028169014,
-"color": {
-"opacity": 0.6056338028169014
-},
-"to": "Prism Array"
-},
-{
-"title": "Snapping Gnarlid + Tajuru Beastmaster<br>59% win rate over 1364 games",
-"length": 38.060939125910515,
-"from": "Snapping Gnarlid",
-"label": "59%",
-"value": 0.5887096774193549,
-"color": {
-"opacity": 0.5887096774193549
-},
-"to": "Tajuru Beastmaster"
-},
-{
-"title": "Cryptic Cruiser + Mist Intruder<br>56% win rate over 1223 games",
-"length": 43.21745449877618,
-"from": "Cryptic Cruiser",
-"label": "56%",
-"value": 0.5617334423548651,
-"color": {
-"opacity": 0.5617334423548651
-},
-"to": "Mist Intruder"
-},
-{
-"title": "Oran-Rief Hydra + Oran-Rief Invoker<br>55% win rate over 449 games",
-"length": 45.09017812411644,
-"from": "Oran-Rief Hydra",
-"label": "55%",
-"value": 0.5523385300668151,
-"color": {
-"opacity": 0.5523385300668151
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Gideon's Reproach + Ondu Greathorn<br>55% win rate over 1662 games",
-"length": 46.55475765355993,
-"from": "Gideon's Reproach",
-"label": "55%",
-"value": 0.5451263537906137,
-"color": {
-"opacity": 0.5451263537906137
-},
-"to": "Ondu Greathorn"
-},
-{
-"title": "Benthic Infiltrator + Processor Assault<br>61% win rate over 574 games",
-"length": 34.87993055639864,
-"from": "Benthic Infiltrator",
-"label": "61%",
-"value": 0.6062717770034843,
-"color": {
-"opacity": 0.6062717770034843
-},
-"to": "Processor Assault"
-},
-{
-"title": "Coastal Discovery + Incubator Drone<br>60% win rate over 1162 games",
-"length": 35.72171029828683,
-"from": "Coastal Discovery",
-"label": "60%",
-"value": 0.6015490533562823,
-"color": {
-"opacity": 0.6015490533562823
-},
-"to": "Incubator Drone"
-},
-{
-"title": "Benthic Infiltrator + Herald of Kozilek<br>58% win rate over 998 games",
-"length": 39.659705181906894,
-"from": "Benthic Infiltrator",
-"label": "58%",
-"value": 0.5801603206412825,
-"color": {
-"opacity": 0.5801603206412825
-},
-"to": "Herald of Kozilek"
-},
-{
-"title": "Complete Disregard + Transgress the Mind<br>56% win rate over 1027 games",
-"length": 43.583138417546124,
-"from": "Complete Disregard",
-"label": "56%",
-"value": 0.5598831548198637,
-"color": {
-"opacity": 0.5598831548198637
-},
-"to": "Transgress the Mind"
-},
-{
-"title": "Nettle Drone + Outnumber<br>58% win rate over 2649 games",
-"length": 39.791378357268094,
 "from": "Nettle Drone",
-"label": "58%",
-"value": 0.5794639486598716,
-"color": {
-"opacity": 0.5794639486598716
-},
-"to": "Outnumber"
-},
-{
-"title": "Eldrazi Skyspawner + Horribly Awry<br>65% win rate over 1015 games",
-"length": 27.214467713363586,
-"from": "Eldrazi Skyspawner",
-"label": "65%",
-"value": 0.6522167487684729,
-"color": {
-"opacity": 0.6522167487684729
-},
-"to": "Horribly Awry"
-},
-{
-"title": "Culling Drone + Dominator Drone<br>52% win rate over 3702 games",
-"length": 51.84233389985001,
-"from": "Culling Drone",
-"label": "52%",
-"value": 0.5199891950297136,
-"color": {
-"opacity": 0.5199891950297136
-},
-"to": "Dominator Drone"
-},
-{
-"title": "Clutch of Currents + Wave-Wing Elemental<br>57% win rate over 1256 games",
-"length": 42.51953679662461,
-"from": "Clutch of Currents",
-"label": "57%",
-"value": 0.5652866242038217,
-"color": {
-"opacity": 0.5652866242038217
-},
-"to": "Wave-Wing Elemental"
-},
-{
-"title": "Dominator Drone + Sludge Crawler<br>54% win rate over 3492 games",
-"length": 46.58883412453797,
-"from": "Dominator Drone",
-"label": "54%",
-"value": 0.5449599083619702,
-"color": {
-"opacity": 0.5449599083619702
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Cliffside Lookout + March from the Tomb<br>62% win rate over 182 games",
-"length": 32.33984422171235,
-"from": "Cliffside Lookout",
-"label": "62%",
-"value": 0.6208791208791209,
-"color": {
-"opacity": 0.6208791208791209
-},
-"to": "March from the Tomb"
-},
-{
-"title": "Gruesome Slaughter + Kozilek's Sentinel<br>66% win rate over 192 games",
-"length": 25.787353515625,
-"from": "Gruesome Slaughter",
-"label": "66%",
-"value": 0.6614583333333334,
-"color": {
-"opacity": 0.6614583333333334
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Nissa's Renewal + Oran-Rief Invoker<br>61% win rate over 325 games",
-"length": 33.81869822485207,
-"from": "Nissa's Renewal",
-"label": "61%",
-"value": 0.6123076923076923,
-"color": {
-"opacity": 0.6123076923076923
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Barrage Tyrant + Vestige of Emrakul<br>56% win rate over 545 games",
-"length": 44.362932413096544,
-"from": "Barrage Tyrant",
-"label": "56%",
-"value": 0.5559633027522936,
-"color": {
-"opacity": 0.5559633027522936
-},
-"to": "Vestige of Emrakul"
-},
-{
-"title": "Courier Griffin + Serene Steward<br>60% win rate over 1379 games",
-"length": 36.84023430289943,
-"from": "Courier Griffin",
-"label": "60%",
-"value": 0.5953589557650472,
-"color": {
-"opacity": 0.5953589557650472
-},
-"to": "Serene Steward"
-},
-{
-"title": "Eyeless Watcher + Oran-Rief Invoker<br>54% win rate over 2339 games",
-"length": 48.59383365250567,
-"from": "Eyeless Watcher",
-"label": "54%",
-"value": 0.5352714835399743,
-"color": {
-"opacity": 0.5352714835399743
-},
-"to": "Oran-Rief Invoker"
-},
-{
-"title": "Benthic Infiltrator + Spell Shrivel<br>58% win rate over 2041 games",
-"length": 38.932463863651584,
-"from": "Benthic Infiltrator",
-"label": "58%",
-"value": 0.5840274375306223,
-"color": {
-"opacity": 0.5840274375306223
-},
-"to": "Spell Shrivel"
-},
-{
-"title": "Grip of Desolation + Sludge Crawler<br>66% win rate over 991 games",
-"length": 26.019264195112214,
-"from": "Grip of Desolation",
-"label": "66%",
-"value": 0.6599394550958627,
-"color": {
-"opacity": 0.6599394550958627
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Natural Connection + Prism Array<br>54% win rate over 61 games",
-"length": 47.4066111260414,
-"from": "Natural Connection",
-"label": "54%",
-"value": 0.5409836065573771,
-"color": {
-"opacity": 0.5409836065573771
-},
-"to": "Prism Array"
-},
-{
-"title": "Courier Griffin + Encircling Fissure<br>56% win rate over 866 games",
-"length": 43.550854983492364,
-"from": "Courier Griffin",
-"label": "56%",
-"value": 0.5600461893764435,
-"color": {
-"opacity": 0.5600461893764435
-},
-"to": "Encircling Fissure"
-},
-{
-"title": "Kozilek's Sentinel + Nettle Drone<br>58% win rate over 4264 games",
-"length": 40.6316550447219,
-"from": "Kozilek's Sentinel",
-"label": "58%",
-"value": 0.575046904315197,
-"color": {
-"opacity": 0.575046904315197
-},
-"to": "Nettle Drone"
-},
-{
-"title": "Clutch of Currents + Horribly Awry<br>59% win rate over 910 games",
-"length": 38.41275208308174,
-"from": "Clutch of Currents",
-"label": "59%",
-"value": 0.5868131868131868,
-"color": {
-"opacity": 0.5868131868131868
-},
-"to": "Horribly Awry"
-},
-{
-"title": "March from the Tomb + Nirkana Assassin<br>62% win rate over 295 games",
-"length": 33.01378914105142,
-"from": "March from the Tomb",
-"label": "62%",
-"value": 0.6169491525423729,
-"color": {
-"opacity": 0.6169491525423729
-},
-"to": "Nirkana Assassin"
-},
-{
-"title": "Inspired Charge + Shadow Glider<br>63% win rate over 513 games",
-"length": 30.864197530864196,
-"from": "Inspired Charge",
-"label": "63%",
-"value": 0.6296296296296297,
-"color": {
-"opacity": 0.6296296296296297
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Bring to Light + Natural Connection<br>48% win rate over 77 games",
-"length": 60.71850227694382,
-"from": "Bring to Light",
-"label": "48%",
-"value": 0.4805194805194805,
-"color": {
-"opacity": 0.4805194805194805
-},
-"to": "Natural Connection"
-},
-{
-"title": "Benthic Infiltrator + Mist Intruder<br>53% win rate over 3845 games",
-"length": 49.69424936713785,
-"from": "Benthic Infiltrator",
-"label": "53%",
-"value": 0.5300390117035111,
-"color": {
-"opacity": 0.5300390117035111
-},
-"to": "Mist Intruder"
-},
-{
-"title": "Shatterskull Recruit + Valakut Predator<br>54% win rate over 1237 games",
-"length": 47.77413475243585,
-"from": "Shatterskull Recruit",
-"label": "54%",
-"value": 0.5392077607113985,
-"color": {
-"opacity": 0.5392077607113985
-},
-"to": "Valakut Predator"
-},
-{
-"title": "Akoum Firebird + Makindi Sliderunner<br>68% win rate over 260 games",
-"length": 23.485207100591722,
-"from": "Akoum Firebird",
-"label": "68%",
-"value": 0.676923076923077,
-"color": {
-"opacity": 0.676923076923077
-},
-"to": "Makindi Sliderunner"
-},
-{
-"title": "Processor Assault + Vile Aggregate<br>63% win rate over 468 games",
-"length": 30.39119000657462,
-"from": "Processor Assault",
-"label": "63%",
-"value": 0.6324786324786325,
-"color": {
-"opacity": 0.6324786324786325
-},
-"to": "Vile Aggregate"
-},
-{
-"title": "Drowner of Hope + Eldrazi Skyspawner<br>69% win rate over 595 games",
-"length": 21.987430266224138,
-"from": "Drowner of Hope",
-"label": "69%",
-"value": 0.6873949579831933,
-"color": {
-"opacity": 0.6873949579831933
-},
-"to": "Eldrazi Skyspawner"
-},
-{
-"title": "Kalastria Healer + Kalastria Healer<br>59% win rate over 3115 games",
-"length": 37.10628425085474,
-"from": "Kalastria Healer",
-"label": "59%",
-"value": 0.593900481540931,
-"color": {
-"opacity": 0.593900481540931
-},
-"to": "Kalastria Healer"
-},
-{
-"title": "Molten Nursery + Nettle Drone<br>56% win rate over 1223 games",
-"length": 43.21745449877618,
-"from": "Molten Nursery",
-"label": "56%",
-"value": 0.5617334423548651,
-"color": {
-"opacity": 0.5617334423548651
-},
-"to": "Nettle Drone"
-},
-{
-"title": "Coastal Discovery + Eldrazi Skyspawner<br>63% win rate over 1336 games",
-"length": 31.01222704292015,
-"from": "Coastal Discovery",
-"label": "63%",
-"value": 0.6287425149700598,
-"color": {
-"opacity": 0.6287425149700598
-},
-"to": "Eldrazi Skyspawner"
-},
-{
-"title": "Dust Stalker + Kozilek's Sentinel<br>60% win rate over 506 games",
-"length": 35.503698698620504,
-"from": "Dust Stalker",
-"label": "60%",
-"value": 0.6027667984189723,
-"color": {
-"opacity": 0.6027667984189723
-},
-"to": "Kozilek's Sentinel"
-},
-{
-"title": "Makindi Patrol + March from the Tomb<br>60% win rate over 282 games",
-"length": 36.12777274784971,
-"from": "Makindi Patrol",
-"label": "60%",
-"value": 0.599290780141844,
-"color": {
-"opacity": 0.599290780141844
-},
-"to": "March from the Tomb"
-},
-{
-"title": "Benthic Infiltrator + Oracle of Dust<br>54% win rate over 2204 games",
-"length": 46.96975326991677,
-"from": "Benthic Infiltrator",
-"label": "54%",
-"value": 0.5431034482758621,
-"color": {
-"opacity": 0.5431034482758621
-},
-"to": "Oracle of Dust"
-},
-{
-"title": "Eldrazi Skyspawner + Gruesome Slaughter<br>67% win rate over 186 games",
-"length": 25.0,
-"from": "Eldrazi Skyspawner",
-"label": "67%",
-"value": 0.6666666666666666,
-"color": {
-"opacity": 0.6666666666666666
-},
-"to": "Gruesome Slaughter"
-},
-{
-"title": "Defiant Bloodlord + Kalastria Healer<br>63% win rate over 349 games",
-"length": 30.26576136484922,
-"from": "Defiant Bloodlord",
-"label": "63%",
-"value": 0.6332378223495702,
-"color": {
-"opacity": 0.6332378223495702
-},
-"to": "Kalastria Healer"
-},
-{
-"title": "Stonefury + Vestige of Emrakul<br>53% win rate over 2018 games",
-"length": 49.549599933600575,
-"from": "Stonefury",
-"label": "53%",
-"value": 0.5307234886025768,
-"color": {
-"opacity": 0.5307234886025768
-},
-"to": "Vestige of Emrakul"
-},
-{
-"title": "Bloodbond Vampire + Kalastria Nightwatch<br>64% win rate over 1266 games",
-"length": 29.318888838974875,
-"from": "Bloodbond Vampire",
-"label": "64%",
-"value": 0.6390205371248026,
-"color": {
-"opacity": 0.6390205371248026
-},
-"to": "Kalastria Nightwatch"
-},
-{
-"title": "Forerunner of Slaughter + Sludge Crawler<br>59% win rate over 887 games",
-"length": 38.099651867320645,
-"from": "Forerunner of Slaughter",
-"label": "59%",
-"value": 0.588500563697858,
-"color": {
-"opacity": 0.588500563697858
-},
-"to": "Sludge Crawler"
-},
-{
-"title": "Nissa's Renewal + Snapping Gnarlid<br>57% win rate over 350 games",
-"length": 40.777346938775516,
-"from": "Nissa's Renewal",
-"label": "57%",
-"value": 0.5742857142857143,
-"color": {
-"opacity": 0.5742857142857143
-},
-"to": "Snapping Gnarlid"
-},
-{
-"title": "Complete Disregard + Grip of Desolation<br>69% win rate over 1103 games",
-"length": 22.268473272842797,
-"from": "Complete Disregard",
-"label": "69%",
-"value": 0.6854034451495921,
-"color": {
-"opacity": 0.6854034451495921
-},
-"to": "Grip of Desolation"
-},
-{
-"title": "Lithomancer's Focus + Shadow Glider<br>57% win rate over 1287 games",
-"length": 42.14400595519477,
-"from": "Lithomancer's Focus",
-"label": "57%",
-"value": 0.5672105672105672,
-"color": {
-"opacity": 0.5672105672105672
-},
-"to": "Shadow Glider"
-},
-{
-"title": "Kalastria Healer + Malakir Familiar<br>57% win rate over 1248 games",
-"length": 42.125092455621306,
-"from": "Kalastria Healer",
-"label": "57%",
-"value": 0.5673076923076923,
-"color": {
-"opacity": 0.5673076923076923
-},
-"to": "Malakir Familiar"
-},
-{
-"title": "Eyeless Watcher + Plated Crusher<br>62% win rate over 696 games",
-"length": 31.883546373365046,
-"from": "Eyeless Watcher",
-"label": "62%",
-"value": 0.6235632183908046,
-"color": {
-"opacity": 0.6235632183908046
-},
-"to": "Plated Crusher"
-},
-{
-"title": "Brutal Expulsion + Incubator Drone<br>60% win rate over 401 games",
-"length": 36.72178655605375,
-"from": "Brutal Expulsion",
-"label": "60%",
-"value": 0.5960099750623441,
-"color": {
-"opacity": 0.5960099750623441
-},
-"to": "Incubator Drone"
-},
-{
-"title": "Kozilek's Sentinel + Vile Aggregate<br>61% win rate over 2179 games",
-"length": 34.39911323427915,
-"from": "Kozilek's Sentinel",
-"label": "61%",
-"value": 0.6089949518127582,
-"color": {
-"opacity": 0.6089949518127582
-},
-"to": "Vile Aggregate"
-},
-{
-"title": "Skyrider Elf + Tajuru Stalwart<br>57% win rate over 1051 games",
-"length": 40.699786619783985,
-"from": "Skyrider Elf",
-"label": "57%",
-"value": 0.5746907706945766,
-"color": {
-"opacity": 0.5746907706945766
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Courier Griffin + Ondu Rising<br>62% win rate over 918 games",
-"length": 33.08129351958648,
-"from": "Courier Griffin",
-"label": "62%",
-"value": 0.616557734204793,
-"color": {
-"opacity": 0.616557734204793
-},
-"to": "Ondu Rising"
-},
-{
-"title": "Fortified Rampart + Planar Outburst<br>61% win rate over 366 games",
-"length": 34.34728567589357,
-"from": "Fortified Rampart",
-"label": "61%",
-"value": 0.6092896174863388,
-"color": {
-"opacity": 0.6092896174863388
-},
-"to": "Planar Outburst"
-},
-{
-"title": "Barrage Tyrant + Touch of the Void<br>58% win rate over 472 games",
-"length": 39.59395647802356,
-"from": "Barrage Tyrant",
-"label": "58%",
-"value": 0.5805084745762712,
-"color": {
-"opacity": 0.5805084745762712
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Call the Scions + From Beyond<br>56% win rate over 479 games",
-"length": 43.24641193160769,
-"from": "Call the Scions",
-"label": "56%",
-"value": 0.5615866388308977,
-"color": {
-"opacity": 0.5615866388308977
-},
-"to": "From Beyond"
-},
-{
-"title": "Blisterpod + Desolation Twin<br>70% win rate over 158 games",
-"length": 19.909669924691553,
-"from": "Blisterpod",
-"label": "70%",
-"value": 0.7025316455696202,
-"color": {
-"opacity": 0.7025316455696202
-},
-"to": "Desolation Twin"
-},
-{
-"title": "Shadow Glider + Smite the Monstrous<br>54% win rate over 1781 games",
-"length": 47.812449459498396,
-"from": "Shadow Glider",
-"label": "54%",
-"value": 0.5390230207748455,
-"color": {
-"opacity": 0.5390230207748455
-},
-"to": "Smite the Monstrous"
-},
-{
-"title": "Gideon's Reproach + March from the Tomb<br>59% win rate over 163 games",
-"length": 38.0151680529941,
-"from": "Gideon's Reproach",
-"label": "59%",
-"value": 0.588957055214724,
-"color": {
-"opacity": 0.588957055214724
-},
-"to": "March from the Tomb"
-},
-{
-"title": "Molten Nursery + Vestige of Emrakul<br>55% win rate over 885 games",
-"length": 45.73427176098822,
-"from": "Molten Nursery",
-"label": "55%",
-"value": 0.5491525423728814,
-"color": {
-"opacity": 0.5491525423728814
-},
-"to": "Vestige of Emrakul"
-},
-{
-"title": "Courier Griffin + Tandem Tactics<br>58% win rate over 1608 games",
-"length": 38.82963911784361,
-"from": "Courier Griffin",
-"label": "58%",
-"value": 0.5845771144278606,
-"color": {
-"opacity": 0.5845771144278606
-},
-"to": "Tandem Tactics"
-},
-{
-"title": "Serene Steward + Stone Haven Medic<br>56% win rate over 1458 games",
-"length": 43.35382478958152,
-"from": "Serene Steward",
-"label": "56%",
-"value": 0.5610425240054869,
-"color": {
-"opacity": 0.5610425240054869
-},
-"to": "Stone Haven Medic"
-},
-{
-"title": "Herald of Kozilek + Touch of the Void<br>62% win rate over 1079 games",
-"length": 33.12381199425206,
-"from": "Herald of Kozilek",
-"label": "62%",
-"value": 0.6163113994439295,
-"color": {
-"opacity": 0.6163113994439295
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Culling Drone + Smothering Abomination<br>55% win rate over 497 games",
-"length": 45.70521721880579,
-"from": "Culling Drone",
-"label": "55%",
-"value": 0.5492957746478874,
-"color": {
-"opacity": 0.5492957746478874
-},
-"to": "Smothering Abomination"
-},
-{
-"title": "Mist Intruder + Ulamog's Reclaimer<br>58% win rate over 1155 games",
-"length": 40.33074717490301,
-"from": "Mist Intruder",
-"label": "58%",
-"value": 0.5766233766233766,
-"color": {
-"opacity": 0.5766233766233766
-},
-"to": "Ulamog's Reclaimer"
-},
-{
-"title": "Mist Intruder + Ugin's Insight<br>63% win rate over 481 games",
-"length": 30.467645800286135,
-"from": "Mist Intruder",
-"label": "63%",
-"value": 0.632016632016632,
-"color": {
-"opacity": 0.632016632016632
-},
-"to": "Ugin's Insight"
-},
-{
-"title": "Touch of the Void + Vestige of Emrakul<br>54% win rate over 2820 games",
-"length": 47.009987550928024,
-"from": "Touch of the Void",
-"label": "54%",
-"value": 0.5429078014184398,
-"color": {
-"opacity": 0.5429078014184398
-},
-"to": "Vestige of Emrakul"
-},
-{
-"title": "Clutch of Currents + Spell Shrivel<br>59% win rate over 2168 games",
-"length": 38.17393064670961,
-"from": "Clutch of Currents",
-"label": "59%",
-"value": 0.5880996309963099,
-"color": {
-"opacity": 0.5880996309963099
-},
-"to": "Spell Shrivel"
-},
-{
-"title": "Benthic Infiltrator + Windrider Patrol<br>61% win rate over 1218 games",
-"length": 34.07568734985076,
-"from": "Benthic Infiltrator",
-"label": "61%",
-"value": 0.6108374384236454,
-"color": {
-"opacity": 0.6108374384236454
-},
-"to": "Windrider Patrol"
-},
-{
-"title": "Cloud Manta + Roil Spout<br>69% win rate over 1084 games",
-"length": 21.87546806279871,
-"from": "Cloud Manta",
-"label": "69%",
-"value": 0.6881918819188192,
-"color": {
-"opacity": 0.6881918819188192
-},
-"to": "Roil Spout"
-},
-{
-"title": "Complete Disregard + Fathom Feeder<br>61% win rate over 532 games",
-"length": 34.394256317485436,
-"from": "Complete Disregard",
-"label": "61%",
-"value": 0.6090225563909775,
-"color": {
-"opacity": 0.6090225563909775
-},
-"to": "Fathom Feeder"
-},
-{
-"title": "Brutal Expulsion + Eldrazi Skyspawner<br>65% win rate over 415 games",
-"length": 27.84787342139643,
-"from": "Brutal Expulsion",
-"label": "65%",
-"value": 0.6481927710843374,
-"color": {
-"opacity": 0.6481927710843374
-},
-"to": "Eldrazi Skyspawner"
-},
-{
-"title": "Benthic Infiltrator + Fathom Feeder<br>58% win rate over 589 games",
-"length": 40.5351650663984,
-"from": "Benthic Infiltrator",
-"label": "58%",
-"value": 0.5755517826825127,
-"color": {
-"opacity": 0.5755517826825127
-},
-"to": "Fathom Feeder"
-},
-{
-"title": "Kalastria Healer + Nirkana Assassin<br>56% win rate over 3566 games",
-"length": 43.22527813785647,
-"from": "Kalastria Healer",
-"label": "56%",
-"value": 0.5616937745372967,
-"color": {
-"opacity": 0.5616937745372967
-},
-"to": "Nirkana Assassin"
-},
-{
-"title": "Kor Castigator + Unified Front<br>54% win rate over 653 games",
-"length": 47.80674188396587,
-"from": "Kor Castigator",
-"label": "54%",
-"value": 0.5390505359877489,
-"color": {
-"opacity": 0.5390505359877489
-},
-"to": "Unified Front"
-},
-{
-"title": "Felidar Cub + Kor Castigator<br>53% win rate over 1876 games",
-"length": 49.84691178208865,
-"from": "Felidar Cub",
-"label": "53%",
-"value": 0.529317697228145,
-"color": {
-"opacity": 0.529317697228145
-},
-"to": "Kor Castigator"
-},
-{
-"title": "Cloud Manta + Eldrazi Skyspawner<br>61% win rate over 3306 games",
-"length": 34.844273404896555,
-"from": "Cloud Manta",
-"label": "61%",
-"value": 0.6064730792498487,
-"color": {
-"opacity": 0.6064730792498487
-},
-"to": "Eldrazi Skyspawner"
-},
-{
-"title": "Akoum Firebird + Outnumber<br>63% win rate over 248 games",
-"length": 30.294371097814775,
-"from": "Akoum Firebird",
-"label": "63%",
-"value": 0.6330645161290323,
-"color": {
-"opacity": 0.6330645161290323
-},
-"to": "Outnumber"
-},
-{
-"title": "Courier Griffin + Stasis Snare<br>57% win rate over 1251 games",
-"length": 42.07871113181397,
-"from": "Courier Griffin",
-"label": "57%",
-"value": 0.5675459632294164,
-"color": {
-"opacity": 0.5675459632294164
-},
-"to": "Stasis Snare"
-},
-{
-"title": "Makindi Sliderunner + Touch of the Void<br>54% win rate over 2715 games",
-"length": 47.84664692774947,
-"from": "Makindi Sliderunner",
-"label": "54%",
-"value": 0.5388581952117864,
-"color": {
-"opacity": 0.5388581952117864
-},
-"to": "Touch of the Void"
-},
-{
-"title": "Kalastria Healer + Makindi Patrol<br>56% win rate over 2412 games",
-"length": 44.030817615900595,
-"from": "Kalastria Healer",
-"label": "56%",
-"value": 0.5576285240464345,
-"color": {
-"opacity": 0.5576285240464345
-},
-"to": "Makindi Patrol"
-},
-{
-"title": "Benthic Infiltrator + Coastal Discovery<br>61% win rate over 1277 games",
-"length": 34.90894256495101,
-"from": "Benthic Infiltrator",
-"label": "61%",
-"value": 0.60610806577917,
-"color": {
-"opacity": 0.60610806577917
-},
-"to": "Coastal Discovery"
-},
-{
-"title": "Cloud Manta + Clutch of Currents<br>56% win rate over 2744 games",
-"length": 43.24596163694549,
-"from": "Cloud Manta",
-"label": "56%",
-"value": 0.5615889212827988,
-"color": {
-"opacity": 0.5615889212827988
-},
-"to": "Clutch of Currents"
-},
-{
-"title": "Oran-Rief Invoker + Tajuru Warcaller<br>64% win rate over 829 games",
-"length": 29.46564596698975,
-"from": "Oran-Rief Invoker",
-"label": "64%",
-"value": 0.638118214716526,
-"color": {
-"opacity": 0.638118214716526
-},
-"to": "Tajuru Warcaller"
-},
-{
-"title": "Courier Griffin + Emeria Shepherd<br>65% win rate over 361 games",
-"length": 27.41001066597095,
-"from": "Courier Griffin",
-"label": "65%",
-"value": 0.6509695290858726,
-"color": {
-"opacity": 0.6509695290858726
-},
-"to": "Emeria Shepherd"
-},
-{
-"title": "Mist Intruder + Oracle of Dust<br>54% win rate over 1999 games",
-"length": 48.38562978337594,
-"from": "Mist Intruder",
-"label": "54%",
-"value": 0.5362681340670336,
-"color": {
-"opacity": 0.5362681340670336
-},
-"to": "Oracle of Dust"
-},
-{
-"title": "Mist Intruder + Ulamog's Nullifier<br>64% win rate over 1283 games",
-"length": 29.04899127568437,
-"from": "Mist Intruder",
-"label": "64%",
-"value": 0.6406858924395947,
-"color": {
-"opacity": 0.6406858924395947
-},
-"to": "Ulamog's Nullifier"
-},
-{
-"title": "Courier Griffin + Gideon's Reproach<br>56% win rate over 3245 games",
-"length": 43.87786591199926,
-"from": "Courier Griffin",
-"label": "56%",
-"value": 0.5583975346687211,
-"color": {
-"opacity": 0.5583975346687211
-},
-"to": "Gideon's Reproach"
-},
-{
-"title": "Culling Drone + Ruinous Path<br>63% win rate over 454 games",
-"length": 31.177710609559664,
-"from": "Culling Drone",
-"label": "63%",
-"value": 0.6277533039647577,
-"color": {
-"opacity": 0.6277533039647577
-},
-"to": "Ruinous Path"
-},
-{
-"title": "Dominator Drone + Mind Raker<br>56% win rate over 2206 games",
-"length": 43.23390362063737,
-"from": "Dominator Drone",
-"label": "56%",
-"value": 0.5616500453309157,
-"color": {
-"opacity": 0.5616500453309157
-},
-"to": "Mind Raker"
-},
-{
-"title": "Courier Griffin + Stone Haven Medic<br>59% win rate over 2444 games",
-"length": 38.349742078532955,
-"from": "Courier Griffin",
-"label": "59%",
-"value": 0.587152209492635,
-"color": {
-"opacity": 0.587152209492635
-},
-"to": "Stone Haven Medic"
+"label": "73%",
+"title": "Nettle Drone + Scatter to the Winds<br>73% win rate over 121 games",
+"to": "Scatter to the Winds",
+"length": 154.54545454545453,
+"value": 7.272727272727273
 },
 {
-"title": "Courier Griffin + Planar Outburst<br>61% win rate over 444 games",
-"length": 34.55533235938641,
-"from": "Courier Griffin",
-"label": "61%",
-"value": 0.6081081081081081,
 "color": {
-"opacity": 0.6081081081081081
+"opacity": 0.75
 },
-"to": "Planar Outburst"
-},
-{
-"title": "Kiora, Master of the Depths + Tajuru Stalwart<br>59% win rate over 194 games",
-"length": 38.26123923902646,
-"from": "Kiora, Master of the Depths",
-"label": "59%",
-"value": 0.5876288659793815,
-"color": {
-"opacity": 0.5876288659793815
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Angel of Renewal + Courier Griffin<br>66% win rate over 1106 games",
-"length": 25.317457138279124,
-"from": "Angel of Renewal",
-"label": "66%",
-"value": 0.6645569620253164,
-"color": {
-"opacity": 0.6645569620253164
-},
-"to": "Courier Griffin"
-},
-{
-"title": "Drana's Emissary + Nirkana Assassin<br>63% win rate over 1281 games",
-"length": 30.41767903076308,
-"from": "Drana's Emissary",
-"label": "63%",
-"value": 0.6323185011709602,
-"color": {
-"opacity": 0.6323185011709602
-},
-"to": "Nirkana Assassin"
-},
-{
-"title": "Firemantle Mage + Ondu Champion<br>55% win rate over 984 games",
-"length": 44.78384332242713,
-"from": "Firemantle Mage",
-"label": "55%",
-"value": 0.5538617886178862,
-"color": {
-"opacity": 0.5538617886178862
-},
-"to": "Ondu Champion"
-},
-{
-"title": "Snapping Gnarlid + Territorial Baloth<br>53% win rate over 2057 games",
-"length": 50.239633734625414,
-"from": "Snapping Gnarlid",
-"label": "53%",
-"value": 0.527467185221196,
-"color": {
-"opacity": 0.527467185221196
-},
-"to": "Territorial Baloth"
-},
-{
-"title": "Breaker of Armies + Kozilek's Channeler<br>70% win rate over 772 games",
-"length": 19.79788886949985,
 "from": "Breaker of Armies",
-"label": "70%",
-"value": 0.7033678756476683,
-"color": {
-"opacity": 0.7033678756476683
-},
-"to": "Kozilek's Channeler"
-},
-{
-"title": "Mist Intruder + Scatter to the Winds<br>61% win rate over 409 games",
-"length": 34.00401121466276,
-"from": "Mist Intruder",
-"label": "61%",
-"value": 0.6112469437652812,
-"color": {
-"opacity": 0.6112469437652812
-},
-"to": "Scatter to the Winds"
+"label": "75%",
+"title": "Breaker of Armies + Cliffside Lookout<br>75% win rate over 56 games",
+"to": "Cliffside Lookout",
+"length": 150.0,
+"value": 7.5
 },
 {
-"title": "Nettle Drone + Processor Assault<br>60% win rate over 684 games",
-"length": 36.10534010464759,
-"from": "Nettle Drone",
-"label": "60%",
-"value": 0.5994152046783626,
 "color": {
-"opacity": 0.5994152046783626
+"opacity": 1.0
 },
-"to": "Processor Assault"
+"from": "Catacomb Sifter",
+"label": "100%",
+"title": "Catacomb Sifter + Gideon, Ally of Zendikar<br>100% win rate over 10 games",
+"to": "Gideon, Ally of Zendikar",
+"length": 100.0,
+"value": 10.0
 },
 {
-"title": "Kalastria Nightwatch + Stone Haven Medic<br>63% win rate over 1750 games",
-"length": 31.328008163265313,
-"from": "Kalastria Nightwatch",
-"label": "63%",
-"value": 0.6268571428571429,
 "color": {
-"opacity": 0.6268571428571429
+"opacity": 0.9
 },
-"to": "Stone Haven Medic"
-},
-{
-"title": "Blisterpod + Brood Butcher<br>58% win rate over 537 games",
-"length": 38.801067382416285,
 "from": "Blisterpod",
-"label": "58%",
-"value": 0.5847299813780261,
-"color": {
-"opacity": 0.5847299813780261
-},
-"to": "Brood Butcher"
-},
-{
-"title": "Oran-Rief Invoker + Plummet<br>52% win rate over 347 games",
-"length": 50.87348121818137,
-"from": "Oran-Rief Invoker",
-"label": "52%",
-"value": 0.5244956772334294,
-"color": {
-"opacity": 0.5244956772334294
-},
-"to": "Plummet"
+"label": "90%",
+"title": "Blisterpod + Munda, Ambush Leader<br>90% win rate over 10 games",
+"to": "Munda, Ambush Leader",
+"length": 120.0,
+"value": 9.0
 },
 {
-"title": "Beastcaller Savant + Tajuru Stalwart<br>51% win rate over 598 games",
-"length": 54.75505027907966,
+"color": {
+"opacity": 0.7551020408163265
+},
+"from": "Roil Spout",
+"label": "76%",
+"title": "Roil Spout + Unnatural Aggression<br>76% win rate over 98 games",
+"to": "Unnatural Aggression",
+"length": 148.9795918367347,
+"value": 7.551020408163264
+},
+{
+"color": {
+"opacity": 0.7407407407407407
+},
+"from": "Bring to Light",
+"label": "74%",
+"title": "Bring to Light + Coastal Discovery<br>74% win rate over 27 games",
+"to": "Coastal Discovery",
+"length": 151.85185185185185,
+"value": 7.4074074074074066
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Prism Array",
+"label": "100%",
+"title": "Prism Array + Retreat to Hagra<br>100% win rate over 5 games",
+"to": "Retreat to Hagra",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.7532467532467533
+},
+"from": "Bloodbond Vampire",
+"label": "75%",
+"title": "Bloodbond Vampire + Grovetender Druids<br>75% win rate over 77 games",
+"to": "Grovetender Druids",
+"length": 149.35064935064935,
+"value": 7.532467532467533
+},
+{
+"color": {
+"opacity": 0.7142857142857143
+},
+"from": "Roil's Retribution",
+"label": "71%",
+"title": "Roil's Retribution + Scythe Leopard<br>71% win rate over 28 games",
+"to": "Scythe Leopard",
+"length": 157.14285714285714,
+"value": 7.142857142857143
+},
+{
+"color": {
+"opacity": 0.7017543859649122
+},
+"from": "Broodhunter Wurm",
+"label": "70%",
+"title": "Broodhunter Wurm + Conduit of Ruin<br>70% win rate over 57 games",
+"to": "Conduit of Ruin",
+"length": 159.64912280701753,
+"value": 7.017543859649122
+},
+{
+"color": {
+"opacity": 0.725609756097561
+},
+"from": "Firemantle Mage",
+"label": "73%",
+"title": "Firemantle Mage + Tajuru Warcaller<br>73% win rate over 164 games",
+"to": "Tajuru Warcaller",
+"length": 154.8780487804878,
+"value": 7.2560975609756095
+},
+{
+"color": {
+"opacity": 0.72
+},
+"from": "Breaker of Armies",
+"label": "72%",
+"title": "Breaker of Armies + Sylvan Scrying<br>72% win rate over 75 games",
+"to": "Sylvan Scrying",
+"length": 156.0,
+"value": 7.199999999999999
+},
+{
+"color": {
+"opacity": 0.7394366197183099
+},
+"from": "Rolling Thunder",
+"label": "74%",
+"title": "Rolling Thunder + Titan's Presence<br>74% win rate over 142 games",
+"to": "Titan's Presence",
+"length": 152.11267605633802,
+"value": 7.394366197183099
+},
+{
+"color": {
+"opacity": 0.7272727272727273
+},
+"from": "Skitterskin",
+"label": "73%",
+"title": "Skitterskin + Slab Hammer<br>73% win rate over 33 games",
+"to": "Slab Hammer",
+"length": 154.54545454545453,
+"value": 7.272727272727273
+},
+{
+"color": {
+"opacity": 0.8333333333333334
+},
+"from": "Sire of Stagnation",
+"label": "83%",
+"title": "Sire of Stagnation + Valakut Invoker<br>83% win rate over 30 games",
+"to": "Valakut Invoker",
+"length": 133.33333333333331,
+"value": 8.333333333333334
+},
+{
+"color": {
+"opacity": 0.7034482758620689
+},
+"from": "Nissa's Renewal",
+"label": "70%",
+"title": "Nissa's Renewal + Retreat to Kazandu<br>70% win rate over 145 games",
+"to": "Retreat to Kazandu",
+"length": 159.31034482758622,
+"value": 7.0344827586206895
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Felidar Sovereign",
+"label": "75%",
+"title": "Felidar Sovereign + Hedron Blade<br>75% win rate over 28 games",
+"to": "Hedron Blade",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.7336244541484717
+},
+"from": "Angel of Renewal",
+"label": "73%",
+"title": "Angel of Renewal + Malakir Familiar<br>73% win rate over 229 games",
+"to": "Malakir Familiar",
+"length": 153.27510917030565,
+"value": 7.336244541484716
+},
+{
+"color": {
+"opacity": 0.8260869565217391
+},
+"from": "Cliffside Lookout",
+"label": "83%",
+"title": "Cliffside Lookout + Ugin's Insight<br>83% win rate over 23 games",
+"to": "Ugin's Insight",
+"length": 134.7826086956522,
+"value": 8.26086956521739
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Dutiful Return",
+"label": "75%",
+"title": "Dutiful Return + Tide Drifter<br>75% win rate over 20 games",
+"to": "Tide Drifter",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.9130434782608695
+},
+"from": "Quarantine Field",
+"label": "91%",
+"title": "Quarantine Field + Woodland Wanderer<br>91% win rate over 23 games",
+"to": "Woodland Wanderer",
+"length": 117.3913043478261,
+"value": 9.130434782608695
+},
+{
+"color": {
+"opacity": 0.8
+},
+"from": "Transgress the Mind",
+"label": "80%",
+"title": "Transgress the Mind + Undergrowth Champion<br>80% win rate over 20 games",
+"to": "Undergrowth Champion",
+"length": 140.0,
+"value": 8.0
+},
+{
+"color": {
+"opacity": 0.72
+},
+"from": "Ondu Rising",
+"label": "72%",
+"title": "Ondu Rising + Retreat to Coralhelm<br>72% win rate over 25 games",
+"to": "Retreat to Coralhelm",
+"length": 156.0,
+"value": 7.199999999999999
+},
+{
+"color": {
+"opacity": 0.7391304347826086
+},
+"from": "Coastal Discovery",
+"label": "74%",
+"title": "Coastal Discovery + Titan's Presence<br>74% win rate over 253 games",
+"to": "Titan's Presence",
+"length": 152.17391304347828,
+"value": 7.391304347826086
+},
+{
+"color": {
+"opacity": 0.7735849056603774
+},
+"from": "Barrage Tyrant",
+"label": "77%",
+"title": "Barrage Tyrant + Transgress the Mind<br>77% win rate over 53 games",
+"to": "Transgress the Mind",
+"length": 145.2830188679245,
+"value": 7.735849056603774
+},
+{
+"color": {
+"opacity": 0.875
+},
+"from": "Ondu Champion",
+"label": "88%",
+"title": "Ondu Champion + Roilmage's Trick<br>88% win rate over 8 games",
+"to": "Roilmage's Trick",
+"length": 125.0,
+"value": 8.75
+},
+{
+"color": {
+"opacity": 0.7962962962962963
+},
+"from": "Brood Monitor",
+"label": "80%",
+"title": "Brood Monitor + Ruinous Path<br>80% win rate over 54 games",
+"to": "Ruinous Path",
+"length": 140.74074074074076,
+"value": 7.962962962962963
+},
+{
+"color": {
+"opacity": 0.875
+},
+"from": "Eldrazi Devastator",
+"label": "88%",
+"title": "Eldrazi Devastator + Ob Nixilis Reignited<br>88% win rate over 40 games",
+"to": "Ob Nixilis Reignited",
+"length": 125.0,
+"value": 8.75
+},
+{
+"color": {
+"opacity": 0.8125
+},
+"from": "Exert Influence",
+"label": "81%",
+"title": "Exert Influence + Transgress the Mind<br>81% win rate over 32 games",
+"to": "Transgress the Mind",
+"length": 137.5,
+"value": 8.125
+},
+{
+"color": {
+"opacity": 0.9
+},
+"from": "Dispel",
+"label": "90%",
+"title": "Dispel + Shatterskull Recruit<br>90% win rate over 10 games",
+"to": "Shatterskull Recruit",
+"length": 120.0,
+"value": 9.0
+},
+{
+"color": {
+"opacity": 0.7222222222222222
+},
+"from": "Void Attendant",
+"label": "72%",
+"title": "Void Attendant + Wasteland Strangler<br>72% win rate over 54 games",
+"to": "Wasteland Strangler",
+"length": 155.55555555555554,
+"value": 7.222222222222222
+},
+{
+"color": {
+"opacity": 0.7714285714285715
+},
+"from": "Dispel",
+"label": "77%",
+"title": "Dispel + Valakut Invoker<br>77% win rate over 35 games",
+"to": "Valakut Invoker",
+"length": 145.71428571428572,
+"value": 7.714285714285714
+},
+{
+"color": {
+"opacity": 0.8536585365853658
+},
+"from": "Serene Steward",
+"label": "85%",
+"title": "Serene Steward + Ugin's Insight<br>85% win rate over 41 games",
+"to": "Ugin's Insight",
+"length": 129.2682926829268,
+"value": 8.536585365853659
+},
+{
+"color": {
+"opacity": 0.8421052631578947
+},
+"from": "Pathway Arrows",
+"label": "84%",
+"title": "Pathway Arrows + Scatter to the Winds<br>84% win rate over 19 games",
+"to": "Scatter to the Winds",
+"length": 131.57894736842107,
+"value": 8.421052631578947
+},
+{
+"color": {
+"opacity": 0.8979591836734694
+},
+"from": "Grip of Desolation",
+"label": "90%",
+"title": "Grip of Desolation + Oblivion Sower<br>90% win rate over 49 games",
+"to": "Oblivion Sower",
+"length": 120.40816326530613,
+"value": 8.979591836734693
+},
+{
+"color": {
+"opacity": 0.7333333333333333
+},
+"from": "Coastal Discovery",
+"label": "73%",
+"title": "Coastal Discovery + Radiant Flames<br>73% win rate over 60 games",
+"to": "Radiant Flames",
+"length": 153.33333333333334,
+"value": 7.333333333333333
+},
+{
+"color": {
+"opacity": 0.7086614173228346
+},
+"from": "Eyeless Watcher",
+"label": "71%",
+"title": "Eyeless Watcher + Swarm Surge<br>71% win rate over 508 games",
+"to": "Swarm Surge",
+"length": 158.26771653543307,
+"value": 7.086614173228346
+},
+{
+"color": {
+"opacity": 0.7222222222222222
+},
+"from": "Conduit of Ruin",
+"label": "72%",
+"title": "Conduit of Ruin + Malakir Familiar<br>72% win rate over 90 games",
+"to": "Malakir Familiar",
+"length": 155.55555555555554,
+"value": 7.222222222222222
+},
+{
+"color": {
+"opacity": 0.8888888888888888
+},
+"from": "Earthen Arms",
+"label": "89%",
+"title": "Earthen Arms + March from the Tomb<br>89% win rate over 9 games",
+"to": "March from the Tomb",
+"length": 122.22222222222223,
+"value": 8.88888888888889
+},
+{
+"color": {
+"opacity": 0.7515151515151515
+},
+"from": "Lifespring Druid",
+"label": "75%",
+"title": "Lifespring Druid + Omnath, Locus of Rage<br>75% win rate over 165 games",
+"to": "Omnath, Locus of Rage",
+"length": 149.6969696969697,
+"value": 7.515151515151515
+},
+{
+"color": {
+"opacity": 0.7112676056338029
+},
+"from": "Felidar Sovereign",
+"label": "71%",
+"title": "Felidar Sovereign + Lifespring Druid<br>71% win rate over 142 games",
+"to": "Lifespring Druid",
+"length": 157.74647887323943,
+"value": 7.112676056338029
+},
+{
+"color": {
+"opacity": 0.7222222222222222
+},
+"from": "Akoum Stonewaker",
+"label": "72%",
+"title": "Akoum Stonewaker + Horribly Awry<br>72% win rate over 54 games",
+"to": "Horribly Awry",
+"length": 155.55555555555554,
+"value": 7.222222222222222
+},
+{
+"color": {
+"opacity": 0.7228915662650602
+},
+"from": "Malakir Familiar",
+"label": "72%",
+"title": "Malakir Familiar + March from the Tomb<br>72% win rate over 83 games",
+"to": "March from the Tomb",
+"length": 155.42168674698794,
+"value": 7.228915662650603
+},
+{
+"color": {
+"opacity": 0.7142857142857143
+},
+"from": "Akoum Stonewaker",
+"label": "71%",
+"title": "Akoum Stonewaker + Angel of Renewal<br>71% win rate over 84 games",
+"to": "Angel of Renewal",
+"length": 157.14285714285714,
+"value": 7.142857142857143
+},
+{
+"color": {
+"opacity": 0.9
+},
+"from": "Fathom Feeder",
+"label": "90%",
+"title": "Fathom Feeder + Murasa Ranger<br>90% win rate over 10 games",
+"to": "Murasa Ranger",
+"length": 120.0,
+"value": 9.0
+},
+{
+"color": {
+"opacity": 0.7432432432432432
+},
+"from": "Painful Truths",
+"label": "74%",
+"title": "Painful Truths + Retreat to Emeria<br>74% win rate over 74 games",
+"to": "Retreat to Emeria",
+"length": 151.35135135135135,
+"value": 7.432432432432432
+},
+{
+"color": {
+"opacity": 0.7857142857142857
+},
+"from": "Bring to Light",
+"label": "79%",
+"title": "Bring to Light + Rising Miasma<br>79% win rate over 14 games",
+"to": "Rising Miasma",
+"length": 142.85714285714286,
+"value": 7.857142857142857
+},
+{
+"color": {
+"opacity": 0.7419354838709677
+},
+"from": "Planar Outburst",
+"label": "74%",
+"title": "Planar Outburst + Sylvan Scrying<br>74% win rate over 31 games",
+"to": "Sylvan Scrying",
+"length": 151.61290322580646,
+"value": 7.419354838709678
+},
+{
+"color": {
+"opacity": 0.72
+},
+"from": "Bring to Light",
+"label": "72%",
+"title": "Bring to Light + Fortified Rampart<br>72% win rate over 25 games",
+"to": "Fortified Rampart",
+"length": 156.0,
+"value": 7.199999999999999
+},
+{
+"color": {
+"opacity": 0.7567567567567568
+},
+"from": "Bane of Bala Ged",
+"label": "76%",
+"title": "Bane of Bala Ged + Pathway Arrows<br>76% win rate over 37 games",
+"to": "Pathway Arrows",
+"length": 148.64864864864865,
+"value": 7.567567567567568
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Aligned Hedron Network",
+"label": "100%",
+"title": "Aligned Hedron Network + Zada, Hedron Grinder<br>100% win rate over 6 games",
+"to": "Zada, Hedron Grinder",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.7931034482758621
+},
+"from": "From Beyond",
+"label": "79%",
+"title": "From Beyond + Swarm Surge<br>79% win rate over 87 games",
+"to": "Swarm Surge",
+"length": 141.3793103448276,
+"value": 7.931034482758621
+},
+{
+"color": {
+"opacity": 0.7676767676767676
+},
+"from": "Exert Influence",
+"label": "77%",
+"title": "Exert Influence + Valakut Invoker<br>77% win rate over 99 games",
+"to": "Valakut Invoker",
+"length": 146.46464646464648,
+"value": 7.6767676767676765
+},
+{
+"color": {
+"opacity": 0.8
+},
+"from": "Expedition Envoy",
+"label": "80%",
+"title": "Expedition Envoy + Oracle of Dust<br>80% win rate over 15 games",
+"to": "Oracle of Dust",
+"length": 140.0,
+"value": 8.0
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Pathway Arrows",
+"label": "75%",
+"title": "Pathway Arrows + Rising Miasma<br>75% win rate over 20 games",
+"to": "Rising Miasma",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.7631578947368421
+},
+"from": "Blight Herder",
+"label": "76%",
+"title": "Blight Herder + Ruination Guide<br>76% win rate over 190 games",
+"to": "Ruination Guide",
+"length": 147.36842105263156,
+"value": 7.631578947368421
+},
+{
+"color": {
+"opacity": 0.835820895522388
+},
+"from": "Lantern Scout",
+"label": "84%",
+"title": "Lantern Scout + Mire's Malice<br>84% win rate over 67 games",
+"to": "Mire's Malice",
+"length": 132.83582089552237,
+"value": 8.35820895522388
+},
+{
+"color": {
+"opacity": 0.7741935483870968
+},
+"from": "Dutiful Return",
+"label": "77%",
+"title": "Dutiful Return + Hedron Archive<br>77% win rate over 31 games",
+"to": "Hedron Archive",
+"length": 145.16129032258064,
+"value": 7.741935483870968
+},
+{
+"color": {
+"opacity": 0.9523809523809523
+},
+"from": "Angel of Renewal",
+"label": "95%",
+"title": "Angel of Renewal + Dragonmaster Outcast<br>95% win rate over 21 games",
+"to": "Dragonmaster Outcast",
+"length": 109.52380952380953,
+"value": 9.523809523809524
+},
+{
+"color": {
+"opacity": 0.8947368421052632
+},
 "from": "Beastcaller Savant",
-"label": "51%",
-"value": 0.5066889632107023,
-"color": {
-"opacity": 0.5066889632107023
-},
-"to": "Tajuru Stalwart"
-},
-{
-"title": "Kozilek's Sentinel + Rolling Thunder<br>63% win rate over 961 games",
-"length": 30.18707750013265,
-"from": "Kozilek's Sentinel",
-"label": "63%",
-"value": 0.6337148803329865,
-"color": {
-"opacity": 0.6337148803329865
-},
-"to": "Rolling Thunder"
+"label": "89%",
+"title": "Beastcaller Savant + Void Winnower<br>89% win rate over 19 games",
+"to": "Void Winnower",
+"length": 121.05263157894737,
+"value": 8.947368421052632
 },
 {
-"title": "Makindi Sliderunner + Valakut Invoker<br>53% win rate over 1900 games",
-"length": 48.81596260387811,
-"from": "Makindi Sliderunner",
-"label": "53%",
-"value": 0.5342105263157895,
 "color": {
-"opacity": 0.5342105263157895
+"opacity": 0.7916666666666666
 },
-"to": "Valakut Invoker"
+"from": "Barrage Tyrant",
+"label": "79%",
+"title": "Barrage Tyrant + Painful Truths<br>79% win rate over 24 games",
+"to": "Painful Truths",
+"length": 141.66666666666669,
+"value": 7.916666666666666
 },
 {
-"title": "Omnath, Locus of Rage + Oran-Rief Invoker<br>67% win rate over 135 games",
-"length": 23.901234567901238,
-"from": "Omnath, Locus of Rage",
-"label": "67%",
-"value": 0.674074074074074,
 "color": {
-"opacity": 0.674074074074074
+"opacity": 0.7272727272727273
 },
-"to": "Oran-Rief Invoker"
+"from": "Encircling Fissure",
+"label": "73%",
+"title": "Encircling Fissure + From Beyond<br>73% win rate over 33 games",
+"to": "From Beyond",
+"length": 154.54545454545453,
+"value": 7.272727272727273
 },
 {
-"title": "Shadow Glider + Stone Haven Medic<br>54% win rate over 1879 games",
-"length": 47.023536236054596,
-"from": "Shadow Glider",
-"label": "54%",
-"value": 0.5428419372006387,
 "color": {
-"opacity": 0.5428419372006387
+"opacity": 0.8
 },
-"to": "Stone Haven Medic"
+"from": "Angel of Renewal",
+"label": "80%",
+"title": "Angel of Renewal + Defiant Bloodlord<br>80% win rate over 80 games",
+"to": "Defiant Bloodlord",
+"length": 140.0,
+"value": 8.0
 },
 {
-"title": "Gruesome Slaughter + Mist Intruder<br>68% win rate over 201 games",
-"length": 23.529739362887057,
-"from": "Gruesome Slaughter",
-"label": "68%",
-"value": 0.6766169154228856,
 "color": {
-"opacity": 0.6766169154228856
+"opacity": 0.7159533073929961
 },
-"to": "Mist Intruder"
+"from": "Angel of Renewal",
+"label": "72%",
+"title": "Angel of Renewal + Zulaport Cutthroat<br>72% win rate over 257 games",
+"to": "Zulaport Cutthroat",
+"length": 156.80933852140078,
+"value": 7.159533073929961
 },
 {
-"title": "Eldrazi Skyspawner + Halimar Tidecaller<br>65% win rate over 1049 games",
-"length": 27.539983151596555,
-"from": "Eldrazi Skyspawner",
-"label": "65%",
-"value": 0.6501429933269781,
 "color": {
-"opacity": 0.6501429933269781
+"opacity": 0.7894736842105263
 },
-"to": "Halimar Tidecaller"
+"from": "Scatter to the Winds",
+"label": "79%",
+"title": "Scatter to the Winds + Slab Hammer<br>79% win rate over 19 games",
+"to": "Slab Hammer",
+"length": 142.10526315789474,
+"value": 7.894736842105264
 },
 {
-"title": "Greenwarden of Murasa + Snapping Gnarlid<br>63% win rate over 187 games",
-"length": 31.527924733335244,
-"from": "Greenwarden of Murasa",
-"label": "63%",
-"value": 0.6256684491978609,
 "color": {
-"opacity": 0.6256684491978609
+"opacity": 0.8571428571428571
 },
-"to": "Snapping Gnarlid"
+"from": "Rolling Thunder",
+"label": "86%",
+"title": "Rolling Thunder + Vampiric Rites<br>86% win rate over 14 games",
+"to": "Vampiric Rites",
+"length": 128.57142857142858,
+"value": 8.571428571428571
+},
+{
+"color": {
+"opacity": 0.7333333333333333
+},
+"from": "Drowner of Hope",
+"label": "73%",
+"title": "Drowner of Hope + Sheer Drop<br>73% win rate over 135 games",
+"to": "Sheer Drop",
+"length": 153.33333333333334,
+"value": 7.333333333333333
+},
+{
+"color": {
+"opacity": 0.9090909090909091
+},
+"from": "Part the Waterveil",
+"label": "91%",
+"title": "Part the Waterveil + Shatterskull Recruit<br>91% win rate over 11 games",
+"to": "Shatterskull Recruit",
+"length": 118.18181818181819,
+"value": 9.09090909090909
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Drana, Liberator of Malakir",
+"label": "100%",
+"title": "Drana, Liberator of Malakir + Planar Outburst<br>100% win rate over 14 games",
+"to": "Planar Outburst",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.8
+},
+"from": "Stasis Snare",
+"label": "80%",
+"title": "Stasis Snare + Undergrowth Champion<br>80% win rate over 25 games",
+"to": "Undergrowth Champion",
+"length": 140.0,
+"value": 8.0
+},
+{
+"color": {
+"opacity": 0.8611111111111112
+},
+"from": "Ob Nixilis Reignited",
+"label": "86%",
+"title": "Ob Nixilis Reignited + Unnatural Aggression<br>86% win rate over 36 games",
+"to": "Unnatural Aggression",
+"length": 127.77777777777777,
+"value": 8.61111111111111
+},
+{
+"color": {
+"opacity": 0.8636363636363636
+},
+"from": "Geyserfield Stalker",
+"label": "86%",
+"title": "Geyserfield Stalker + Processor Assault<br>86% win rate over 22 games",
+"to": "Processor Assault",
+"length": 127.27272727272727,
+"value": 8.636363636363637
+},
+{
+"color": {
+"opacity": 0.7604166666666666
+},
+"from": "Drana's Emissary",
+"label": "76%",
+"title": "Drana's Emissary + Guul Draz Overseer<br>76% win rate over 96 games",
+"to": "Guul Draz Overseer",
+"length": 147.91666666666669,
+"value": 7.604166666666666
+},
+{
+"color": {
+"opacity": 0.7727272727272727
+},
+"from": "Defiant Bloodlord",
+"label": "77%",
+"title": "Defiant Bloodlord + Ondu Greathorn<br>77% win rate over 66 games",
+"to": "Ondu Greathorn",
+"length": 145.45454545454547,
+"value": 7.727272727272727
+},
+{
+"color": {
+"opacity": 0.9444444444444444
+},
+"from": "Brood Monitor",
+"label": "94%",
+"title": "Brood Monitor + Serpentine Spike<br>94% win rate over 54 games",
+"to": "Serpentine Spike",
+"length": 111.11111111111111,
+"value": 9.444444444444445
+},
+{
+"color": {
+"opacity": 0.8
+},
+"from": "Exert Influence",
+"label": "80%",
+"title": "Exert Influence + Jaddi Offshoot<br>80% win rate over 40 games",
+"to": "Jaddi Offshoot",
+"length": 140.0,
+"value": 8.0
+},
+{
+"color": {
+"opacity": 0.8461538461538461
+},
+"from": "Akoum Firebird",
+"label": "85%",
+"title": "Akoum Firebird + Hedron Blade<br>85% win rate over 13 games",
+"to": "Hedron Blade",
+"length": 130.76923076923077,
+"value": 8.461538461538462
+},
+{
+"color": {
+"opacity": 0.8888888888888888
+},
+"from": "Akoum Hellkite",
+"label": "89%",
+"title": "Akoum Hellkite + Altar's Reap<br>89% win rate over 9 games",
+"to": "Altar's Reap",
+"length": 122.22222222222223,
+"value": 8.88888888888889
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Gideon, Ally of Zendikar",
+"label": "100%",
+"title": "Gideon, Ally of Zendikar + Hedron Blade<br>100% win rate over 8 games",
+"to": "Hedron Blade",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.7368421052631579
+},
+"from": "Culling Drone",
+"label": "74%",
+"title": "Culling Drone + Oblivion Sower<br>74% win rate over 171 games",
+"to": "Oblivion Sower",
+"length": 152.63157894736844,
+"value": 7.368421052631579
+},
+{
+"color": {
+"opacity": 0.7142857142857143
+},
+"from": "Pathway Arrows",
+"label": "71%",
+"title": "Pathway Arrows + Unified Front<br>71% win rate over 28 games",
+"to": "Unified Front",
+"length": 157.14285714285714,
+"value": 7.142857142857143
+},
+{
+"color": {
+"opacity": 0.8333333333333334
+},
+"from": "Ondu Rising",
+"label": "83%",
+"title": "Ondu Rising + Quarantine Field<br>83% win rate over 60 games",
+"to": "Quarantine Field",
+"length": 133.33333333333331,
+"value": 8.333333333333334
+},
+{
+"color": {
+"opacity": 0.7005988023952096
+},
+"from": "Bloodbond Vampire",
+"label": "70%",
+"title": "Bloodbond Vampire + Lantern Scout<br>70% win rate over 167 games",
+"to": "Lantern Scout",
+"length": 159.8802395209581,
+"value": 7.005988023952096
+},
+{
+"color": {
+"opacity": 0.7407407407407407
+},
+"from": "Geyserfield Stalker",
+"label": "74%",
+"title": "Geyserfield Stalker + Turn Against<br>74% win rate over 27 games",
+"to": "Turn Against",
+"length": 151.85185185185185,
+"value": 7.4074074074074066
+},
+{
+"color": {
+"opacity": 0.7948717948717948
+},
+"from": "Planar Outburst",
+"label": "79%",
+"title": "Planar Outburst + Ulamog's Reclaimer<br>79% win rate over 39 games",
+"to": "Ulamog's Reclaimer",
+"length": 141.02564102564105,
+"value": 7.948717948717948
+},
+{
+"color": {
+"opacity": 0.7647058823529411
+},
+"from": "Veteran Warleader",
+"label": "76%",
+"title": "Veteran Warleader + Zada, Hedron Grinder<br>76% win rate over 17 games",
+"to": "Zada, Hedron Grinder",
+"length": 147.05882352941177,
+"value": 7.647058823529411
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Belligerent Whiptail",
+"label": "75%",
+"title": "Belligerent Whiptail + Wasteland Strangler<br>75% win rate over 36 games",
+"to": "Wasteland Strangler",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.7586206896551724
+},
+"from": "Breaker of Armies",
+"label": "76%",
+"title": "Breaker of Armies + Makindi Patrol<br>76% win rate over 116 games",
+"to": "Makindi Patrol",
+"length": 148.27586206896552,
+"value": 7.586206896551724
+},
+{
+"color": {
+"opacity": 0.7076923076923077
+},
+"from": "Felidar Cub",
+"label": "71%",
+"title": "Felidar Cub + Skitterskin<br>71% win rate over 65 games",
+"to": "Skitterskin",
+"length": 158.46153846153845,
+"value": 7.0769230769230775
+},
+{
+"color": {
+"opacity": 0.7142857142857143
+},
+"from": "Akoum Hellkite",
+"label": "71%",
+"title": "Akoum Hellkite + Slab Hammer<br>71% win rate over 42 games",
+"to": "Slab Hammer",
+"length": 157.14285714285714,
+"value": 7.142857142857143
+},
+{
+"color": {
+"opacity": 1.0
+},
+"from": "Aligned Hedron Network",
+"label": "100%",
+"title": "Aligned Hedron Network + Sure Strike<br>100% win rate over 13 games",
+"to": "Sure Strike",
+"length": 100.0,
+"value": 10.0
+},
+{
+"color": {
+"opacity": 0.8333333333333334
+},
+"from": "Felidar Sovereign",
+"label": "83%",
+"title": "Felidar Sovereign + Retreat to Coralhelm<br>83% win rate over 12 games",
+"to": "Retreat to Coralhelm",
+"length": 133.33333333333331,
+"value": 8.333333333333334
+},
+{
+"color": {
+"opacity": 0.84
+},
+"from": "Ondu Rising",
+"label": "84%",
+"title": "Ondu Rising + Smothering Abomination<br>84% win rate over 25 games",
+"to": "Smothering Abomination",
+"length": 132.0,
+"value": 8.4
+},
+{
+"color": {
+"opacity": 0.7586206896551724
+},
+"from": "Belligerent Whiptail",
+"label": "76%",
+"title": "Belligerent Whiptail + Breaker of Armies<br>76% win rate over 58 games",
+"to": "Breaker of Armies",
+"length": 148.27586206896552,
+"value": 7.586206896551724
+},
+{
+"color": {
+"opacity": 0.8833333333333333
+},
+"from": "Gideon, Ally of Zendikar",
+"label": "88%",
+"title": "Gideon, Ally of Zendikar + Tajuru Beastmaster<br>88% win rate over 60 games",
+"to": "Tajuru Beastmaster",
+"length": 123.33333333333334,
+"value": 8.833333333333332
+},
+{
+"color": {
+"opacity": 0.8518518518518519
+},
+"from": "Conduit of Ruin",
+"label": "85%",
+"title": "Conduit of Ruin + Ruinous Path<br>85% win rate over 27 games",
+"to": "Ruinous Path",
+"length": 129.62962962962962,
+"value": 8.518518518518519
+},
+{
+"color": {
+"opacity": 0.75
+},
+"from": "Aligned Hedron Network",
+"label": "75%",
+"title": "Aligned Hedron Network + Reckless Cohort<br>75% win rate over 12 games",
+"to": "Reckless Cohort",
+"length": 150.0,
+"value": 7.5
+},
+{
+"color": {
+"opacity": 0.8181818181818182
+},
+"from": "Fathom Feeder",
+"label": "82%",
+"title": "Fathom Feeder + Slab Hammer<br>82% win rate over 11 games",
+"to": "Slab Hammer",
+"length": 136.36363636363635,
+"value": 8.181818181818182
+},
+{
+"color": {
+"opacity": 0.7948717948717948
+},
+"from": "Dampening Pulse",
+"label": "79%",
+"title": "Dampening Pulse + Lantern Scout<br>79% win rate over 39 games",
+"to": "Lantern Scout",
+"length": 141.02564102564105,
+"value": 7.948717948717948
+},
+{
+"color": {
+"opacity": 0.7264957264957265
+},
+"from": "Kor Bladewhirl",
+"label": "73%",
+"title": "Kor Bladewhirl + Tajuru Warcaller<br>73% win rate over 234 games",
+"to": "Tajuru Warcaller",
+"length": 154.7008547008547,
+"value": 7.264957264957265
+},
+{
+"color": {
+"opacity": 0.8108108108108109
+},
+"from": "Titan's Presence",
+"label": "81%",
+"title": "Titan's Presence + Woodland Wanderer<br>81% win rate over 37 games",
+"to": "Woodland Wanderer",
+"length": 137.83783783783784,
+"value": 8.108108108108109
+},
+{
+"color": {
+"opacity": 0.7065217391304348
+},
+"from": "Plated Crusher",
+"label": "71%",
+"title": "Plated Crusher + Vampiric Rites<br>71% win rate over 92 games",
+"to": "Vampiric Rites",
+"length": 158.69565217391303,
+"value": 7.065217391304348
+},
+{
+"color": {
+"opacity": 0.875
+},
+"from": "Horribly Awry",
+"label": "88%",
+"title": "Horribly Awry + Kor Entanglers<br>88% win rate over 16 games",
+"to": "Kor Entanglers",
+"length": 125.0,
+"value": 8.75
+},
+{
+"color": {
+"opacity": 0.7413793103448276
+},
+"from": "Coastal Discovery",
+"label": "74%",
+"title": "Coastal Discovery + Ondu Champion<br>74% win rate over 58 games",
+"to": "Ondu Champion",
+"length": 151.72413793103448,
+"value": 7.413793103448276
+},
+{
+"color": {
+"opacity": 0.875
+},
+"from": "Courier Griffin",
+"label": "88%",
+"title": "Courier Griffin + Forerunner of Slaughter<br>88% win rate over 16 games",
+"to": "Forerunner of Slaughter",
+"length": 125.0,
+"value": 8.75
+},
+{
+"color": {
+"opacity": 0.735632183908046
+},
+"from": "Ruinous Path",
+"label": "74%",
+"title": "Ruinous Path + Titan's Presence<br>74% win rate over 87 games",
+"to": "Titan's Presence",
+"length": 152.8735632183908,
+"value": 7.35632183908046
+},
+{
+"color": {
+"opacity": 0.7383720930232558
+},
+"from": "Benthic Infiltrator",
+"label": "74%",
+"title": "Benthic Infiltrator + Gruesome Slaughter<br>74% win rate over 172 games",
+"to": "Gruesome Slaughter",
+"length": 152.32558139534885,
+"value": 7.383720930232558
+},
+{
+"color": {
+"opacity": 0.7048458149779736
+},
+"from": "Grovetender Druids",
+"label": "70%",
+"title": "Grovetender Druids + Resolute Blademaster<br>70% win rate over 227 games",
+"to": "Resolute Blademaster",
+"length": 159.03083700440527,
+"value": 7.048458149779736
+},
+{
+"color": {
+"opacity": 0.717948717948718
+},
+"from": "Blight Herder",
+"label": "72%",
+"title": "Blight Herder + Dampening Pulse<br>72% win rate over 117 games",
+"to": "Dampening Pulse",
+"length": 156.4102564102564,
+"value": 7.17948717948718
+},
+{
+"color": {
+"opacity": 0.8048780487804879
+},
+"from": "Kiora, Master of the Depths",
+"label": "80%",
+"title": "Kiora, Master of the Depths + Valakut Invoker<br>80% win rate over 41 games",
+"to": "Valakut Invoker",
+"length": 139.02439024390242,
+"value": 8.048780487804878
 }
 ]

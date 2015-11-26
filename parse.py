@@ -2,7 +2,10 @@ import csv
 import json
 from collections import Counter
 from itertools import combinations
+from math import sqrt
 from statistics import mean
+
+from scipy.stats import binom
 
 game_id = 'Game ID'
 starting_hand_size = 'Starting hand size'
@@ -105,6 +108,12 @@ def loss_rate(element):
     else:
         return 0
 
+def win_odds(element):
+    return (element.wins + 1) / (element.losses + 1)
+
+def lose_odds(element):
+    return (element.losses + 1) / (element.wins + 1)
+
 class Game(object):
     game_id, starting_hand_size, tournament_id, match_id, player, lands_played,
     last_turn, played_first, won, date, constructed_rating, limited_rating,
@@ -168,23 +177,40 @@ def write(filename, declaration, value):
         outfile.write(declaration)
         json.dump(value, outfile, indent="")
 
-nodes = [{'id': card.name, 'value': win_rate(card), 'color': card.color(), 'image': card.symbol(),
+nodes = [{'id': card.name,
+          'value': win_rate(card),
+          'image': card.symbol(),
+          'color': card.color(),
           'label': str.format("{}", card.name),
           'title': str.format("{}<br>{:.0f}% win rate over {} games",
                               card.name, 100 * win_rate(card), plays(card))}
          for card in cards_by_name.values()]
 write('nodes.js', "var nodes = ", nodes)
 
-edges = [{'from': synergy.card1, 'to': synergy.card2, 'value': win_rate(synergy),
-          'length': (15 * loss_rate(synergy))**2,
-          'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
-          'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
-                              synergy.card1, synergy.card2,
-                              100 * win_rate(synergy), plays(synergy)),
-          'color': {'opacity': win_rate(synergy)}
-         }
-         for synergy in synergies_by_card_tuple.values()
-         if loss_rate(synergy) < min(loss_rate(cards_by_name[synergy.card1]), loss_rate(cards_by_name[synergy.card2]))
-         and plays(synergy) > max(25, .18 * min(plays(cards_by_name[synergy.card1]), plays(cards_by_name[synergy.card2])))
-        ]
+edges = []
+
+for synergy in synergies_by_card_tuple.values():
+    card1 = cards_by_name[synergy.card1]
+    card2 = cards_by_name[synergy.card2]
+
+    win_factor = card1.wins * card2.wins
+    lose_factor = card1.losses * card2.losses
+    combined_win_rate = win_factor / (win_factor + lose_factor)
+
+    max_win = max(win_rate(card1), win_rate(card2))
+
+    if (binom.sf(synergy.wins - 1, plays(synergy), combined_win_rate) < 0.05
+            # and synergy.wins / min(card1.wins, card2.wins) > .1 and synergy.losses < synergy.wins
+            and win_rate(synergy) > .7
+            ):
+        edges.append({'from': synergy.card1,
+                      'to': synergy.card2,
+                      'color': {'opacity': win_rate(synergy)},
+                      'value': 10 * win_rate(synergy),
+                      'length':  200 - 100 * (2 * win_rate(synergy) - 1),
+                      'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
+                      'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
+                                          synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy))
+                     })
+
 write('edges.js', "var edges = ", edges)

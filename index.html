@@ -57,10 +57,16 @@
       },
       color: {
         inherit: 'both',
-      }
+      },
     },
     physics: {
       solver: 'forceAtlas2Based',
+      forceAtlas2Based: {
+        avoidOverlap: 1,
+        damping: .15,
+        gravitationalConstant: -100,
+        springConstant: .08,
+      }
     },
   };
   var network = new vis.Network(container, data, options);
