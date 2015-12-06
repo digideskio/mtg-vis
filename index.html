@@ -60,10 +60,10 @@
         strokeColor: 'rgb(230,230,230)',
       },
       scaling: {
-        min: 1,
+        min: 9,
         max: 30,
         customScalingFunction: function (min,max,total,value) {
-          return value;
+          return 2 * (value - .5);
         },
         label: {
           enabled: false,
