@@ -160,10 +160,13 @@ def update(card_count, function):
     for (card1, card2) in combinations(card_count.keys(), 2):
         function(synergy(card1, card2))
 
+games = []
+
 with open('bfz-games.csv') as csvfile:
     reader = csv.DictReader(csvfile, fieldnames=games_columns)
     for row in reader:
         game = Game()
+        games.append(game)
         game.cards_played = ",".join(row[None]).split('[')[1:]
         card_count = Counter(game.cards_played)
         game.won = bool(int(row[won]))
@@ -172,13 +175,15 @@ with open('bfz-games.csv') as csvfile:
         else:
             update(card_count, add_loss)
 
+print(len(games), "games")
+
 def write(filename, declaration, value):
     with open(filename, 'w') as outfile:
         outfile.write(declaration)
         json.dump(value, outfile, indent="")
 
 nodes = [{'id': card.name,
-          'value': 100 * win_rate(card),
+          'value': win_rate(card),
           'image': card.symbol(),
           'color': card.color(),
           'label': str.format("{}", card.name),
@@ -197,21 +202,16 @@ for synergy in synergies_by_card_tuple.values():
     lose_factor = card1.losses * card2.losses
     combined_win_rate = win_factor / (win_factor + lose_factor)
 
-    max_win = max(win_rate(card1), win_rate(card2))
+    golden_mean = .61803398875
 
-    if (binom.sf(synergy.wins - 1, plays(synergy), combined_win_rate) < 0.01
-            # and synergy.wins / min(card1.wins, card2.wins) > .1 and synergy.losses < synergy.wins
-            and win_rate(synergy) > .5
-            ):
+    if plays(synergy) >= 384 and win_rate(synergy) > max(golden_mean, combined_win_rate):
         edges.append({'from': synergy.card1,
                       'to': synergy.card2,
-                    #   'color': {'opacity': win_rate(synergy)},
-                      'hidden': True,
-                      'value': 10 * win_rate(synergy),
-                    #   'length':  200 - 100 * (2 * win_rate(synergy) - 1),
+                      'value': win_rate(synergy),
+                      'length': 380 * (1 - win_rate(synergy)),
                       'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
                       'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
-                                          synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy))
+                                          synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy)),
                      })
 
 write('edges.js', "var edges = ", edges)

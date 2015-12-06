@@ -16,25 +16,27 @@
     height: 100%;
     margin: 0;
     position: relative;
-    background: rgb(202,197,192);
+    background: rgb(230,230,230);
   }
   #mtg-network {
     float:left;
-    width: 600px;
-    height: 600px;
-    margin:5px;
-    border: 1px solid lightgray;
+    width: 62%;
+    height: 100%;
   }
   #config {
     float:left;
-    width: 400px;
-    height: 600px;
+    width: 38%;
   }
   #progress {
     position: absolute;
     z-index: 2;
     width: 4em;
     height: 4em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
   </style>
 </head>
@@ -53,35 +55,71 @@
   var options = {
     nodes: {
       font: {
-        strokeWidth: 1,
+        // size: 9,
+        strokeWidth: 2,
+        strokeColor: 'rgb(230,230,230)',
+      },
+      scaling: {
+        min: 1,
+        max: 30,
+        customScalingFunction: function (min,max,total,value) {
+          return value;
+        },
+        label: {
+          enabled: false,
+          // min: 9,
+          // max: 30,
+        },
       },
       shape: 'circularImage',
-      shadow: true,
+      shadow: false,
     },
     edges: {
-      // color: {
-      //   inherit: 'both',
-      // },
-      hidden: true,
-      // smooth: {
-      //   type: 'continuous',
-      // },
+      color: {
+        inherit: 'both',
+      },
+      font: {
+        // size: 9,
+        strokeWidth: 2,
+        strokeColor: 'rgb(230,230,230)',
+      },
+      scaling: {
+        min: 1,
+        max: 60,
+        customScalingFunction: function (min,max,total,value) {
+          return 2 * (value - .61803398875);
+        },
+        label: {
+          enabled: false,
+          // min: 9,
+          // max: 30,
+        },
+      },
+      hoverWidth: 2,
+      selectionWidth: 2,
+      // shadow: true,
+      smooth: {
+        enabled: true,
+        type: 'dynamic',
+      },
     },
     configure: {
-      filter: 'edges, physics',
+      filter: 'physics',
       container: document.getElementById('config')
     },
     interaction: {
-      hideEdgesOnDrag: true,
+      hideEdgesOnDrag: false,
+      hover: true,
+      hoverConnectedEdges: true,
+      multiselect: false,
     },
     physics: {
-      // solver: 'barnesHut',
-      // barnesHut: {
-      //   gravitationalConstant: -80000,
-      //   springConstant: 0.001,
-      //   springLength: 200
-      // },
-      // stabilization: false,
+      solver: 'barnesHut',
+      barnesHut: {
+        // gravitationalConstant: -4000,
+        // centralGravity: .6,
+        // springConstant: 0.95,
+      },
     },
   };
   var network = new vis.Network(container, data, options);
