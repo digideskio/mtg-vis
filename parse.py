@@ -40,7 +40,7 @@ color_map = {'w': "white",
              'g': "green",
              'gold': "gold",
              'colorless': "lightgray"}
-symbol_map = {'': "symbol_x.svg",
+symbol_map = {'x': "symbol_x.svg",
               'w': "symbol_w.svg",
               'u': "symbol_u.svg",
               'b': "symbol_b.svg",
@@ -82,15 +82,18 @@ class Card(object):
         else:
             return color
 
-    def symbol(self):
-        colors = ''
+    def group(self):
+        colors = 'x'
         for c in "wubrg":
             if c in self.mana_cost:
                 colors = c
         for c in ("wu", "ub", "br", "rg", "gw", "wb", "ur", "bg", "rw", "gu"):
             if c in self.mana_cost:
                 colors = c
-        return symbol_map[colors]
+        return colors
+
+    def symbol(self):
+        return symbol_map[self.group()]
 
 
 def plays(element):
@@ -184,8 +187,7 @@ def write(filename, declaration, value):
 
 nodes = [{'id': card.name,
           'value': win_rate(card),
-          'image': card.symbol(),
-          'color': card.color(),
+          'group': card.group(),
           'label': str.format("{}", card.name),
           'title': str.format("{}<br>{:.0f}% win rate over {} games",
                               card.name, 100 * win_rate(card), plays(card))}
@@ -203,12 +205,14 @@ for synergy in synergies_by_card_tuple.values():
     combined_win_rate = win_factor / (win_factor + lose_factor)
 
     golden_mean = .61803398875
+    min_plays = 275
 
-    if plays(synergy) >= 384 and win_rate(synergy) > max(golden_mean, combined_win_rate):
+    if plays(synergy) > min_plays and win_rate(synergy) > max(golden_mean, combined_win_rate):
         edges.append({'from': synergy.card1,
                       'to': synergy.card2,
                       'value': win_rate(synergy),
-                      'length': 380 * (1 - win_rate(synergy)),
+                      'length': 95 + 380.0 / (plays(synergy) - min_plays),
+                    #   'length': 380 * (1 - win_rate(synergy)),
                       'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
                       'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
                                           synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy)),

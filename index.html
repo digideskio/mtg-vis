@@ -53,9 +53,124 @@
     edges: edges
   };
   var options = {
+    groups: {
+      'x': {
+        color: 'gray',
+        image: "symbol_x.svg",
+        // font: {
+        //   color: 'gray',
+        // },
+      },
+      'w': {
+        color: 'white',
+        image: "symbol_w.svg",
+        // font: {
+        //   color: 'white',
+        // },
+      },
+      'u': {
+        color: 'blue',
+        image: "symbol_u.svg",
+        // font: {
+        //   color: 'blue',
+        // },
+      },
+      'b': {
+        color: 'black',
+        image: "symbol_b.svg",
+        // font: {
+        //   color: 'black',
+        // },
+      },
+      'r': {
+        color: 'red',
+        image: "symbol_r.svg",
+        // font: {
+        //   color: 'red',
+        // },
+      },
+      'g': {
+        color: 'green',
+        image: "symbol_g.svg",
+        // font: {
+        //   color: 'green',
+        // },
+      },
+      'wu': {
+        color: 'gold',
+        image: "symbol_w_or_u.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'ub': {
+        color: 'gold',
+        image: "symbol_u_or_b.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'br': {
+        color: 'gold',
+        image: "symbol_b_or_r.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'rg': {
+        color: 'gold',
+        image: "symbol_r_or_g.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'gw': {
+        color: 'gold',
+        image: "symbol_g_or_w.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'wb': {
+        color: 'gold',
+        image: "symbol_w_or_b.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'ur': {
+        color: 'gold',
+        image: "symbol_u_or_r.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'bg': {
+        color: 'gold',
+        image: "symbol_b_or_g.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'rw': {
+        color: 'gold',
+        image: "symbol_r_or_w.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+      'gu': {
+        color: 'gold',
+        image: "symbol_g_or_u.svg",
+        // font: {
+        //   color: 'gold',
+        // },
+      },
+    },
     nodes: {
+      borderWidth: 0,
       font: {
-        // size: 9,
+        size: 14,
         strokeWidth: 2,
         strokeColor: 'rgb(230,230,230)',
       },
@@ -67,8 +182,6 @@
         },
         label: {
           enabled: false,
-          // min: 9,
-          // max: 30,
         },
       },
       shape: 'circularImage',
@@ -79,25 +192,22 @@
         inherit: 'both',
       },
       font: {
-        // size: 9,
+        size: 9,
         strokeWidth: 2,
         strokeColor: 'rgb(230,230,230)',
       },
       scaling: {
-        min: 1,
+        min: 0,
         max: 60,
         customScalingFunction: function (min,max,total,value) {
           return 2 * (value - .61803398875);
         },
         label: {
           enabled: false,
-          // min: 9,
-          // max: 30,
         },
       },
       hoverWidth: 2,
-      selectionWidth: 2,
-      // shadow: true,
+      selectionWidth: 4,
       smooth: {
         enabled: true,
         type: 'dynamic',
@@ -113,12 +223,19 @@
       hoverConnectedEdges: true,
       multiselect: false,
     },
+    layout: {
+      improvedLayout: false,
+    },
     physics: {
       solver: 'barnesHut',
       barnesHut: {
         // gravitationalConstant: -4000,
         // centralGravity: .6,
         // springConstant: 0.95,
+        avoidOverlap: .1,
+      },
+      stabilization: {
+        enabled: true,
       },
     },
   };
