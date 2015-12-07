@@ -205,7 +205,7 @@ for synergy in synergies_by_card_tuple.values():
     combined_win_rate = win_factor / (win_factor + lose_factor)
 
     golden_mean = .61803398875
-    min_plays = 275
+    min_plays = 260
 
     if plays(synergy) > min_plays and win_rate(synergy) > max(golden_mean, combined_win_rate):
         edges.append({'from': synergy.card1,
