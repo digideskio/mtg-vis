@@ -185,12 +185,10 @@ def write(filename, declaration, value):
         outfile.write(declaration)
         json.dump(value, outfile, indent="")
 
-nodes = [{'id': card.name,
-          'value': win_rate(card),
-          'group': card.group(),
-          'label': str.format("{}", card.name),
-          'title': str.format("{}<br>{:.0f}% win rate over {} games",
-                              card.name, 100 * win_rate(card), plays(card))}
+nodes = [{ 'id': card.name,
+           'value': win_rate(card),
+           'group': card.group(),
+           'label': str.format("{}\n{:.0f}%", card.name, 100 * win_rate(card)) }
          for card in cards_by_name.values()]
 write('nodes.js', "var nodes = ", nodes)
 
@@ -210,8 +208,6 @@ for synergy in synergies_by_card_tuple.values():
                        'value': win_rate(synergy),
                        'length': 995.0 / sqrt(plays(synergy)),
                        'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
-                       'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
-                                           synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy)),
                        'plays': plays(synergy),
                        'winRate': win_rate(synergy) })
 
