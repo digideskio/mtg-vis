@@ -52,114 +52,66 @@
       'x': {
         color: 'gray',
         image: "symbol_x.svg",
-        // font: {
-        //   color: 'gray',
-        // },
       },
       'w': {
         color: 'white',
         image: "symbol_w.svg",
-        // font: {
-        //   color: 'white',
-        // },
       },
       'u': {
         color: 'blue',
         image: "symbol_u.svg",
-        // font: {
-        //   color: 'blue',
-        // },
       },
       'b': {
         color: 'black',
         image: "symbol_b.svg",
-        // font: {
-        //   color: 'black',
-        // },
       },
       'r': {
         color: 'red',
         image: "symbol_r.svg",
-        // font: {
-        //   color: 'red',
-        // },
       },
       'g': {
         color: 'green',
         image: "symbol_g.svg",
-        // font: {
-        //   color: 'green',
-        // },
       },
       'wu': {
         color: 'gold',
         image: "symbol_w_or_u.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'ub': {
         color: 'gold',
         image: "symbol_u_or_b.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'br': {
         color: 'gold',
         image: "symbol_b_or_r.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'rg': {
         color: 'gold',
         image: "symbol_r_or_g.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'gw': {
         color: 'gold',
         image: "symbol_g_or_w.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'wb': {
         color: 'gold',
         image: "symbol_w_or_b.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'ur': {
         color: 'gold',
         image: "symbol_u_or_r.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'bg': {
         color: 'gold',
         image: "symbol_b_or_g.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'rw': {
         color: 'gold',
         image: "symbol_r_or_w.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
       'gu': {
         color: 'gold',
         image: "symbol_g_or_u.svg",
-        // font: {
-        //   color: 'gold',
-        // },
       },
     },
     nodes: {
@@ -185,7 +137,8 @@
     },
     edges: {
       color: {
-        inherit: 'both',
+        color: '#848484',
+        opacity: .2,
       },
       font: {
         size: 0,
@@ -210,10 +163,10 @@
         type: 'dynamic',
       },
     },
-    // configure: {
-    //   filter: 'physics',
-    //   container: document.getElementById('config')
-    // },
+    configure: {
+      filter: 'edges',
+      // container: document.getElementById('config')
+    },
     interaction: {
       hideEdgesOnDrag: false,
       hover: true,
@@ -257,7 +210,7 @@
   var hoverNodeId = null;
   var selectionEdgeIds = [];
 
-  function showEdgeLabel(edgeID) {
+  function highlightEdge(edgeID) {
       currentEdges.update({
           id: edgeID,
           font: {
@@ -266,22 +219,31 @@
       });
   }
 
-  function showLabels(nodeIDs, edgeIDs) {
+  function dimEdge(edgeID) {
+      currentEdges.update({
+          id: edgeID,
+          font: {
+              size: 0,
+          },
+      });
+  }
+
+  function highlight(nodeIDs, edgeIDs) {
       edgeIDs.forEach(function (edgeID) {
-          showEdgeLabel(edgeID);
+          highlightEdge(edgeID);
       });
   }
 
   function onBlurEdge(edgeId) {
-    hideEdgeLabel(edgeId);
-    showLabels(network.getSelectedNodes(), network.getSelectedEdges());
+    dimEdge(edgeId);
+    highlight(network.getSelectedNodes(), network.getSelectedEdges());
   }
 
   function onBlurNode(nodeId) {
     network.getConnectedEdges(nodeId).forEach(function (edgeId) {
-        hideEdgeLabel(edgeId);
+        dimEdge(edgeId);
     });
-    showLabels(network.getSelectedNodes(), network.getSelectedEdges());
+    highlight(network.getSelectedNodes(), network.getSelectedEdges());
   }
 
   function blurLastHover() {
@@ -293,20 +255,22 @@
       }
   }
 
-  function hideEdgeLabel(edgeID) {
-      currentEdges.update({
-          id: edgeID,
-          font: {
-              size: 0,
-          },
-      });
+  function onSelect(params) {
+    blurLastHover();
+    hoverEdgeId = null;
+
+    selectionEdgeIds.forEach(function (edgeID) {
+        dimEdge(edgeID);
+    });
+    highlight(params.nodes, params.edges)
+    selectionEdgeIds = params.edges;
   }
 
   network.on("hoverEdge", function (params) {
         blurLastHover();
 
         hoverEdgeId = params.edge;
-        showEdgeLabel(hoverEdgeId);
+        highlightEdge(hoverEdgeId);
   });
 
   network.on("blurEdge", function (params) {
@@ -318,24 +282,13 @@
 
         hoverNodeId = params.node;
         network.getConnectedEdges(hoverNodeId).forEach(function (edgeId) {
-            showEdgeLabel(edgeId);
+            highlightEdge(edgeId);
         });
   });
 
   network.on("blurNode", function (params) {
     onBlurNode(params.node);
   });
-
-  function onSelect(params) {
-    blurLastHover();
-    hoverEdgeId = null;
-
-    selectionEdgeIds.forEach(function (edgeID) {
-        hideEdgeLabel(edgeID);
-    });
-    showLabels(params.nodes, params.edges)
-    selectionEdgeIds = params.edges;
-  }
 
   network.on("select", function (params) {
     onSelect(params);

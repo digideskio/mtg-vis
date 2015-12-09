@@ -70,17 +70,6 @@ class Card(object):
     def __str__(self):
         return str.format("Card('{}',win_rate()={})",
                           self.name, win_rate(self))
-    def color(self):
-        colors = 0;
-        color = color_map['colorless']
-        for c in "wubrg":
-            if c in self.mana_cost:
-                colors += 1
-                color = color_map[c]
-        if colors > 1:
-            return color_map["gold"]
-        else:
-            return color
 
     def group(self):
         colors = 'x'
@@ -95,6 +84,18 @@ class Card(object):
     def symbol(self):
         return symbol_map[self.group()]
 
+
+def color(mana_cost):
+    colors = 0;
+    color = color_map['colorless']
+    for c in "wubrg":
+        if c in mana_cost:
+            colors += 1
+            color = color_map[c]
+    if colors > 1:
+        return color_map["gold"]
+    else:
+        return color
 
 def plays(element):
     return element.wins + element.losses
@@ -201,6 +202,8 @@ for synergy in synergies_by_card_tuple.values():
     win_factor = card1.wins * card2.wins
     lose_factor = card1.losses * card2.losses
     combined_win_rate = win_factor / (win_factor + lose_factor)
+
+    # color = ''.join(sorted(set(card1.group()) & set(card2.group()), key = "wubrg".index))
 
     if win_rate(synergy) > max(.5, combined_win_rate):
         edges.append({ 'from': synergy.card1,
