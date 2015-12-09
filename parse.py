@@ -204,18 +204,15 @@ for synergy in synergies_by_card_tuple.values():
     lose_factor = card1.losses * card2.losses
     combined_win_rate = win_factor / (win_factor + lose_factor)
 
-    golden_mean = .61803398875
-    min_plays = 262
-
-    if plays(synergy) > min_plays and win_rate(synergy) > max(golden_mean, combined_win_rate):
-        edges.append({'from': synergy.card1,
-                      'to': synergy.card2,
-                      'value': win_rate(synergy),
-                      'length': 45 + 250.0 / (plays(synergy) - min_plays),
-                    #   'length': 380 * (1 - win_rate(synergy)),
-                      'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
-                      'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
-                                          synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy)),
-                     })
+    if win_rate(synergy) > max(.5, combined_win_rate):
+        edges.append({ 'from': synergy.card1,
+                       'to': synergy.card2,
+                       'value': win_rate(synergy),
+                       'length': 995.0 / sqrt(plays(synergy)),
+                       'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
+                       'title': str.format("{} + {}<br>{:.0f}% win rate over {} games",
+                                           synergy.card1, synergy.card2, 100 * win_rate(synergy), plays(synergy)),
+                       'plays': plays(synergy),
+                       'winRate': win_rate(synergy) })
 
 write('edges.js', "var edges = ", edges)

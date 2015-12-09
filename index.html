@@ -19,8 +19,7 @@
     background: rgb(230,230,230);
   }
   #mtg-network {
-    float:left;
-    width: 62%;
+    width: 100%;
     height: 100%;
   }
   #config {
@@ -30,8 +29,9 @@
   #progress {
     position: absolute;
     z-index: 2;
-    width: 4em;
-    height: 4em;
+    width: 2em;
+    height: 1em;
+    text-align: center;
     top: 0;
     bottom: 0;
     left: 0;
@@ -42,10 +42,11 @@
 </head>
 <body>
   <div id="mtg-network"></div>
-  <div id="config"></div>
+  <!-- <div id="config"></div> -->
   <div id="progress"></div>
 
   <script type="text/javascript">
+  var minWinRate = .61803398875;
   var options = {
     groups: {
       'x': {
@@ -168,6 +169,7 @@
         strokeWidth: 2,
         strokeColor: 'rgb(230,230,230)',
       },
+      labelHighlightBold: false,
       scaling: {
         min: 9,
         max: 30,
@@ -190,32 +192,34 @@
         strokeWidth: 2,
         strokeColor: 'rgb(230,230,230)',
       },
+      labelHighlightBold: false,
       scaling: {
-        min: 0,
+        min: .1,
         max: 60,
         customScalingFunction: function (min,max,total,value) {
-          return 2 * (value - .61803398875);
+          return 2 * (value - minWinRate);
         },
         label: {
           enabled: false,
         },
       },
-      hoverWidth: 1,
-      selectionWidth: 2,
+      hoverWidth: 0,
+      selectionWidth: 0,
       smooth: {
         enabled: true,
         type: 'dynamic',
       },
     },
-    configure: {
-      filter: 'physics',
-      container: document.getElementById('config')
-    },
+    // configure: {
+    //   filter: 'physics',
+    //   container: document.getElementById('config')
+    // },
     interaction: {
       hideEdgesOnDrag: false,
       hover: true,
       hoverConnectedEdges: true,
       multiselect: false,
+      selectable: false,
     },
     layout: {
       improvedLayout: false,
@@ -223,9 +227,6 @@
     physics: {
       solver: 'barnesHut',
       barnesHut: {
-        // gravitationalConstant: -4000,
-        // centralGravity: .6,
-        // springConstant: 0.95,
         avoidOverlap: .01,
       },
       stabilization: {
@@ -233,18 +234,24 @@
       },
     },
   };
+  var minPlays = 262;
   var container = document.getElementById('mtg-network');
-  var nodesDataset = new vis.DataSet(nodes);
-  var edgesDataset = new vis.DataSet(edges);
+  var allNodes = new vis.DataSet(nodes);
+  var allEdges = new vis.DataSet(edges);
+  var currentEdges = new vis.DataSet(allEdges.get({
+    filter: function (edge) {
+      return (edge.plays > minPlays) && edge.winRate > minWinRate;
+    }
+  }));
   var data = {
-    nodes: nodesDataset,
-    edges: edgesDataset
+    nodes: allNodes,
+    edges: currentEdges
   };
   var network = new vis.Network(container, data, options);
 
   var highlightActive = false;
   var edgeFontSize = 9;
-  var allNodes = nodesDataset.get({returnType:"Object"});
+  var allNodes = allNodes.get({returnType:"Object"});
 
   var hoverEdgeId = null;
   var hoverNodeId = null;
@@ -294,7 +301,7 @@
   }
 
   function showEdgeLabel(edgeID) {
-      edgesDataset.update({
+      currentEdges.update({
           id: edgeID,
           font: {
               size: edgeFontSize,
@@ -303,7 +310,7 @@
   }
 
   function hideEdgeLabel(edgeID) {
-      edgesDataset.update({
+      currentEdges.update({
           id: edgeID,
           font: {
               size: 0,
@@ -347,79 +354,6 @@
   });
   network.once("stabilizationIterationsDone", function() {
     setTimeout(function () {document.getElementById('progress').style.display = 'none';}, 500);
-  });
-
-  network.on("click", function(params) {
-    // if something is selected:
-    if (params.nodes.length > 0) {
-      highlightActive = true;
-      var i,j;
-      var selectedNode = params.nodes[0];
-      var degrees = 2;
-
-      // mark all nodes as hard to read.
-      for (var nodeId in allNodes) {
-        allNodes[nodeId].color = 'rgba(200,200,200,0.38)';
-        if (allNodes[nodeId].hiddenLabel === undefined) {
-          allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
-          allNodes[nodeId].label = undefined;
-        }
-      }
-      var connectedNodes = network.getConnectedNodes(selectedNode);
-      var allConnectedNodes = [];
-
-      // get the second degree nodes
-      for (i = 1; i < degrees; i++) {
-        for (j = 0; j < connectedNodes.length; j++) {
-          allConnectedNodes = allConnectedNodes.concat(network.getConnectedNodes(connectedNodes[j]));
-        }
-      }
-
-      // all second degree nodes get a different color and their label back
-      for (i = 0; i < allConnectedNodes.length; i++) {
-        allNodes[allConnectedNodes[i]].color = 'rgba(150,150,150,0.62)';
-        if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
-          allNodes[allConnectedNodes[i]].label = allNodes[allConnectedNodes[i]].hiddenLabel;
-          allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
-        }
-      }
-
-      // all first degree nodes get their own color and their label back
-      for (i = 0; i < connectedNodes.length; i++) {
-        allNodes[connectedNodes[i]].color = undefined;
-        if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
-          allNodes[connectedNodes[i]].label = allNodes[connectedNodes[i]].hiddenLabel;
-          allNodes[connectedNodes[i]].hiddenLabel = undefined;
-        }
-      }
-
-      // the main node gets its own color and its label back.
-      allNodes[selectedNode].color = undefined;
-      if (allNodes[selectedNode].hiddenLabel !== undefined) {
-        allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
-        allNodes[selectedNode].hiddenLabel = undefined;
-      }
-    }
-    else if (highlightActive === true) {
-      // reset all nodes
-      for (var nodeId in allNodes) {
-        allNodes[nodeId].color = undefined;
-        if (allNodes[nodeId].hiddenLabel !== undefined) {
-          allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
-          allNodes[nodeId].hiddenLabel = undefined;
-        }
-      }
-      highlightActive = false
-    }
-
-    // transform the object into an array
-    var updateArray = [];
-    for (nodeId in allNodes) {
-      if (allNodes.hasOwnProperty(nodeId)) {
-        updateArray.push(allNodes[nodeId]);
-      }
-    }
-    nodesDataset.update(updateArray);
   });
   </script>
 </body>
