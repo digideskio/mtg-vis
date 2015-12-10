@@ -118,7 +118,7 @@
       borderWidth: 0,
       color: 'rgba(0,0,0,0)',
       font: {
-        size: 0,
+        size: 14,
         color: 'rgb(20,17,17)',
         strokeColor: 'rgb(182, 165, 152)',
         strokeWidth: 2,
@@ -275,19 +275,17 @@
   }
 
   network.on("hoverEdge", function (params) {
-        blurLastHover();
-
-        hoverEdgeId = params.edge;
-        highlightEdge(hoverEdgeId);
+    blurLastHover();
+    hoverEdgeId = params.edge;
+    highlightEdge(hoverEdgeId);
   });
 
   network.on("blurEdge", function (params) {
-    onBlurEdge(params);
+    onBlurEdge(params.edge);
   });
 
   network.on("hoverNode", function (params) {
         blurLastHover();
-
         hoverNodeId = params.node;
         network.getConnectedEdges(hoverNodeId).forEach(function (edgeId) {
             highlightEdge(edgeId);

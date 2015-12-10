@@ -184,7 +184,7 @@ def write(filename, declaration, value):
 nodes = [{ 'id': card.name,
            'value': win_rate(card),
            'group': card.group(),
-           'label': str.format("{}\n{:.0f}%\n{} plays",
+           'label': str.format("{}\n{:.0f}% of {}",
                                card.name, 100 * win_rate(card), plays(card)) }
          for card in cards_by_name.values()]
 write('nodes.js', "var nodes = ", nodes)
@@ -214,7 +214,7 @@ for synergy in synergies_by_card_tuple.values():
                        'to': synergy.card2,
                        'value': win_rate(synergy),
                        'length': 995.0 / sqrt(plays(synergy)),
-                       'label': str.format("{:.0f}% wins\n{} plays",
+                       'label': str.format("{:.0f}% of {}",
                                            100 * win_rate(synergy), plays(synergy)),
                        'plays': plays(synergy),
                        'winRate': win_rate(synergy) })
