@@ -16,7 +16,7 @@
     height: 100%;
     margin: 0;
     position: relative;
-    background: rgb(230,230,230);
+    background: rgb(182, 165, 152);
   }
   #mtg-network {
     width: 100%;
@@ -50,7 +50,7 @@
   var options = {
     groups: {
       'x': {
-        color: 'gray',
+        color: 'lightgray',
         image: "symbol_x.svg",
       },
       'w': {
@@ -116,10 +116,12 @@
     },
     nodes: {
       borderWidth: 0,
+      color: 'rgba(0,0,0,0)',
       font: {
-        size: 14,
+        size: 0,
+        color: 'rgb(20,17,17)',
+        strokeColor: 'rgb(182, 165, 152)',
         strokeWidth: 2,
-        strokeColor: 'rgb(230,230,230)',
       },
       labelHighlightBold: false,
       scaling: {
@@ -137,13 +139,13 @@
     },
     edges: {
       color: {
-        color: '#848484',
-        opacity: .2,
+        color: 'hsla(0, 0%, 50%, .38)',
       },
       font: {
         size: 0,
+        color: 'rgb(20,17,17)',
+        strokeColor: 'rgb(182, 165, 152)',
         strokeWidth: 2,
-        strokeColor: 'rgb(230,230,230)',
       },
       labelHighlightBold: false,
       scaling: {
@@ -213,6 +215,9 @@
   function highlightEdge(edgeID) {
       currentEdges.update({
           id: edgeID,
+          color: {
+            inherit: 'both',
+          },
           font: {
               size: edgeFontSize,
           },
@@ -222,6 +227,9 @@
   function dimEdge(edgeID) {
       currentEdges.update({
           id: edgeID,
+          color: {
+            color: 'hsla(0, 0%, 50%, .2)',
+          },
           font: {
               size: 0,
           },

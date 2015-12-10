@@ -33,13 +33,20 @@ games_columns = (game_id, starting_hand_size, tournament_id, match_id, player,
 
 cards_columns = (name, mana_cost, rarity) = 'Name', 'Mana cost', 'Rarity'
 
-color_map = {'w': "white",
-             'u': "blue",
-             'b': "black",
-             'r': "red",
-             'g': "green",
-             'gold': "gold",
-             'colorless': "lightgray"}
+edge_color_map = { 'x': "rgba(202, 211, 215, .5)",
+                   'w': "rgba(238, 238, 237, .5)",
+                   'u': "rgba(20, 134, 194, .5)",
+                   'b': "rgba(45, 41, 34, .5)",
+                   'r': "rgba(234, 75, 49, .5)",
+                   'g': "rgba(19, 130, 70, .5)",
+                   'gold': "rgba(237, 222, 134, .5)" }
+hover_color_map = { 'x': "rgba(202, 211, 215, .8)",
+                    'w': "rgba(238, 238, 237, .8)",
+                    'u': "rgba(20, 134, 194, .8)",
+                    'b': "rgba(45, 41, 34, .8)",
+                    'r': "rgba(234, 75, 49, .8)",
+                    'g': "rgba(19, 130, 70, .8)",
+                    'gold': "rgba(237, 222, 134 .8)" }
 symbol_map = {'x': "symbol_x.svg",
               'w': "symbol_w.svg",
               'u': "symbol_u.svg",
@@ -84,18 +91,6 @@ class Card(object):
     def symbol(self):
         return symbol_map[self.group()]
 
-
-def color(mana_cost):
-    colors = 0;
-    color = color_map['colorless']
-    for c in "wubrg":
-        if c in mana_cost:
-            colors += 1
-            color = color_map[c]
-    if colors > 1:
-        return color_map["gold"]
-    else:
-        return color
 
 def plays(element):
     return element.wins + element.losses
@@ -189,11 +184,22 @@ def write(filename, declaration, value):
 nodes = [{ 'id': card.name,
            'value': win_rate(card),
            'group': card.group(),
-           'label': str.format("{}\n{:.0f}%", card.name, 100 * win_rate(card)) }
+           'label': str.format("{}\n{:.0f}%\n{} plays",
+                               card.name, 100 * win_rate(card), plays(card)) }
          for card in cards_by_name.values()]
 write('nodes.js', "var nodes = ", nodes)
 
 edges = []
+
+def color(color_map, color1, color2):
+    intersection = ''.join(sorted(set(color1) & set(color2), key = "xwubrg".index))
+    if color1 == "x":
+        return color_map.get(color2, color_map["gold"])
+    if color2 == "x":
+        return color_map.get(color1, color_map["gold"])
+    if len(intersection) == 0:
+        return color_map["gold"]
+    return color_map.get(intersection, color_map["gold"])
 
 for synergy in synergies_by_card_tuple.values():
     card1 = cards_by_name[synergy.card1]
@@ -203,14 +209,13 @@ for synergy in synergies_by_card_tuple.values():
     lose_factor = card1.losses * card2.losses
     combined_win_rate = win_factor / (win_factor + lose_factor)
 
-    # color = ''.join(sorted(set(card1.group()) & set(card2.group()), key = "wubrg".index))
-
     if win_rate(synergy) > max(.5, combined_win_rate):
         edges.append({ 'from': synergy.card1,
                        'to': synergy.card2,
                        'value': win_rate(synergy),
                        'length': 995.0 / sqrt(plays(synergy)),
-                       'label': str.format("{:.0f}%", 100 * win_rate(synergy)),
+                       'label': str.format("{:.0f}% wins\n{} plays",
+                                           100 * win_rate(synergy), plays(synergy)),
                        'plays': plays(synergy),
                        'winRate': win_rate(synergy) })
 
