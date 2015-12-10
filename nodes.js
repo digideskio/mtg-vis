@@ -1,1364 +1,2045 @@
 var nodes = [
 {
-"label": "Fathom Feeder\n55% of 2639",
-"id": "Fathom Feeder",
-"value": 0.5494505494505495,
-"group": "ub"
-},
-{
-"label": "Ruination Guide\n58% of 7558",
-"id": "Ruination Guide",
-"value": 0.5833553850224927,
-"group": "u"
-},
-{
-"label": "Sire of Stagnation\n62% of 1170",
-"id": "Sire of Stagnation",
-"value": 0.6230769230769231,
-"group": "ub"
-},
-{
-"label": "Rush of Ice\n48% of 9740",
-"id": "Rush of Ice",
-"value": 0.4809034907597536,
-"group": "u"
-},
-{
-"label": "Drana, Liberator of Malakir\n60% of 1413",
-"id": "Drana, Liberator of Malakir",
-"value": 0.6015569709837226,
-"group": "b"
-},
-{
-"label": "Greenwarden of Murasa\n59% of 1015",
-"id": "Greenwarden of Murasa",
-"value": 0.5901477832512315,
-"group": "g"
-},
-{
-"label": "Adverse Conditions\n54% of 5757",
-"id": "Adverse Conditions",
-"value": 0.5350008685079034,
-"group": "u"
-},
-{
-"label": "Swarm Surge\n65% of 4122",
-"id": "Swarm Surge",
-"value": 0.6540514313440078,
-"group": "b"
-},
-{
-"label": "Smite the Monstrous\n54% of 9208",
-"id": "Smite the Monstrous",
-"value": 0.537141615986099,
-"group": "w"
-},
-{
-"label": "Stone Haven Medic\n52% of 10319",
-"id": "Stone Haven Medic",
-"value": 0.5173950964240721,
-"group": "w"
-},
-{
-"label": "Stasis Snare\n56% of 5792",
-"id": "Stasis Snare",
-"value": 0.5595649171270718,
-"group": "w"
-},
-{
-"label": "Roilmage's Trick\n46% of 1254",
-"id": "Roilmage's Trick",
-"value": 0.45534290271132377,
-"group": "u"
-},
-{
-"label": "Ruin Processor\n61% of 8582",
-"id": "Ruin Processor",
-"value": 0.6132603122815194,
-"group": "x"
-},
-{
-"label": "Ulamog's Nullifier\n61% of 4631",
-"id": "Ulamog's Nullifier",
-"value": 0.6145540919887713,
-"group": "ub"
-},
-{
-"label": "Kalastria Healer\n54% of 12833",
-"id": "Kalastria Healer",
-"value": 0.542975142211486,
-"group": "b"
-},
-{
-"label": "Quarantine Field\n63% of 1084",
-"id": "Quarantine Field",
-"value": 0.6282287822878229,
-"group": "w"
-},
-{
-"label": "Oracle of Dust\n52% of 7591",
-"id": "Oracle of Dust",
-"value": 0.5224608088525886,
-"group": "u"
-},
-{
-"label": "Tunneling Geopede\n51% of 5262",
-"id": "Tunneling Geopede",
-"value": 0.5108323831242874,
-"group": "r"
-},
-{
-"label": "Tajuru Beastmaster\n58% of 7227",
-"id": "Tajuru Beastmaster",
-"value": 0.5770029057700291,
-"group": "g"
-},
-{
-"label": "Omnath, Locus of Rage\n66% of 652",
-"id": "Omnath, Locus of Rage",
-"value": 0.6579754601226994,
-"group": "rg"
-},
-{
-"label": "Bane of Bala Ged\n60% of 4887",
-"id": "Bane of Bala Ged",
-"value": 0.5977082054430121,
-"group": "x"
-},
-{
-"label": "Angelic Captain\n58% of 2010",
-"id": "Angelic Captain",
-"value": 0.5766169154228856,
-"group": "rw"
-},
-{
-"label": "Retreat to Valakut\n46% of 2709",
-"id": "Retreat to Valakut",
-"value": 0.4629014396456257,
-"group": "r"
-},
-{
-"label": "Windrider Patrol\n59% of 6131",
-"id": "Windrider Patrol",
-"value": 0.5899526993965095,
-"group": "u"
-},
-{
-"label": "Mire's Malice\n58% of 4962",
-"id": "Mire's Malice",
-"value": 0.5802095929060862,
-"group": "b"
-},
-{
-"label": "Gideon, Ally of Zendikar\n70% of 1286",
-"id": "Gideon, Ally of Zendikar",
-"value": 0.6967340590979783,
-"group": "w"
-},
-{
-"label": "Call the Scions\n48% of 10441",
-"id": "Call the Scions",
-"value": 0.4772531366727325,
-"group": "g"
-},
-{
-"label": "Kor Bladewhirl\n52% of 7139",
-"id": "Kor Bladewhirl",
-"value": 0.5179997198487183,
-"group": "w"
-},
-{
-"label": "Retreat to Emeria\n55% of 6096",
-"id": "Retreat to Emeria",
-"value": 0.5500328083989501,
-"group": "w"
-},
-{
-"label": "Earthen Arms\n45% of 3873",
-"id": "Earthen Arms",
-"value": 0.4549444874774077,
-"group": "g"
-},
-{
-"label": "Drowner of Hope\n67% of 3035",
-"id": "Drowner of Hope",
-"value": 0.6682042833607907,
-"group": "u"
-},
-{
-"label": "Conduit of Ruin\n59% of 2529",
-"id": "Conduit of Ruin",
-"value": 0.5947014630288652,
-"group": "x"
-},
-{
-"label": "Lantern Scout\n56% of 3224",
-"id": "Lantern Scout",
-"value": 0.5632754342431762,
-"group": "w"
-},
-{
-"label": "Complete Disregard\n56% of 16753",
-"id": "Complete Disregard",
-"value": 0.5561988897510893,
-"group": "b"
-},
-{
-"label": "Beastcaller Savant\n47% of 3049",
-"id": "Beastcaller Savant",
-"value": 0.4745818301082322,
-"group": "g"
-},
-{
-"label": "Eldrazi Devastator\n59% of 4800",
-"id": "Eldrazi Devastator",
-"value": 0.5860416666666667,
-"group": "x"
-},
-{
-"label": "Kalastria Nightwatch\n58% of 9391",
-"id": "Kalastria Nightwatch",
-"value": 0.5750186348631668,
-"group": "b"
-},
-{
-"label": "Coastal Discovery\n59% of 6351",
-"id": "Coastal Discovery",
-"value": 0.5940796724925209,
-"group": "u"
-},
-{
-"label": "Skyrider Elf\n55% of 4605",
-"id": "Skyrider Elf",
-"value": 0.5533116178067318,
-"group": "gu"
-},
-{
-"label": "Slab Hammer\n46% of 2660",
-"id": "Slab Hammer",
-"value": 0.46466165413533833,
-"group": "x"
-},
-{
-"label": "Kor Entanglers\n55% of 5100",
-"id": "Kor Entanglers",
-"value": 0.5537254901960784,
-"group": "w"
-},
-{
-"label": "Stonefury\n53% of 9675",
-"id": "Stonefury",
-"value": 0.5291989664082687,
-"group": "r"
-},
-{
-"label": "Void Attendant\n48% of 3406",
-"id": "Void Attendant",
-"value": 0.4770992366412214,
-"group": "g"
-},
-{
-"label": "Drana's Emissary\n62% of 6099",
-"id": "Drana's Emissary",
-"value": 0.6199376947040498,
-"group": "wb"
-},
-{
-"label": "Sure Strike\n53% of 6428",
-"id": "Sure Strike",
-"value": 0.5280024891101431,
-"group": "r"
-},
-{
-"label": "Makindi Sliderunner\n53% of 13317",
-"id": "Makindi Sliderunner",
-"value": 0.5260193737328227,
-"group": "r"
-},
-{
-"label": "Rising Miasma\n52% of 2785",
-"id": "Rising Miasma",
-"value": 0.5235188509874327,
-"group": "b"
-},
-{
-"label": "Valakut Invoker\n53% of 10516",
-"id": "Valakut Invoker",
-"value": 0.5263408139977178,
-"group": "r"
-},
-{
-"label": "Goblin War Paint\n40% of 2195",
-"id": "Goblin War Paint",
-"value": 0.40455580865603646,
-"group": "r"
-},
-{
-"label": "Defiant Bloodlord\n57% of 1087",
-"id": "Defiant Bloodlord",
-"value": 0.5657773689052438,
-"group": "b"
-},
-{
-"label": "Reclaiming Vines\n42% of 668",
-"id": "Reclaiming Vines",
-"value": 0.4221556886227545,
-"group": "g"
-},
-{
-"label": "Desolation Twin\n69% of 857",
-"id": "Desolation Twin",
-"value": 0.690781796966161,
-"group": "x"
-},
-{
-"label": "Munda, Ambush Leader\n57% of 2062",
-"id": "Munda, Ambush Leader",
-"value": 0.5746847720659554,
-"group": "rw"
-},
-{
-"label": "Tajuru Stalwart\n50% of 11184",
-"id": "Tajuru Stalwart",
-"value": 0.5042024320457796,
-"group": "g"
-},
-{
-"label": "Lifespring Druid\n48% of 13364",
-"id": "Lifespring Druid",
-"value": 0.48443579766536965,
-"group": "g"
-},
-{
-"label": "Courier Griffin\n56% of 14933",
-"id": "Courier Griffin",
-"value": 0.5555481149132793,
-"group": "w"
-},
-{
-"label": "Endless One\n54% of 3484",
-"id": "Endless One",
-"value": 0.5419058553386912,
-"group": "x"
-},
-{
-"label": "Scatter to the Winds\n61% of 2164",
-"id": "Scatter to the Winds",
-"value": 0.6095194085027726,
-"group": "u"
-},
-{
-"label": "Radiant Flames\n52% of 1621",
-"id": "Radiant Flames",
-"value": 0.5231338679827268,
-"group": "r"
-},
-{
-"label": "Brood Butcher\n58% of 2373",
-"id": "Brood Butcher",
-"value": 0.5828065739570164,
-"group": "bg"
-},
-{
-"label": "Hedron Blade\n42% of 1746",
-"id": "Hedron Blade",
-"value": 0.41580756013745707,
-"group": "x"
-},
-{
-"label": "Broodhunter Wurm\n49% of 5375",
-"id": "Broodhunter Wurm",
-"value": 0.4852093023255814,
-"group": "g"
-},
-{
-"label": "Grovetender Druids\n54% of 4229",
-"id": "Grovetender Druids",
-"value": 0.5400803972570347,
-"group": "gw"
-},
-{
-"label": "Blisterpod\n47% of 9634",
-"id": "Blisterpod",
-"value": 0.4735312435125597,
-"group": "g"
-},
-{
-"label": "Reckless Cohort\n47% of 7063",
-"id": "Reckless Cohort",
-"value": 0.4672235593940252,
-"group": "r"
-},
-{
-"label": "Painful Truths\n53% of 2220",
-"id": "Painful Truths",
-"value": 0.5306306306306307,
-"group": "b"
-},
-{
-"label": "Unified Front\n53% of 3552",
-"id": "Unified Front",
-"value": 0.5292792792792793,
-"group": "w"
-},
-{
-"label": "Ondu Rising\n59% of 4180",
-"id": "Ondu Rising",
-"value": 0.5937799043062201,
-"group": "w"
-},
-{
-"label": "Clutch of Currents\n55% of 16714",
-"id": "Clutch of Currents",
-"value": 0.5539667344740936,
-"group": "u"
-},
-{
-"label": "Anticipate\n51% of 11987",
-"id": "Anticipate",
-"value": 0.5076332693751564,
-"group": "u"
-},
-{
-"label": "Snapping Gnarlid\n53% of 14006",
-"id": "Snapping Gnarlid",
-"value": 0.5265600456947023,
-"group": "g"
-},
-{
-"label": "Eldrazi Skyspawner\n60% of 19096",
-"id": "Eldrazi Skyspawner",
-"value": 0.5954126518642647,
-"group": "u"
-},
-{
-"label": "Swell of Growth\n49% of 5690",
-"id": "Swell of Growth",
-"value": 0.4889279437609842,
-"group": "g"
-},
-{
-"label": "Vestige of Emrakul\n51% of 12266",
-"id": "Vestige of Emrakul",
-"value": 0.5141855535626936,
-"group": "r"
-},
-{
-"label": "Undergrowth Champion\n53% of 1162",
-"id": "Undergrowth Champion",
-"value": 0.53184165232358,
-"group": "g"
-},
-{
-"label": "Zada, Hedron Grinder\n48% of 1713",
-"id": "Zada, Hedron Grinder",
-"value": 0.48336252189141854,
-"group": "r"
-},
-{
-"label": "Kor Castigator\n53% of 16141",
-"id": "Kor Castigator",
-"value": 0.5262994857815501,
-"group": "w"
-},
-{
-"label": "Carrier Thrall\n54% of 6775",
-"id": "Carrier Thrall",
-"value": 0.5366789667896679,
-"group": "b"
-},
-{
-"label": "Hedron Archive\n56% of 6843",
-"id": "Hedron Archive",
-"value": 0.5596960397486482,
-"group": "x"
-},
-{
-"label": "Resolute Blademaster\n61% of 4180",
-"id": "Resolute Blademaster",
-"value": 0.6131578947368421,
-"group": "rw"
-},
-{
-"label": "Processor Assault\n59% of 2429",
-"id": "Processor Assault",
-"value": 0.5854261012762454,
-"group": "r"
-},
-{
-"label": "Barrage Tyrant\n55% of 2240",
-"id": "Barrage Tyrant",
-"value": 0.5526785714285715,
-"group": "r"
-},
-{
-"label": "Voracious Null\n44% of 4171",
-"id": "Voracious Null",
-"value": 0.4389834572045073,
-"group": "b"
-},
-{
-"label": "Felidar Sovereign\n60% of 2393",
-"id": "Felidar Sovereign",
-"value": 0.5950689511073965,
-"group": "w"
-},
-{
-"label": "Guardian of Tazeem\n64% of 2895",
-"id": "Guardian of Tazeem",
-"value": 0.6400690846286701,
-"group": "u"
-},
-{
-"label": "Wave-Wing Elemental\n56% of 6359",
-"id": "Wave-Wing Elemental",
-"value": 0.5585783928290612,
-"group": "u"
-},
-{
-"label": "Tightening Coils\n46% of 12279",
-"id": "Tightening Coils",
-"value": 0.46119390829872137,
-"group": "u"
-},
-{
-"label": "Akoum Hellkite\n60% of 2159",
-"id": "Akoum Hellkite",
-"value": 0.603056970819824,
-"group": "r"
-},
-{
-"label": "Cliffside Lookout\n48% of 9506",
-"id": "Cliffside Lookout",
-"value": 0.47875026299179463,
-"group": "w"
-},
-{
-"label": "Valakut Predator\n53% of 12638",
-"id": "Valakut Predator",
-"value": 0.5326792213957905,
-"group": "r"
-},
-{
-"label": "Pilgrim's Eye\n56% of 8208",
-"id": "Pilgrim's Eye",
-"value": 0.5616471734892787,
-"group": "x"
-},
-{
-"label": "Catacomb Sifter\n55% of 5028",
-"id": "Catacomb Sifter",
-"value": 0.5477326968973747,
-"group": "bg"
-},
-{
-"label": "Blight Herder\n59% of 2657",
-"id": "Blight Herder",
-"value": 0.5905156191193075,
-"group": "x"
-},
-{
-"label": "Roil Spout\n65% of 5081",
-"id": "Roil Spout",
-"value": 0.6540051171029325,
-"group": "wu"
-},
-{
-"label": "Boiling Earth\n53% of 2640",
-"id": "Boiling Earth",
-"value": 0.5253787878787879,
-"group": "r"
-},
-{
-"label": "Cloud Manta\n55% of 13152",
-"id": "Cloud Manta",
-"value": 0.5468369829683698,
-"group": "u"
-},
-{
-"label": "Transgress the Mind\n52% of 5190",
-"id": "Transgress the Mind",
-"value": 0.5192678227360308,
-"group": "b"
-},
-{
-"label": "Salvage Drone\n48% of 10090",
-"id": "Salvage Drone",
-"value": 0.478790882061447,
-"group": "u"
-},
-{
-"label": "Angel of Renewal\n63% of 5579",
-"id": "Angel of Renewal",
-"value": 0.6336260978670013,
-"group": "w"
-},
-{
-"label": "Retreat to Hagra\n48% of 4389",
-"id": "Retreat to Hagra",
-"value": 0.47527910685805425,
-"group": "b"
-},
-{
-"label": "Altar's Reap\n44% of 3844",
-"id": "Altar's Reap",
-"value": 0.436264308012487,
-"group": "b"
-},
-{
-"label": "Coralhelm Guide\n53% of 11497",
-"id": "Coralhelm Guide",
-"value": 0.5252674610768027,
-"group": "u"
-},
-{
-"label": "Scour from Existence\n54% of 4112",
-"id": "Scour from Existence",
-"value": 0.5376945525291829,
-"group": "x"
-},
-{
-"label": "Exert Influence\n63% of 2257",
-"id": "Exert Influence",
-"value": 0.6304829419583518,
-"group": "u"
-},
-{
-"label": "Gruesome Slaughter\n65% of 981",
-"id": "Gruesome Slaughter",
-"value": 0.654434250764526,
-"group": "x"
-},
-{
-"label": "Vile Aggregate\n59% of 6638",
-"id": "Vile Aggregate",
-"value": 0.5885808978608015,
-"group": "r"
-},
-{
-"label": "Brilliant Spectrum\n46% of 778",
-"id": "Brilliant Spectrum",
-"value": 0.461439588688946,
-"group": "u"
-},
-{
-"label": "Territorial Baloth\n51% of 7975",
-"id": "Territorial Baloth",
-"value": 0.5124764890282132,
-"group": "g"
-},
-{
-"label": "Grave Birthing\n54% of 8201",
-"id": "Grave Birthing",
-"value": 0.5435922448481892,
-"group": "b"
-},
-{
-"label": "Plated Crusher\n61% of 2687",
-"id": "Plated Crusher",
-"value": 0.6088574618533681,
-"group": "g"
-},
-{
-"label": "Herald of Kozilek\n57% of 5319",
-"id": "Herald of Kozilek",
-"value": 0.5743560819702952,
-"group": "ur"
-},
-{
-"label": "Retreat to Kazandu\n47% of 4179",
-"id": "Retreat to Kazandu",
-"value": 0.4714046422589136,
-"group": "g"
-},
-{
-"label": "Dampening Pulse\n53% of 5184",
-"id": "Dampening Pulse",
-"value": 0.5322145061728395,
-"group": "u"
-},
-{
-"label": "Smothering Abomination\n52% of 2312",
-"id": "Smothering Abomination",
-"value": 0.5168685121107266,
-"group": "b"
-},
-{
-"label": "Fortified Rampart\n50% of 8940",
-"id": "Fortified Rampart",
-"value": 0.49977628635346755,
-"group": "w"
-},
-{
-"label": "Serpentine Spike\n68% of 1550",
-"id": "Serpentine Spike",
-"value": 0.6845161290322581,
-"group": "r"
-},
-{
-"label": "Encircling Fissure\n50% of 4440",
-"id": "Encircling Fissure",
-"value": 0.49932432432432433,
-"group": "w"
-},
-{
-"label": "Retreat to Coralhelm\n36% of 1675",
-"id": "Retreat to Coralhelm",
-"value": 0.3582089552238806,
-"group": "u"
-},
-{
-"label": "Ruinous Path\n58% of 2387",
-"id": "Ruinous Path",
-"value": 0.5751989945538333,
-"group": "b"
-},
-{
-"label": "Skitterskin\n54% of 4187",
-"id": "Skitterskin",
-"value": 0.540960114640554,
-"group": "b"
-},
-{
-"label": "Turn Against\n54% of 4417",
-"id": "Turn Against",
-"value": 0.5356576862123613,
-"group": "r"
-},
-{
-"label": "Forerunner of Slaughter\n56% of 4132",
-"id": "Forerunner of Slaughter",
-"value": 0.5621974830590513,
-"group": "br"
-},
-{
-"label": "Sylvan Scrying\n43% of 2676",
-"id": "Sylvan Scrying",
-"value": 0.4327354260089686,
-"group": "g"
-},
-{
-"label": "Mist Intruder\n52% of 16589",
-"id": "Mist Intruder",
-"value": 0.5247453131593225,
-"group": "u"
-},
-{
-"label": "Aligned Hedron Network\n47% of 297",
-"id": "Aligned Hedron Network",
-"value": 0.47474747474747475,
-"group": "x"
-},
-{
-"label": "Nettle Drone\n54% of 14632",
-"id": "Nettle Drone",
-"value": 0.5432613449972663,
-"group": "r"
-},
-{
-"label": "Dust Stalker\n56% of 1944",
-"id": "Dust Stalker",
-"value": 0.5622427983539094,
-"group": "br"
-},
-{
-"label": "Mind Raker\n54% of 8317",
-"id": "Mind Raker",
-"value": 0.5449080197186486,
-"group": "b"
-},
-{
-"label": "Prism Array\n50% of 201",
-"id": "Prism Array",
-"value": 0.4975124378109453,
-"group": "u"
-},
-{
-"label": "Dutiful Return\n48% of 940",
-"id": "Dutiful Return",
-"value": 0.4819148936170213,
-"group": "b"
-},
-{
-"label": "Ondu Champion\n53% of 7842",
-"id": "Ondu Champion",
-"value": 0.5302218821729151,
-"group": "r"
-},
-{
-"label": "Molten Nursery\n53% of 3663",
-"id": "Molten Nursery",
-"value": 0.5271635271635272,
-"group": "r"
-},
-{
-"label": "Murasa Ranger\n48% of 3991",
-"id": "Murasa Ranger",
-"value": 0.4778251064896016,
-"group": "g"
-},
-{
-"label": "Spell Shrivel\n58% of 10952",
-"id": "Spell Shrivel",
-"value": 0.5823593864134404,
-"group": "u"
-},
-{
-"label": "Plummet\n47% of 1739",
-"id": "Plummet",
-"value": 0.4749856239217941,
-"group": "g"
-},
-{
-"label": "Planar Outburst\n59% of 2026",
-"id": "Planar Outburst",
-"value": 0.5868706811451135,
-"group": "w"
-},
-{
-"label": "Sludge Crawler\n54% of 14729",
-"id": "Sludge Crawler",
-"value": 0.5356100210469142,
-"group": "b"
-},
-{
-"label": "Kitesail Scout\n40% of 2521",
-"id": "Kitesail Scout",
-"value": 0.3954779849266164,
-"group": "w"
-},
-{
-"label": "Gideon's Reproach\n51% of 14547",
-"id": "Gideon's Reproach",
-"value": 0.5084897229669347,
-"group": "w"
-},
-{
-"label": "Expedition Envoy\n51% of 5868",
-"id": "Expedition Envoy",
-"value": 0.5074982958418541,
-"group": "w"
-},
-{
-"label": "Hagra Sharpshooter\n52% of 4794",
+"label": "Hagra Sharpshooter",
 "id": "Hagra Sharpshooter",
-"value": 0.5246141009595328,
-"group": "b"
+"group": "b",
+"winRate": 0.5246141009595328,
+"plays": 4794,
+"name": "Hagra Sharpshooter",
+"value": 0.5246141009595328
 },
 {
-"label": "Grove Rumbler\n54% of 4358",
-"id": "Grove Rumbler",
-"value": 0.5410738871041763,
-"group": "rg"
-},
-{
-"label": "Lithomancer's Focus\n54% of 7025",
-"id": "Lithomancer's Focus",
-"value": 0.5395017793594306,
-"group": "w"
-},
-{
-"label": "Murk Strider\n55% of 12047",
-"id": "Murk Strider",
-"value": 0.551174566282062,
-"group": "u"
-},
-{
-"label": "Dispel\n57% of 859",
-"id": "Dispel",
-"value": 0.5692665890570431,
-"group": "u"
-},
-{
-"label": "Lavastep Raider\n43% of 2999",
-"id": "Lavastep Raider",
-"value": 0.4254751583861287,
-"group": "r"
-},
-{
-"label": "Makindi Patrol\n51% of 14654",
-"id": "Makindi Patrol",
-"value": 0.5085983349256176,
-"group": "w"
-},
-{
-"label": "Roil's Retribution\n51% of 3965",
-"id": "Roil's Retribution",
-"value": 0.50718789407314,
-"group": "w"
-},
-{
-"label": "Zulaport Cutthroat\n53% of 6829",
-"id": "Zulaport Cutthroat",
-"value": 0.5289207790306047,
-"group": "b"
-},
-{
-"label": "Oblivion Sower\n65% of 1551",
-"id": "Oblivion Sower",
-"value": 0.6453900709219859,
-"group": "x"
-},
-{
-"label": "Emeria Shepherd\n64% of 1717",
-"id": "Emeria Shepherd",
-"value": 0.6359930110658125,
-"group": "w"
-},
-{
-"label": "Part the Waterveil\n61% of 735",
-"id": "Part the Waterveil",
-"value": 0.6081632653061224,
-"group": "u"
-},
-{
-"label": "Guul Draz Overseer\n54% of 1694",
-"id": "Guul Draz Overseer",
-"value": 0.5360094451003542,
-"group": "b"
-},
-{
-"label": "Ghostly Sentinel\n56% of 10093",
-"id": "Ghostly Sentinel",
-"value": 0.5557316952343209,
-"group": "w"
-},
-{
-"label": "Bring to Light\n45% of 378",
-"id": "Bring to Light",
-"value": 0.4470899470899471,
-"group": "gu"
-},
-{
-"label": "Tajuru Warcaller\n63% of 4532",
-"id": "Tajuru Warcaller",
-"value": 0.6266548984995587,
-"group": "g"
-},
-{
-"label": "Shadow Glider\n53% of 13801",
-"id": "Shadow Glider",
-"value": 0.5326425621331787,
-"group": "w"
-},
-{
-"label": "March from the Tomb\n59% of 903",
-"id": "March from the Tomb",
-"value": 0.5880398671096345,
-"group": "wb"
-},
-{
-"label": "Rolling Thunder\n61% of 5073",
+"label": "Rolling Thunder",
 "id": "Rolling Thunder",
-"value": 0.608909915237532,
-"group": "r"
-},
-{
-"label": "Sheer Drop\n48% of 13178",
-"id": "Sheer Drop",
-"value": 0.4766277128547579,
-"group": "w"
-},
-{
-"label": "Tandem Tactics\n53% of 7822",
-"id": "Tandem Tactics",
-"value": 0.5315776016364101,
-"group": "w"
-},
-{
-"label": "Horribly Awry\n57% of 4537",
-"id": "Horribly Awry",
-"value": 0.574829182279039,
-"group": "u"
-},
-{
-"label": "Void Winnower\n72% of 583",
-"id": "Void Winnower",
-"value": 0.7186963979416809,
-"group": "x"
-},
-{
-"label": "Incubator Drone\n55% of 14637",
-"id": "Incubator Drone",
-"value": 0.5470383275261324,
-"group": "u"
-},
-{
-"label": "Brutal Expulsion\n58% of 2217",
-"id": "Brutal Expulsion",
-"value": 0.582318448353631,
-"group": "ur"
-},
-{
-"label": "Kozilek's Sentinel\n54% of 13904",
-"id": "Kozilek's Sentinel",
-"value": 0.535385500575374,
-"group": "r"
-},
-{
-"label": "Silent Skimmer\n52% of 13259",
-"id": "Silent Skimmer",
-"value": 0.522663850969153,
-"group": "b"
-},
-{
-"label": "Hero of Goma Fada\n54% of 2488",
-"id": "Hero of Goma Fada",
-"value": 0.5446141479099679,
-"group": "w"
-},
-{
-"label": "Bloodbond Vampire\n57% of 4721",
-"id": "Bloodbond Vampire",
-"value": 0.5685236178775683,
-"group": "b"
-},
-{
-"label": "Natural Connection\n47% of 8738",
-"id": "Natural Connection",
-"value": 0.4713893339436942,
-"group": "g"
-},
-{
-"label": "Vampiric Rites\n50% of 3348",
-"id": "Vampiric Rites",
-"value": 0.496415770609319,
-"group": "b"
-},
-{
-"label": "Crumble to Dust\n37% of 27",
-"id": "Crumble to Dust",
-"value": 0.37037037037037035,
-"group": "r"
-},
-{
-"label": "Ulamog's Despoiler\n55% of 4092",
-"id": "Ulamog's Despoiler",
-"value": 0.5505865102639296,
-"group": "x"
-},
-{
-"label": "Scythe Leopard\n45% of 3024",
-"id": "Scythe Leopard",
-"value": 0.45205026455026454,
-"group": "g"
-},
-{
-"label": "Dragonmaster Outcast\n63% of 1441",
-"id": "Dragonmaster Outcast",
-"value": 0.6308119361554476,
-"group": "r"
-},
-{
-"label": "Nissa's Renewal\n56% of 1776",
-"id": "Nissa's Renewal",
-"value": 0.5625,
-"group": "g"
-},
-{
-"label": "Grip of Desolation\n66% of 5374",
-"id": "Grip of Desolation",
-"value": 0.6579828805359137,
-"group": "b"
-},
-{
-"label": "Veteran Warleader\n54% of 2222",
-"id": "Veteran Warleader",
-"value": 0.5432043204320433,
-"group": "gw"
-},
-{
-"label": "Firemantle Mage\n52% of 5341",
-"id": "Firemantle Mage",
-"value": 0.5173188541471635,
-"group": "r"
-},
-{
-"label": "Akoum Stonewaker\n48% of 5595",
-"id": "Akoum Stonewaker",
-"value": 0.48293118856121536,
-"group": "r"
-},
-{
-"label": "Noyan Dar, Roil Shaper\n60% of 2466",
-"id": "Noyan Dar, Roil Shaper",
-"value": 0.597323600973236,
-"group": "wu"
-},
-{
-"label": "Seek the Wilds\n45% of 4691",
-"id": "Seek the Wilds",
-"value": 0.45214240034107867,
-"group": "g"
-},
-{
-"label": "Unnatural Aggression\n50% of 8495",
-"id": "Unnatural Aggression",
-"value": 0.5031194820482637,
-"group": "g"
-},
-{
-"label": "Shatterskull Recruit\n52% of 6481",
-"id": "Shatterskull Recruit",
-"value": 0.5213701589260916,
-"group": "r"
-},
-{
-"label": "Inspired Charge\n60% of 2513",
-"id": "Inspired Charge",
-"value": 0.6000795861520095,
-"group": "w"
-},
-{
-"label": "Geyserfield Stalker\n47% of 2177",
-"id": "Geyserfield Stalker",
-"value": 0.4680753330271015,
-"group": "b"
-},
-{
-"label": "Dominator Drone\n52% of 13871",
-"id": "Dominator Drone",
-"value": 0.5194290245836638,
-"group": "b"
-},
-{
-"label": "Chasm Guide\n52% of 3895",
-"id": "Chasm Guide",
-"value": 0.5150192554557125,
-"group": "r"
-},
-{
-"label": "Titan's Presence\n56% of 4923",
-"id": "Titan's Presence",
-"value": 0.5604306317286207,
-"group": "x"
-},
-{
-"label": "Halimar Tidecaller\n60% of 5460",
-"id": "Halimar Tidecaller",
-"value": 0.595054945054945,
-"group": "u"
-},
-{
-"label": "Jaddi Offshoot\n43% of 2548",
-"id": "Jaddi Offshoot",
-"value": 0.42660910518053374,
-"group": "g"
-},
-{
-"label": "Ob Nixilis Reignited\n68% of 1289",
-"id": "Ob Nixilis Reignited",
-"value": 0.6834755624515128,
-"group": "b"
-},
-{
-"label": "Infuse with the Elements\n60% of 1627",
-"id": "Infuse with the Elements",
-"value": 0.5968039336201598,
-"group": "g"
-},
-{
-"label": "Ugin's Insight\n63% of 2447",
-"id": "Ugin's Insight",
-"value": 0.6277073968124234,
-"group": "u"
-},
-{
-"label": "Volcanic Upheaval\n39% of 420",
-"id": "Volcanic Upheaval",
-"value": 0.39285714285714285,
-"group": "r"
-},
-{
-"label": "Oran-Rief Hydra\n55% of 2226",
-"id": "Oran-Rief Hydra",
-"value": 0.5462713387241689,
-"group": "g"
-},
-{
-"label": "Deathless Behemoth\n59% of 5654",
-"id": "Deathless Behemoth",
-"value": 0.5871949062610541,
-"group": "x"
-},
-{
-"label": "Giant Mantis\n45% of 7045",
-"id": "Giant Mantis",
-"value": 0.4545067423704755,
-"group": "g"
-},
-{
-"label": "Wasteland Strangler\n61% of 2806",
-"id": "Wasteland Strangler",
-"value": 0.6083392729864576,
-"group": "b"
-},
-{
-"label": "Pathway Arrows\n49% of 1441",
-"id": "Pathway Arrows",
-"value": 0.4878556557945871,
-"group": "x"
-},
-{
-"label": "Ulamog's Reclaimer\n56% of 4277",
-"id": "Ulamog's Reclaimer",
-"value": 0.5578676642506429,
-"group": "u"
-},
-{
-"label": "Culling Drone\n51% of 15121",
-"id": "Culling Drone",
-"value": 0.5131935718537134,
-"group": "b"
-},
-{
-"label": "Tide Drifter\n53% of 7075",
-"id": "Tide Drifter",
-"value": 0.5280565371024735,
-"group": "u"
-},
-{
-"label": "Ulamog, the Ceaseless Hunger\n92% of 698",
-"id": "Ulamog, the Ceaseless Hunger",
-"value": 0.9240687679083095,
-"group": "x"
-},
-{
-"label": "Cryptic Cruiser\n52% of 4674",
-"id": "Cryptic Cruiser",
-"value": 0.5239623448866068,
-"group": "u"
-},
-{
-"label": "Bone Splinters\n49% of 10674",
-"id": "Bone Splinters",
-"value": 0.4904440697020798,
-"group": "b"
-},
-{
-"label": "Kozilek's Channeler\n54% of 15177",
-"id": "Kozilek's Channeler",
-"value": 0.5447058048362654,
-"group": "x"
-},
-{
-"label": "Akoum Firebird\n62% of 1322",
-"id": "Akoum Firebird",
-"value": 0.6232980332829047,
-"group": "r"
-},
-{
-"label": "From Beyond\n56% of 2652",
-"id": "From Beyond",
-"value": 0.5592006033182504,
-"group": "g"
-},
-{
-"label": "Oran-Rief Invoker\n51% of 12594",
-"id": "Oran-Rief Invoker",
-"value": 0.5102429728442115,
-"group": "g"
-},
-{
-"label": "Malakir Familiar\n54% of 6715",
-"id": "Malakir Familiar",
-"value": 0.5407297096053612,
-"group": "b"
-},
-{
-"label": "Demon's Grasp\n53% of 11407",
-"id": "Demon's Grasp",
-"value": 0.5251161567458578,
-"group": "b"
-},
-{
-"label": "Benthic Infiltrator\n53% of 16891",
-"id": "Benthic Infiltrator",
-"value": 0.5257237582144337,
-"group": "u"
-},
-{
-"label": "Kiora, Master of the Depths\n58% of 1004",
-"id": "Kiora, Master of the Depths",
-"value": 0.5826693227091634,
-"group": "gu"
-},
-{
-"label": "Felidar Cub\n52% of 9426",
-"id": "Felidar Cub",
-"value": 0.5155951623169955,
-"group": "w"
-},
-{
-"label": "Brood Monitor\n59% of 5090",
-"id": "Brood Monitor",
-"value": 0.5943025540275049,
-"group": "g"
-},
-{
-"label": "Belligerent Whiptail\n49% of 5929",
-"id": "Belligerent Whiptail",
-"value": 0.4919885309495699,
-"group": "r"
-},
-{
-"label": "Serene Steward\n56% of 7069",
-"id": "Serene Steward",
-"value": 0.5555241193945395,
-"group": "w"
-},
-{
-"label": "Angelic Gift\n49% of 3478",
-"id": "Angelic Gift",
-"value": 0.4890741805635423,
-"group": "w"
-},
-{
-"label": "Eyeless Watcher\n52% of 13060",
-"id": "Eyeless Watcher",
-"value": 0.5173813169984686,
-"group": "g"
-},
-{
-"label": "Breaker of Armies\n65% of 3531",
-"id": "Breaker of Armies",
-"value": 0.6502407250070802,
-"group": "x"
-},
-{
-"label": "Rot Shambler\n49% of 5381",
-"id": "Rot Shambler",
-"value": 0.493031035123583,
-"group": "g"
-},
-{
-"label": "Outnumber\n56% of 13326",
-"id": "Outnumber",
-"value": 0.5618340087047876,
-"group": "r"
-},
-{
-"label": "Ondu Greathorn\n52% of 8053",
-"id": "Ondu Greathorn",
-"value": 0.521544765925742,
-"group": "w"
-},
-{
-"label": "Woodland Wanderer\n59% of 3056",
-"id": "Woodland Wanderer",
-"value": 0.5903141361256544,
-"group": "g"
-},
-{
-"label": "Touch of the Void\n54% of 15239",
+"group": "r",
+"winRate": 0.608909915237532,
+"plays": 5073,
+"name": "Rolling Thunder",
+"value": 0.608909915237532
+},
+{
+"label": "Drowner of Hope",
+"id": "Drowner of Hope",
+"group": "u",
+"winRate": 0.6682042833607907,
+"plays": 3035,
+"name": "Drowner of Hope",
+"value": 0.6682042833607907
+},
+{
+"label": "Pilgrim's Eye",
+"id": "Pilgrim's Eye",
+"group": "x",
+"winRate": 0.5616471734892787,
+"plays": 8208,
+"name": "Pilgrim's Eye",
+"value": 0.5616471734892787
+},
+{
+"label": "Wave-Wing Elemental",
+"id": "Wave-Wing Elemental",
+"group": "u",
+"winRate": 0.5585783928290612,
+"plays": 6359,
+"name": "Wave-Wing Elemental",
+"value": 0.5585783928290612
+},
+{
+"label": "Touch of the Void",
 "id": "Touch of the Void",
-"value": 0.5375680818951375,
-"group": "r"
+"group": "r",
+"winRate": 0.5375680818951375,
+"plays": 15239,
+"name": "Touch of the Void",
+"value": 0.5375680818951375
 },
 {
-"label": "Nirkana Assassin\n52% of 8890",
+"label": "Felidar Cub",
+"id": "Felidar Cub",
+"group": "w",
+"winRate": 0.5155951623169955,
+"plays": 9426,
+"name": "Felidar Cub",
+"value": 0.5155951623169955
+},
+{
+"label": "Barrage Tyrant",
+"id": "Barrage Tyrant",
+"group": "r",
+"winRate": 0.5526785714285715,
+"plays": 2240,
+"name": "Barrage Tyrant",
+"value": 0.5526785714285715
+},
+{
+"label": "Gideon's Reproach",
+"id": "Gideon's Reproach",
+"group": "w",
+"winRate": 0.5084897229669347,
+"plays": 14547,
+"name": "Gideon's Reproach",
+"value": 0.5084897229669347
+},
+{
+"label": "Shatterskull Recruit",
+"id": "Shatterskull Recruit",
+"group": "r",
+"winRate": 0.5213701589260916,
+"plays": 6481,
+"name": "Shatterskull Recruit",
+"value": 0.5213701589260916
+},
+{
+"label": "Woodland Wanderer",
+"id": "Woodland Wanderer",
+"group": "g",
+"winRate": 0.5903141361256544,
+"plays": 3056,
+"name": "Woodland Wanderer",
+"value": 0.5903141361256544
+},
+{
+"label": "Lithomancer's Focus",
+"id": "Lithomancer's Focus",
+"group": "w",
+"winRate": 0.5395017793594306,
+"plays": 7025,
+"name": "Lithomancer's Focus",
+"value": 0.5395017793594306
+},
+{
+"label": "Horribly Awry",
+"id": "Horribly Awry",
+"group": "u",
+"winRate": 0.574829182279039,
+"plays": 4537,
+"name": "Horribly Awry",
+"value": 0.574829182279039
+},
+{
+"label": "Cryptic Cruiser",
+"id": "Cryptic Cruiser",
+"group": "u",
+"winRate": 0.5239623448866068,
+"plays": 4674,
+"name": "Cryptic Cruiser",
+"value": 0.5239623448866068
+},
+{
+"label": "Cliffside Lookout",
+"id": "Cliffside Lookout",
+"group": "w",
+"winRate": 0.47875026299179463,
+"plays": 9506,
+"name": "Cliffside Lookout",
+"value": 0.47875026299179463
+},
+{
+"label": "Infuse with the Elements",
+"id": "Infuse with the Elements",
+"group": "g",
+"winRate": 0.5968039336201598,
+"plays": 1627,
+"name": "Infuse with the Elements",
+"value": 0.5968039336201598
+},
+{
+"label": "Eyeless Watcher",
+"id": "Eyeless Watcher",
+"group": "g",
+"winRate": 0.5173813169984686,
+"plays": 13060,
+"name": "Eyeless Watcher",
+"value": 0.5173813169984686
+},
+{
+"label": "Windrider Patrol",
+"id": "Windrider Patrol",
+"group": "u",
+"winRate": 0.5899526993965095,
+"plays": 6131,
+"name": "Windrider Patrol",
+"value": 0.5899526993965095
+},
+{
+"label": "Reclaiming Vines",
+"id": "Reclaiming Vines",
+"group": "g",
+"winRate": 0.4221556886227545,
+"plays": 668,
+"name": "Reclaiming Vines",
+"value": 0.4221556886227545
+},
+{
+"label": "Silent Skimmer",
+"id": "Silent Skimmer",
+"group": "b",
+"winRate": 0.522663850969153,
+"plays": 13259,
+"name": "Silent Skimmer",
+"value": 0.522663850969153
+},
+{
+"label": "Roil Spout",
+"id": "Roil Spout",
+"group": "wu",
+"winRate": 0.6540051171029325,
+"plays": 5081,
+"name": "Roil Spout",
+"value": 0.6540051171029325
+},
+{
+"label": "Nirkana Assassin",
 "id": "Nirkana Assassin",
-"value": 0.5202474690663667,
-"group": "b"
+"group": "b",
+"winRate": 0.5202474690663667,
+"plays": 8890,
+"name": "Nirkana Assassin",
+"value": 0.5202474690663667
+},
+{
+"label": "Veteran Warleader",
+"id": "Veteran Warleader",
+"group": "gw",
+"winRate": 0.5432043204320433,
+"plays": 2222,
+"name": "Veteran Warleader",
+"value": 0.5432043204320433
+},
+{
+"label": "Breaker of Armies",
+"id": "Breaker of Armies",
+"group": "x",
+"winRate": 0.6502407250070802,
+"plays": 3531,
+"name": "Breaker of Armies",
+"value": 0.6502407250070802
+},
+{
+"label": "Halimar Tidecaller",
+"id": "Halimar Tidecaller",
+"group": "u",
+"winRate": 0.595054945054945,
+"plays": 5460,
+"name": "Halimar Tidecaller",
+"value": 0.595054945054945
+},
+{
+"label": "Retreat to Kazandu",
+"id": "Retreat to Kazandu",
+"group": "g",
+"winRate": 0.4714046422589136,
+"plays": 4179,
+"name": "Retreat to Kazandu",
+"value": 0.4714046422589136
+},
+{
+"label": "Brood Monitor",
+"id": "Brood Monitor",
+"group": "g",
+"winRate": 0.5943025540275049,
+"plays": 5090,
+"name": "Brood Monitor",
+"value": 0.5943025540275049
+},
+{
+"label": "Coastal Discovery",
+"id": "Coastal Discovery",
+"group": "u",
+"winRate": 0.5940796724925209,
+"plays": 6351,
+"name": "Coastal Discovery",
+"value": 0.5940796724925209
+},
+{
+"label": "Kor Entanglers",
+"id": "Kor Entanglers",
+"group": "w",
+"winRate": 0.5537254901960784,
+"plays": 5100,
+"name": "Kor Entanglers",
+"value": 0.5537254901960784
+},
+{
+"label": "Drana's Emissary",
+"id": "Drana's Emissary",
+"group": "wb",
+"winRate": 0.6199376947040498,
+"plays": 6099,
+"name": "Drana's Emissary",
+"value": 0.6199376947040498
+},
+{
+"label": "Grovetender Druids",
+"id": "Grovetender Druids",
+"group": "gw",
+"winRate": 0.5400803972570347,
+"plays": 4229,
+"name": "Grovetender Druids",
+"value": 0.5400803972570347
+},
+{
+"label": "Kalastria Healer",
+"id": "Kalastria Healer",
+"group": "b",
+"winRate": 0.542975142211486,
+"plays": 12833,
+"name": "Kalastria Healer",
+"value": 0.542975142211486
+},
+{
+"label": "Void Winnower",
+"id": "Void Winnower",
+"group": "x",
+"winRate": 0.7186963979416809,
+"plays": 583,
+"name": "Void Winnower",
+"value": 0.7186963979416809
+},
+{
+"label": "Sylvan Scrying",
+"id": "Sylvan Scrying",
+"group": "g",
+"winRate": 0.4327354260089686,
+"plays": 2676,
+"name": "Sylvan Scrying",
+"value": 0.4327354260089686
+},
+{
+"label": "Noyan Dar, Roil Shaper",
+"id": "Noyan Dar, Roil Shaper",
+"group": "wu",
+"winRate": 0.597323600973236,
+"plays": 2466,
+"name": "Noyan Dar, Roil Shaper",
+"value": 0.597323600973236
+},
+{
+"label": "Plummet",
+"id": "Plummet",
+"group": "g",
+"winRate": 0.4749856239217941,
+"plays": 1739,
+"name": "Plummet",
+"value": 0.4749856239217941
+},
+{
+"label": "Grove Rumbler",
+"id": "Grove Rumbler",
+"group": "rg",
+"winRate": 0.5410738871041763,
+"plays": 4358,
+"name": "Grove Rumbler",
+"value": 0.5410738871041763
+},
+{
+"label": "Giant Mantis",
+"id": "Giant Mantis",
+"group": "g",
+"winRate": 0.4545067423704755,
+"plays": 7045,
+"name": "Giant Mantis",
+"value": 0.4545067423704755
+},
+{
+"label": "Roilmage's Trick",
+"id": "Roilmage's Trick",
+"group": "u",
+"winRate": 0.45534290271132377,
+"plays": 1254,
+"name": "Roilmage's Trick",
+"value": 0.45534290271132377
+},
+{
+"label": "Vestige of Emrakul",
+"id": "Vestige of Emrakul",
+"group": "r",
+"winRate": 0.5141855535626936,
+"plays": 12266,
+"name": "Vestige of Emrakul",
+"value": 0.5141855535626936
+},
+{
+"label": "Molten Nursery",
+"id": "Molten Nursery",
+"group": "r",
+"winRate": 0.5271635271635272,
+"plays": 3663,
+"name": "Molten Nursery",
+"value": 0.5271635271635272
+},
+{
+"label": "Expedition Envoy",
+"id": "Expedition Envoy",
+"group": "w",
+"winRate": 0.5074982958418541,
+"plays": 5868,
+"name": "Expedition Envoy",
+"value": 0.5074982958418541
+},
+{
+"label": "Herald of Kozilek",
+"id": "Herald of Kozilek",
+"group": "ur",
+"winRate": 0.5743560819702952,
+"plays": 5319,
+"name": "Herald of Kozilek",
+"value": 0.5743560819702952
+},
+{
+"label": "Dampening Pulse",
+"id": "Dampening Pulse",
+"group": "u",
+"winRate": 0.5322145061728395,
+"plays": 5184,
+"name": "Dampening Pulse",
+"value": 0.5322145061728395
+},
+{
+"label": "Scythe Leopard",
+"id": "Scythe Leopard",
+"group": "g",
+"winRate": 0.45205026455026454,
+"plays": 3024,
+"name": "Scythe Leopard",
+"value": 0.45205026455026454
+},
+{
+"label": "Kozilek's Channeler",
+"id": "Kozilek's Channeler",
+"group": "x",
+"winRate": 0.5447058048362654,
+"plays": 15177,
+"name": "Kozilek's Channeler",
+"value": 0.5447058048362654
+},
+{
+"label": "Desolation Twin",
+"id": "Desolation Twin",
+"group": "x",
+"winRate": 0.690781796966161,
+"plays": 857,
+"name": "Desolation Twin",
+"value": 0.690781796966161
+},
+{
+"label": "Voracious Null",
+"id": "Voracious Null",
+"group": "b",
+"winRate": 0.4389834572045073,
+"plays": 4171,
+"name": "Voracious Null",
+"value": 0.4389834572045073
+},
+{
+"label": "Territorial Baloth",
+"id": "Territorial Baloth",
+"group": "g",
+"winRate": 0.5124764890282132,
+"plays": 7975,
+"name": "Territorial Baloth",
+"value": 0.5124764890282132
+},
+{
+"label": "Bone Splinters",
+"id": "Bone Splinters",
+"group": "b",
+"winRate": 0.4904440697020798,
+"plays": 10674,
+"name": "Bone Splinters",
+"value": 0.4904440697020798
+},
+{
+"label": "Goblin War Paint",
+"id": "Goblin War Paint",
+"group": "r",
+"winRate": 0.40455580865603646,
+"plays": 2195,
+"name": "Goblin War Paint",
+"value": 0.40455580865603646
+},
+{
+"label": "Retreat to Hagra",
+"id": "Retreat to Hagra",
+"group": "b",
+"winRate": 0.47527910685805425,
+"plays": 4389,
+"name": "Retreat to Hagra",
+"value": 0.47527910685805425
+},
+{
+"label": "Swarm Surge",
+"id": "Swarm Surge",
+"group": "b",
+"winRate": 0.6540514313440078,
+"plays": 4122,
+"name": "Swarm Surge",
+"value": 0.6540514313440078
+},
+{
+"label": "Blisterpod",
+"id": "Blisterpod",
+"group": "g",
+"winRate": 0.4735312435125597,
+"plays": 9634,
+"name": "Blisterpod",
+"value": 0.4735312435125597
+},
+{
+"label": "Earthen Arms",
+"id": "Earthen Arms",
+"group": "g",
+"winRate": 0.4549444874774077,
+"plays": 3873,
+"name": "Earthen Arms",
+"value": 0.4549444874774077
+},
+{
+"label": "Carrier Thrall",
+"id": "Carrier Thrall",
+"group": "b",
+"winRate": 0.5366789667896679,
+"plays": 6775,
+"name": "Carrier Thrall",
+"value": 0.5366789667896679
+},
+{
+"label": "Chasm Guide",
+"id": "Chasm Guide",
+"group": "r",
+"winRate": 0.5150192554557125,
+"plays": 3895,
+"name": "Chasm Guide",
+"value": 0.5150192554557125
+},
+{
+"label": "Brilliant Spectrum",
+"id": "Brilliant Spectrum",
+"group": "u",
+"winRate": 0.461439588688946,
+"plays": 778,
+"name": "Brilliant Spectrum",
+"value": 0.461439588688946
+},
+{
+"label": "Forerunner of Slaughter",
+"id": "Forerunner of Slaughter",
+"group": "br",
+"winRate": 0.5621974830590513,
+"plays": 4132,
+"name": "Forerunner of Slaughter",
+"value": 0.5621974830590513
+},
+{
+"label": "Bring to Light",
+"id": "Bring to Light",
+"group": "gu",
+"winRate": 0.4470899470899471,
+"plays": 378,
+"name": "Bring to Light",
+"value": 0.4470899470899471
+},
+{
+"label": "Emeria Shepherd",
+"id": "Emeria Shepherd",
+"group": "w",
+"winRate": 0.6359930110658125,
+"plays": 1717,
+"name": "Emeria Shepherd",
+"value": 0.6359930110658125
+},
+{
+"label": "Ulamog's Nullifier",
+"id": "Ulamog's Nullifier",
+"group": "ub",
+"winRate": 0.6145540919887713,
+"plays": 4631,
+"name": "Ulamog's Nullifier",
+"value": 0.6145540919887713
+},
+{
+"label": "Vampiric Rites",
+"id": "Vampiric Rites",
+"group": "b",
+"winRate": 0.496415770609319,
+"plays": 3348,
+"name": "Vampiric Rites",
+"value": 0.496415770609319
+},
+{
+"label": "Scour from Existence",
+"id": "Scour from Existence",
+"group": "x",
+"winRate": 0.5376945525291829,
+"plays": 4112,
+"name": "Scour from Existence",
+"value": 0.5376945525291829
+},
+{
+"label": "Inspired Charge",
+"id": "Inspired Charge",
+"group": "w",
+"winRate": 0.6000795861520095,
+"plays": 2513,
+"name": "Inspired Charge",
+"value": 0.6000795861520095
+},
+{
+"label": "Dominator Drone",
+"id": "Dominator Drone",
+"group": "b",
+"winRate": 0.5194290245836638,
+"plays": 13871,
+"name": "Dominator Drone",
+"value": 0.5194290245836638
+},
+{
+"label": "Zada, Hedron Grinder",
+"id": "Zada, Hedron Grinder",
+"group": "r",
+"winRate": 0.48336252189141854,
+"plays": 1713,
+"name": "Zada, Hedron Grinder",
+"value": 0.48336252189141854
+},
+{
+"label": "Guul Draz Overseer",
+"id": "Guul Draz Overseer",
+"group": "b",
+"winRate": 0.5360094451003542,
+"plays": 1694,
+"name": "Guul Draz Overseer",
+"value": 0.5360094451003542
+},
+{
+"label": "Stone Haven Medic",
+"id": "Stone Haven Medic",
+"group": "w",
+"winRate": 0.5173950964240721,
+"plays": 10319,
+"name": "Stone Haven Medic",
+"value": 0.5173950964240721
+},
+{
+"label": "Unified Front",
+"id": "Unified Front",
+"group": "w",
+"winRate": 0.5292792792792793,
+"plays": 3552,
+"name": "Unified Front",
+"value": 0.5292792792792793
+},
+{
+"label": "Mist Intruder",
+"id": "Mist Intruder",
+"group": "u",
+"winRate": 0.5247453131593225,
+"plays": 16589,
+"name": "Mist Intruder",
+"value": 0.5247453131593225
+},
+{
+"label": "Kozilek's Sentinel",
+"id": "Kozilek's Sentinel",
+"group": "r",
+"winRate": 0.535385500575374,
+"plays": 13904,
+"name": "Kozilek's Sentinel",
+"value": 0.535385500575374
+},
+{
+"label": "Scatter to the Winds",
+"id": "Scatter to the Winds",
+"group": "u",
+"winRate": 0.6095194085027726,
+"plays": 2164,
+"name": "Scatter to the Winds",
+"value": 0.6095194085027726
+},
+{
+"label": "Oblivion Sower",
+"id": "Oblivion Sower",
+"group": "x",
+"winRate": 0.6453900709219859,
+"plays": 1551,
+"name": "Oblivion Sower",
+"value": 0.6453900709219859
+},
+{
+"label": "Ruinous Path",
+"id": "Ruinous Path",
+"group": "b",
+"winRate": 0.5751989945538333,
+"plays": 2387,
+"name": "Ruinous Path",
+"value": 0.5751989945538333
+},
+{
+"label": "Encircling Fissure",
+"id": "Encircling Fissure",
+"group": "w",
+"winRate": 0.49932432432432433,
+"plays": 4440,
+"name": "Encircling Fissure",
+"value": 0.49932432432432433
+},
+{
+"label": "Stonefury",
+"id": "Stonefury",
+"group": "r",
+"winRate": 0.5291989664082687,
+"plays": 9675,
+"name": "Stonefury",
+"value": 0.5291989664082687
+},
+{
+"label": "Mire's Malice",
+"id": "Mire's Malice",
+"group": "b",
+"winRate": 0.5802095929060862,
+"plays": 4962,
+"name": "Mire's Malice",
+"value": 0.5802095929060862
+},
+{
+"label": "Ugin's Insight",
+"id": "Ugin's Insight",
+"group": "u",
+"winRate": 0.6277073968124234,
+"plays": 2447,
+"name": "Ugin's Insight",
+"value": 0.6277073968124234
+},
+{
+"label": "Skyrider Elf",
+"id": "Skyrider Elf",
+"group": "gu",
+"winRate": 0.5533116178067318,
+"plays": 4605,
+"name": "Skyrider Elf",
+"value": 0.5533116178067318
+},
+{
+"label": "Nissa's Renewal",
+"id": "Nissa's Renewal",
+"group": "g",
+"winRate": 0.5625,
+"plays": 1776,
+"name": "Nissa's Renewal",
+"value": 0.5625
+},
+{
+"label": "Oran-Rief Invoker",
+"id": "Oran-Rief Invoker",
+"group": "g",
+"winRate": 0.5102429728442115,
+"plays": 12594,
+"name": "Oran-Rief Invoker",
+"value": 0.5102429728442115
+},
+{
+"label": "Complete Disregard",
+"id": "Complete Disregard",
+"group": "b",
+"winRate": 0.5561988897510893,
+"plays": 16753,
+"name": "Complete Disregard",
+"value": 0.5561988897510893
+},
+{
+"label": "Valakut Invoker",
+"id": "Valakut Invoker",
+"group": "r",
+"winRate": 0.5263408139977178,
+"plays": 10516,
+"name": "Valakut Invoker",
+"value": 0.5263408139977178
+},
+{
+"label": "Sure Strike",
+"id": "Sure Strike",
+"group": "r",
+"winRate": 0.5280024891101431,
+"plays": 6428,
+"name": "Sure Strike",
+"value": 0.5280024891101431
+},
+{
+"label": "Void Attendant",
+"id": "Void Attendant",
+"group": "g",
+"winRate": 0.4770992366412214,
+"plays": 3406,
+"name": "Void Attendant",
+"value": 0.4770992366412214
+},
+{
+"label": "Dragonmaster Outcast",
+"id": "Dragonmaster Outcast",
+"group": "r",
+"winRate": 0.6308119361554476,
+"plays": 1441,
+"name": "Dragonmaster Outcast",
+"value": 0.6308119361554476
+},
+{
+"label": "Resolute Blademaster",
+"id": "Resolute Blademaster",
+"group": "rw",
+"winRate": 0.6131578947368421,
+"plays": 4180,
+"name": "Resolute Blademaster",
+"value": 0.6131578947368421
+},
+{
+"label": "Serpentine Spike",
+"id": "Serpentine Spike",
+"group": "r",
+"winRate": 0.6845161290322581,
+"plays": 1550,
+"name": "Serpentine Spike",
+"value": 0.6845161290322581
+},
+{
+"label": "Felidar Sovereign",
+"id": "Felidar Sovereign",
+"group": "w",
+"winRate": 0.5950689511073965,
+"plays": 2393,
+"name": "Felidar Sovereign",
+"value": 0.5950689511073965
+},
+{
+"label": "Lantern Scout",
+"id": "Lantern Scout",
+"group": "w",
+"winRate": 0.5632754342431762,
+"plays": 3224,
+"name": "Lantern Scout",
+"value": 0.5632754342431762
+},
+{
+"label": "Smite the Monstrous",
+"id": "Smite the Monstrous",
+"group": "w",
+"winRate": 0.537141615986099,
+"plays": 9208,
+"name": "Smite the Monstrous",
+"value": 0.537141615986099
+},
+{
+"label": "Tandem Tactics",
+"id": "Tandem Tactics",
+"group": "w",
+"winRate": 0.5315776016364101,
+"plays": 7822,
+"name": "Tandem Tactics",
+"value": 0.5315776016364101
+},
+{
+"label": "Oran-Rief Hydra",
+"id": "Oran-Rief Hydra",
+"group": "g",
+"winRate": 0.5462713387241689,
+"plays": 2226,
+"name": "Oran-Rief Hydra",
+"value": 0.5462713387241689
+},
+{
+"label": "Tajuru Beastmaster",
+"id": "Tajuru Beastmaster",
+"group": "g",
+"winRate": 0.5770029057700291,
+"plays": 7227,
+"name": "Tajuru Beastmaster",
+"value": 0.5770029057700291
+},
+{
+"label": "Broodhunter Wurm",
+"id": "Broodhunter Wurm",
+"group": "g",
+"winRate": 0.4852093023255814,
+"plays": 5375,
+"name": "Broodhunter Wurm",
+"value": 0.4852093023255814
+},
+{
+"label": "Quarantine Field",
+"id": "Quarantine Field",
+"group": "w",
+"winRate": 0.6282287822878229,
+"plays": 1084,
+"name": "Quarantine Field",
+"value": 0.6282287822878229
+},
+{
+"label": "Sludge Crawler",
+"id": "Sludge Crawler",
+"group": "b",
+"winRate": 0.5356100210469142,
+"plays": 14729,
+"name": "Sludge Crawler",
+"value": 0.5356100210469142
+},
+{
+"label": "Brutal Expulsion",
+"id": "Brutal Expulsion",
+"group": "ur",
+"winRate": 0.582318448353631,
+"plays": 2217,
+"name": "Brutal Expulsion",
+"value": 0.582318448353631
+},
+{
+"label": "Roil's Retribution",
+"id": "Roil's Retribution",
+"group": "w",
+"winRate": 0.50718789407314,
+"plays": 3965,
+"name": "Roil's Retribution",
+"value": 0.50718789407314
+},
+{
+"label": "Sire of Stagnation",
+"id": "Sire of Stagnation",
+"group": "ub",
+"winRate": 0.6230769230769231,
+"plays": 1170,
+"name": "Sire of Stagnation",
+"value": 0.6230769230769231
+},
+{
+"label": "Greenwarden of Murasa",
+"id": "Greenwarden of Murasa",
+"group": "g",
+"winRate": 0.5901477832512315,
+"plays": 1015,
+"name": "Greenwarden of Murasa",
+"value": 0.5901477832512315
+},
+{
+"label": "Anticipate",
+"id": "Anticipate",
+"group": "u",
+"winRate": 0.5076332693751564,
+"plays": 11987,
+"name": "Anticipate",
+"value": 0.5076332693751564
+},
+{
+"label": "Snapping Gnarlid",
+"id": "Snapping Gnarlid",
+"group": "g",
+"winRate": 0.5265600456947023,
+"plays": 14006,
+"name": "Snapping Gnarlid",
+"value": 0.5265600456947023
+},
+{
+"label": "Guardian of Tazeem",
+"id": "Guardian of Tazeem",
+"group": "u",
+"winRate": 0.6400690846286701,
+"plays": 2895,
+"name": "Guardian of Tazeem",
+"value": 0.6400690846286701
+},
+{
+"label": "Fathom Feeder",
+"id": "Fathom Feeder",
+"group": "ub",
+"winRate": 0.5494505494505495,
+"plays": 2639,
+"name": "Fathom Feeder",
+"value": 0.5494505494505495
+},
+{
+"label": "Planar Outburst",
+"id": "Planar Outburst",
+"group": "w",
+"winRate": 0.5868706811451135,
+"plays": 2026,
+"name": "Planar Outburst",
+"value": 0.5868706811451135
+},
+{
+"label": "Catacomb Sifter",
+"id": "Catacomb Sifter",
+"group": "bg",
+"winRate": 0.5477326968973747,
+"plays": 5028,
+"name": "Catacomb Sifter",
+"value": 0.5477326968973747
+},
+{
+"label": "Cloud Manta",
+"id": "Cloud Manta",
+"group": "u",
+"winRate": 0.5468369829683698,
+"plays": 13152,
+"name": "Cloud Manta",
+"value": 0.5468369829683698
+},
+{
+"label": "Clutch of Currents",
+"id": "Clutch of Currents",
+"group": "u",
+"winRate": 0.5539667344740936,
+"plays": 16714,
+"name": "Clutch of Currents",
+"value": 0.5539667344740936
+},
+{
+"label": "Incubator Drone",
+"id": "Incubator Drone",
+"group": "u",
+"winRate": 0.5470383275261324,
+"plays": 14637,
+"name": "Incubator Drone",
+"value": 0.5470383275261324
+},
+{
+"label": "Serene Steward",
+"id": "Serene Steward",
+"group": "w",
+"winRate": 0.5555241193945395,
+"plays": 7069,
+"name": "Serene Steward",
+"value": 0.5555241193945395
+},
+{
+"label": "Rot Shambler",
+"id": "Rot Shambler",
+"group": "g",
+"winRate": 0.493031035123583,
+"plays": 5381,
+"name": "Rot Shambler",
+"value": 0.493031035123583
+},
+{
+"label": "Eldrazi Devastator",
+"id": "Eldrazi Devastator",
+"group": "x",
+"winRate": 0.5860416666666667,
+"plays": 4800,
+"name": "Eldrazi Devastator",
+"value": 0.5860416666666667
+},
+{
+"label": "Natural Connection",
+"id": "Natural Connection",
+"group": "g",
+"winRate": 0.4713893339436942,
+"plays": 8738,
+"name": "Natural Connection",
+"value": 0.4713893339436942
+},
+{
+"label": "Wasteland Strangler",
+"id": "Wasteland Strangler",
+"group": "b",
+"winRate": 0.6083392729864576,
+"plays": 2806,
+"name": "Wasteland Strangler",
+"value": 0.6083392729864576
+},
+{
+"label": "Skitterskin",
+"id": "Skitterskin",
+"group": "b",
+"winRate": 0.540960114640554,
+"plays": 4187,
+"name": "Skitterskin",
+"value": 0.540960114640554
+},
+{
+"label": "Exert Influence",
+"id": "Exert Influence",
+"group": "u",
+"winRate": 0.6304829419583518,
+"plays": 2257,
+"name": "Exert Influence",
+"value": 0.6304829419583518
+},
+{
+"label": "Part the Waterveil",
+"id": "Part the Waterveil",
+"group": "u",
+"winRate": 0.6081632653061224,
+"plays": 735,
+"name": "Part the Waterveil",
+"value": 0.6081632653061224
+},
+{
+"label": "Ulamog, the Ceaseless Hunger",
+"id": "Ulamog, the Ceaseless Hunger",
+"group": "x",
+"winRate": 0.9240687679083095,
+"plays": 698,
+"name": "Ulamog, the Ceaseless Hunger",
+"value": 0.9240687679083095
+},
+{
+"label": "Murasa Ranger",
+"id": "Murasa Ranger",
+"group": "g",
+"winRate": 0.4778251064896016,
+"plays": 3991,
+"name": "Murasa Ranger",
+"value": 0.4778251064896016
+},
+{
+"label": "Deathless Behemoth",
+"id": "Deathless Behemoth",
+"group": "x",
+"winRate": 0.5871949062610541,
+"plays": 5654,
+"name": "Deathless Behemoth",
+"value": 0.5871949062610541
+},
+{
+"label": "Eldrazi Skyspawner",
+"id": "Eldrazi Skyspawner",
+"group": "u",
+"winRate": 0.5954126518642647,
+"plays": 19096,
+"name": "Eldrazi Skyspawner",
+"value": 0.5954126518642647
+},
+{
+"label": "Zulaport Cutthroat",
+"id": "Zulaport Cutthroat",
+"group": "b",
+"winRate": 0.5289207790306047,
+"plays": 6829,
+"name": "Zulaport Cutthroat",
+"value": 0.5289207790306047
+},
+{
+"label": "Tunneling Geopede",
+"id": "Tunneling Geopede",
+"group": "r",
+"winRate": 0.5108323831242874,
+"plays": 5262,
+"name": "Tunneling Geopede",
+"value": 0.5108323831242874
+},
+{
+"label": "Kiora, Master of the Depths",
+"id": "Kiora, Master of the Depths",
+"group": "gu",
+"winRate": 0.5826693227091634,
+"plays": 1004,
+"name": "Kiora, Master of the Depths",
+"value": 0.5826693227091634
+},
+{
+"label": "Grave Birthing",
+"id": "Grave Birthing",
+"group": "b",
+"winRate": 0.5435922448481892,
+"plays": 8201,
+"name": "Grave Birthing",
+"value": 0.5435922448481892
+},
+{
+"label": "Angelic Gift",
+"id": "Angelic Gift",
+"group": "w",
+"winRate": 0.4890741805635423,
+"plays": 3478,
+"name": "Angelic Gift",
+"value": 0.4890741805635423
+},
+{
+"label": "Valakut Predator",
+"id": "Valakut Predator",
+"group": "r",
+"winRate": 0.5326792213957905,
+"plays": 12638,
+"name": "Valakut Predator",
+"value": 0.5326792213957905
+},
+{
+"label": "Ob Nixilis Reignited",
+"id": "Ob Nixilis Reignited",
+"group": "b",
+"winRate": 0.6834755624515128,
+"plays": 1289,
+"name": "Ob Nixilis Reignited",
+"value": 0.6834755624515128
+},
+{
+"label": "Ulamog's Reclaimer",
+"id": "Ulamog's Reclaimer",
+"group": "u",
+"winRate": 0.5578676642506429,
+"plays": 4277,
+"name": "Ulamog's Reclaimer",
+"value": 0.5578676642506429
+},
+{
+"label": "Aligned Hedron Network",
+"id": "Aligned Hedron Network",
+"group": "x",
+"winRate": 0.47474747474747475,
+"plays": 297,
+"name": "Aligned Hedron Network",
+"value": 0.47474747474747475
+},
+{
+"label": "Rising Miasma",
+"id": "Rising Miasma",
+"group": "b",
+"winRate": 0.5235188509874327,
+"plays": 2785,
+"name": "Rising Miasma",
+"value": 0.5235188509874327
+},
+{
+"label": "Akoum Firebird",
+"id": "Akoum Firebird",
+"group": "r",
+"winRate": 0.6232980332829047,
+"plays": 1322,
+"name": "Akoum Firebird",
+"value": 0.6232980332829047
+},
+{
+"label": "Undergrowth Champion",
+"id": "Undergrowth Champion",
+"group": "g",
+"winRate": 0.53184165232358,
+"plays": 1162,
+"name": "Undergrowth Champion",
+"value": 0.53184165232358
+},
+{
+"label": "Culling Drone",
+"id": "Culling Drone",
+"group": "b",
+"winRate": 0.5131935718537134,
+"plays": 15121,
+"name": "Culling Drone",
+"value": 0.5131935718537134
+},
+{
+"label": "Defiant Bloodlord",
+"id": "Defiant Bloodlord",
+"group": "b",
+"winRate": 0.5657773689052438,
+"plays": 1087,
+"name": "Defiant Bloodlord",
+"value": 0.5657773689052438
+},
+{
+"label": "Salvage Drone",
+"id": "Salvage Drone",
+"group": "u",
+"winRate": 0.478790882061447,
+"plays": 10090,
+"name": "Salvage Drone",
+"value": 0.478790882061447
+},
+{
+"label": "Makindi Patrol",
+"id": "Makindi Patrol",
+"group": "w",
+"winRate": 0.5085983349256176,
+"plays": 14654,
+"name": "Makindi Patrol",
+"value": 0.5085983349256176
+},
+{
+"label": "Mind Raker",
+"id": "Mind Raker",
+"group": "b",
+"winRate": 0.5449080197186486,
+"plays": 8317,
+"name": "Mind Raker",
+"value": 0.5449080197186486
+},
+{
+"label": "Stasis Snare",
+"id": "Stasis Snare",
+"group": "w",
+"winRate": 0.5595649171270718,
+"plays": 5792,
+"name": "Stasis Snare",
+"value": 0.5595649171270718
+},
+{
+"label": "Ulamog's Despoiler",
+"id": "Ulamog's Despoiler",
+"group": "x",
+"winRate": 0.5505865102639296,
+"plays": 4092,
+"name": "Ulamog's Despoiler",
+"value": 0.5505865102639296
+},
+{
+"label": "Bane of Bala Ged",
+"id": "Bane of Bala Ged",
+"group": "x",
+"winRate": 0.5977082054430121,
+"plays": 4887,
+"name": "Bane of Bala Ged",
+"value": 0.5977082054430121
+},
+{
+"label": "Bloodbond Vampire",
+"id": "Bloodbond Vampire",
+"group": "b",
+"winRate": 0.5685236178775683,
+"plays": 4721,
+"name": "Bloodbond Vampire",
+"value": 0.5685236178775683
+},
+{
+"label": "Lifespring Druid",
+"id": "Lifespring Druid",
+"group": "g",
+"winRate": 0.48443579766536965,
+"plays": 13364,
+"name": "Lifespring Druid",
+"value": 0.48443579766536965
+},
+{
+"label": "Spell Shrivel",
+"id": "Spell Shrivel",
+"group": "u",
+"winRate": 0.5823593864134404,
+"plays": 10952,
+"name": "Spell Shrivel",
+"value": 0.5823593864134404
+},
+{
+"label": "Omnath, Locus of Rage",
+"id": "Omnath, Locus of Rage",
+"group": "rg",
+"winRate": 0.6579754601226994,
+"plays": 652,
+"name": "Omnath, Locus of Rage",
+"value": 0.6579754601226994
+},
+{
+"label": "Angel of Renewal",
+"id": "Angel of Renewal",
+"group": "w",
+"winRate": 0.6336260978670013,
+"plays": 5579,
+"name": "Angel of Renewal",
+"value": 0.6336260978670013
+},
+{
+"label": "Ondu Rising",
+"id": "Ondu Rising",
+"group": "w",
+"winRate": 0.5937799043062201,
+"plays": 4180,
+"name": "Ondu Rising",
+"value": 0.5937799043062201
+},
+{
+"label": "Endless One",
+"id": "Endless One",
+"group": "x",
+"winRate": 0.5419058553386912,
+"plays": 3484,
+"name": "Endless One",
+"value": 0.5419058553386912
+},
+{
+"label": "Gideon, Ally of Zendikar",
+"id": "Gideon, Ally of Zendikar",
+"group": "w",
+"winRate": 0.6967340590979783,
+"plays": 1286,
+"name": "Gideon, Ally of Zendikar",
+"value": 0.6967340590979783
+},
+{
+"label": "Munda, Ambush Leader",
+"id": "Munda, Ambush Leader",
+"group": "rw",
+"winRate": 0.5746847720659554,
+"plays": 2062,
+"name": "Munda, Ambush Leader",
+"value": 0.5746847720659554
+},
+{
+"label": "Grip of Desolation",
+"id": "Grip of Desolation",
+"group": "b",
+"winRate": 0.6579828805359137,
+"plays": 5374,
+"name": "Grip of Desolation",
+"value": 0.6579828805359137
+},
+{
+"label": "Demon's Grasp",
+"id": "Demon's Grasp",
+"group": "b",
+"winRate": 0.5251161567458578,
+"plays": 11407,
+"name": "Demon's Grasp",
+"value": 0.5251161567458578
+},
+{
+"label": "Brood Butcher",
+"id": "Brood Butcher",
+"group": "bg",
+"winRate": 0.5828065739570164,
+"plays": 2373,
+"name": "Brood Butcher",
+"value": 0.5828065739570164
+},
+{
+"label": "Murk Strider",
+"id": "Murk Strider",
+"group": "u",
+"winRate": 0.551174566282062,
+"plays": 12047,
+"name": "Murk Strider",
+"value": 0.551174566282062
+},
+{
+"label": "Vile Aggregate",
+"id": "Vile Aggregate",
+"group": "r",
+"winRate": 0.5885808978608015,
+"plays": 6638,
+"name": "Vile Aggregate",
+"value": 0.5885808978608015
+},
+{
+"label": "Beastcaller Savant",
+"id": "Beastcaller Savant",
+"group": "g",
+"winRate": 0.4745818301082322,
+"plays": 3049,
+"name": "Beastcaller Savant",
+"value": 0.4745818301082322
+},
+{
+"label": "Makindi Sliderunner",
+"id": "Makindi Sliderunner",
+"group": "r",
+"winRate": 0.5260193737328227,
+"plays": 13317,
+"name": "Makindi Sliderunner",
+"value": 0.5260193737328227
+},
+{
+"label": "Lavastep Raider",
+"id": "Lavastep Raider",
+"group": "r",
+"winRate": 0.4254751583861287,
+"plays": 2999,
+"name": "Lavastep Raider",
+"value": 0.4254751583861287
+},
+{
+"label": "Benthic Infiltrator",
+"id": "Benthic Infiltrator",
+"group": "u",
+"winRate": 0.5257237582144337,
+"plays": 16891,
+"name": "Benthic Infiltrator",
+"value": 0.5257237582144337
+},
+{
+"label": "Dust Stalker",
+"id": "Dust Stalker",
+"group": "br",
+"winRate": 0.5622427983539094,
+"plays": 1944,
+"name": "Dust Stalker",
+"value": 0.5622427983539094
+},
+{
+"label": "Akoum Stonewaker",
+"id": "Akoum Stonewaker",
+"group": "r",
+"winRate": 0.48293118856121536,
+"plays": 5595,
+"name": "Akoum Stonewaker",
+"value": 0.48293118856121536
+},
+{
+"label": "Transgress the Mind",
+"id": "Transgress the Mind",
+"group": "b",
+"winRate": 0.5192678227360308,
+"plays": 5190,
+"name": "Transgress the Mind",
+"value": 0.5192678227360308
+},
+{
+"label": "Seek the Wilds",
+"id": "Seek the Wilds",
+"group": "g",
+"winRate": 0.45214240034107867,
+"plays": 4691,
+"name": "Seek the Wilds",
+"value": 0.45214240034107867
+},
+{
+"label": "Akoum Hellkite",
+"id": "Akoum Hellkite",
+"group": "r",
+"winRate": 0.603056970819824,
+"plays": 2159,
+"name": "Akoum Hellkite",
+"value": 0.603056970819824
+},
+{
+"label": "Malakir Familiar",
+"id": "Malakir Familiar",
+"group": "b",
+"winRate": 0.5407297096053612,
+"plays": 6715,
+"name": "Malakir Familiar",
+"value": 0.5407297096053612
+},
+{
+"label": "Kor Bladewhirl",
+"id": "Kor Bladewhirl",
+"group": "w",
+"winRate": 0.5179997198487183,
+"plays": 7139,
+"name": "Kor Bladewhirl",
+"value": 0.5179997198487183
+},
+{
+"label": "Ruin Processor",
+"id": "Ruin Processor",
+"group": "x",
+"winRate": 0.6132603122815194,
+"plays": 8582,
+"name": "Ruin Processor",
+"value": 0.6132603122815194
+},
+{
+"label": "Sheer Drop",
+"id": "Sheer Drop",
+"group": "w",
+"winRate": 0.4766277128547579,
+"plays": 13178,
+"name": "Sheer Drop",
+"value": 0.4766277128547579
+},
+{
+"label": "Altar's Reap",
+"id": "Altar's Reap",
+"group": "b",
+"winRate": 0.436264308012487,
+"plays": 3844,
+"name": "Altar's Reap",
+"value": 0.436264308012487
+},
+{
+"label": "Gruesome Slaughter",
+"id": "Gruesome Slaughter",
+"group": "x",
+"winRate": 0.654434250764526,
+"plays": 981,
+"name": "Gruesome Slaughter",
+"value": 0.654434250764526
+},
+{
+"label": "Angelic Captain",
+"id": "Angelic Captain",
+"group": "rw",
+"winRate": 0.5766169154228856,
+"plays": 2010,
+"name": "Angelic Captain",
+"value": 0.5766169154228856
+},
+{
+"label": "Tightening Coils",
+"id": "Tightening Coils",
+"group": "u",
+"winRate": 0.46119390829872137,
+"plays": 12279,
+"name": "Tightening Coils",
+"value": 0.46119390829872137
+},
+{
+"label": "Kitesail Scout",
+"id": "Kitesail Scout",
+"group": "w",
+"winRate": 0.3954779849266164,
+"plays": 2521,
+"name": "Kitesail Scout",
+"value": 0.3954779849266164
+},
+{
+"label": "Geyserfield Stalker",
+"id": "Geyserfield Stalker",
+"group": "b",
+"winRate": 0.4680753330271015,
+"plays": 2177,
+"name": "Geyserfield Stalker",
+"value": 0.4680753330271015
+},
+{
+"label": "Reckless Cohort",
+"id": "Reckless Cohort",
+"group": "r",
+"winRate": 0.4672235593940252,
+"plays": 7063,
+"name": "Reckless Cohort",
+"value": 0.4672235593940252
+},
+{
+"label": "Tajuru Stalwart",
+"id": "Tajuru Stalwart",
+"group": "g",
+"winRate": 0.5042024320457796,
+"plays": 11184,
+"name": "Tajuru Stalwart",
+"value": 0.5042024320457796
+},
+{
+"label": "Blight Herder",
+"id": "Blight Herder",
+"group": "x",
+"winRate": 0.5905156191193075,
+"plays": 2657,
+"name": "Blight Herder",
+"value": 0.5905156191193075
+},
+{
+"label": "Rush of Ice",
+"id": "Rush of Ice",
+"group": "u",
+"winRate": 0.4809034907597536,
+"plays": 9740,
+"name": "Rush of Ice",
+"value": 0.4809034907597536
+},
+{
+"label": "Crumble to Dust",
+"id": "Crumble to Dust",
+"group": "r",
+"winRate": 0.37037037037037035,
+"plays": 27,
+"name": "Crumble to Dust",
+"value": 0.37037037037037035
+},
+{
+"label": "Retreat to Coralhelm",
+"id": "Retreat to Coralhelm",
+"group": "u",
+"winRate": 0.3582089552238806,
+"plays": 1675,
+"name": "Retreat to Coralhelm",
+"value": 0.3582089552238806
+},
+{
+"label": "Belligerent Whiptail",
+"id": "Belligerent Whiptail",
+"group": "r",
+"winRate": 0.4919885309495699,
+"plays": 5929,
+"name": "Belligerent Whiptail",
+"value": 0.4919885309495699
+},
+{
+"label": "Nettle Drone",
+"id": "Nettle Drone",
+"group": "r",
+"winRate": 0.5432613449972663,
+"plays": 14632,
+"name": "Nettle Drone",
+"value": 0.5432613449972663
+},
+{
+"label": "Tajuru Warcaller",
+"id": "Tajuru Warcaller",
+"group": "g",
+"winRate": 0.6266548984995587,
+"plays": 4532,
+"name": "Tajuru Warcaller",
+"value": 0.6266548984995587
+},
+{
+"label": "Courier Griffin",
+"id": "Courier Griffin",
+"group": "w",
+"winRate": 0.5555481149132793,
+"plays": 14933,
+"name": "Courier Griffin",
+"value": 0.5555481149132793
+},
+{
+"label": "Tide Drifter",
+"id": "Tide Drifter",
+"group": "u",
+"winRate": 0.5280565371024735,
+"plays": 7075,
+"name": "Tide Drifter",
+"value": 0.5280565371024735
+},
+{
+"label": "Ruination Guide",
+"id": "Ruination Guide",
+"group": "u",
+"winRate": 0.5833553850224927,
+"plays": 7558,
+"name": "Ruination Guide",
+"value": 0.5833553850224927
+},
+{
+"label": "From Beyond",
+"id": "From Beyond",
+"group": "g",
+"winRate": 0.5592006033182504,
+"plays": 2652,
+"name": "From Beyond",
+"value": 0.5592006033182504
+},
+{
+"label": "Dispel",
+"id": "Dispel",
+"group": "u",
+"winRate": 0.5692665890570431,
+"plays": 859,
+"name": "Dispel",
+"value": 0.5692665890570431
+},
+{
+"label": "Prism Array",
+"id": "Prism Array",
+"group": "u",
+"winRate": 0.4975124378109453,
+"plays": 201,
+"name": "Prism Array",
+"value": 0.4975124378109453
+},
+{
+"label": "Turn Against",
+"id": "Turn Against",
+"group": "r",
+"winRate": 0.5356576862123613,
+"plays": 4417,
+"name": "Turn Against",
+"value": 0.5356576862123613
+},
+{
+"label": "March from the Tomb",
+"id": "March from the Tomb",
+"group": "wb",
+"winRate": 0.5880398671096345,
+"plays": 903,
+"name": "March from the Tomb",
+"value": 0.5880398671096345
+},
+{
+"label": "Slab Hammer",
+"id": "Slab Hammer",
+"group": "x",
+"winRate": 0.46466165413533833,
+"plays": 2660,
+"name": "Slab Hammer",
+"value": 0.46466165413533833
+},
+{
+"label": "Radiant Flames",
+"id": "Radiant Flames",
+"group": "r",
+"winRate": 0.5231338679827268,
+"plays": 1621,
+"name": "Radiant Flames",
+"value": 0.5231338679827268
+},
+{
+"label": "Hedron Blade",
+"id": "Hedron Blade",
+"group": "x",
+"winRate": 0.41580756013745707,
+"plays": 1746,
+"name": "Hedron Blade",
+"value": 0.41580756013745707
+},
+{
+"label": "Firemantle Mage",
+"id": "Firemantle Mage",
+"group": "r",
+"winRate": 0.5173188541471635,
+"plays": 5341,
+"name": "Firemantle Mage",
+"value": 0.5173188541471635
+},
+{
+"label": "Ghostly Sentinel",
+"id": "Ghostly Sentinel",
+"group": "w",
+"winRate": 0.5557316952343209,
+"plays": 10093,
+"name": "Ghostly Sentinel",
+"value": 0.5557316952343209
+},
+{
+"label": "Unnatural Aggression",
+"id": "Unnatural Aggression",
+"group": "g",
+"winRate": 0.5031194820482637,
+"plays": 8495,
+"name": "Unnatural Aggression",
+"value": 0.5031194820482637
+},
+{
+"label": "Coralhelm Guide",
+"id": "Coralhelm Guide",
+"group": "u",
+"winRate": 0.5252674610768027,
+"plays": 11497,
+"name": "Coralhelm Guide",
+"value": 0.5252674610768027
+},
+{
+"label": "Kalastria Nightwatch",
+"id": "Kalastria Nightwatch",
+"group": "b",
+"winRate": 0.5750186348631668,
+"plays": 9391,
+"name": "Kalastria Nightwatch",
+"value": 0.5750186348631668
+},
+{
+"label": "Pathway Arrows",
+"id": "Pathway Arrows",
+"group": "x",
+"winRate": 0.4878556557945871,
+"plays": 1441,
+"name": "Pathway Arrows",
+"value": 0.4878556557945871
+},
+{
+"label": "Drana, Liberator of Malakir",
+"id": "Drana, Liberator of Malakir",
+"group": "b",
+"winRate": 0.6015569709837226,
+"plays": 1413,
+"name": "Drana, Liberator of Malakir",
+"value": 0.6015569709837226
+},
+{
+"label": "Ondu Greathorn",
+"id": "Ondu Greathorn",
+"group": "w",
+"winRate": 0.521544765925742,
+"plays": 8053,
+"name": "Ondu Greathorn",
+"value": 0.521544765925742
+},
+{
+"label": "Hero of Goma Fada",
+"id": "Hero of Goma Fada",
+"group": "w",
+"winRate": 0.5446141479099679,
+"plays": 2488,
+"name": "Hero of Goma Fada",
+"value": 0.5446141479099679
+},
+{
+"label": "Ondu Champion",
+"id": "Ondu Champion",
+"group": "r",
+"winRate": 0.5302218821729151,
+"plays": 7842,
+"name": "Ondu Champion",
+"value": 0.5302218821729151
+},
+{
+"label": "Plated Crusher",
+"id": "Plated Crusher",
+"group": "g",
+"winRate": 0.6088574618533681,
+"plays": 2687,
+"name": "Plated Crusher",
+"value": 0.6088574618533681
+},
+{
+"label": "Hedron Archive",
+"id": "Hedron Archive",
+"group": "x",
+"winRate": 0.5596960397486482,
+"plays": 6843,
+"name": "Hedron Archive",
+"value": 0.5596960397486482
+},
+{
+"label": "Conduit of Ruin",
+"id": "Conduit of Ruin",
+"group": "x",
+"winRate": 0.5947014630288652,
+"plays": 2529,
+"name": "Conduit of Ruin",
+"value": 0.5947014630288652
+},
+{
+"label": "Jaddi Offshoot",
+"id": "Jaddi Offshoot",
+"group": "g",
+"winRate": 0.42660910518053374,
+"plays": 2548,
+"name": "Jaddi Offshoot",
+"value": 0.42660910518053374
+},
+{
+"label": "Volcanic Upheaval",
+"id": "Volcanic Upheaval",
+"group": "r",
+"winRate": 0.39285714285714285,
+"plays": 420,
+"name": "Volcanic Upheaval",
+"value": 0.39285714285714285
+},
+{
+"label": "Titan's Presence",
+"id": "Titan's Presence",
+"group": "x",
+"winRate": 0.5604306317286207,
+"plays": 4923,
+"name": "Titan's Presence",
+"value": 0.5604306317286207
+},
+{
+"label": "Painful Truths",
+"id": "Painful Truths",
+"group": "b",
+"winRate": 0.5306306306306307,
+"plays": 2220,
+"name": "Painful Truths",
+"value": 0.5306306306306307
+},
+{
+"label": "Oracle of Dust",
+"id": "Oracle of Dust",
+"group": "u",
+"winRate": 0.5224608088525886,
+"plays": 7591,
+"name": "Oracle of Dust",
+"value": 0.5224608088525886
+},
+{
+"label": "Smothering Abomination",
+"id": "Smothering Abomination",
+"group": "b",
+"winRate": 0.5168685121107266,
+"plays": 2312,
+"name": "Smothering Abomination",
+"value": 0.5168685121107266
+},
+{
+"label": "Dutiful Return",
+"id": "Dutiful Return",
+"group": "b",
+"winRate": 0.4819148936170213,
+"plays": 940,
+"name": "Dutiful Return",
+"value": 0.4819148936170213
+},
+{
+"label": "Fortified Rampart",
+"id": "Fortified Rampart",
+"group": "w",
+"winRate": 0.49977628635346755,
+"plays": 8940,
+"name": "Fortified Rampart",
+"value": 0.49977628635346755
+},
+{
+"label": "Shadow Glider",
+"id": "Shadow Glider",
+"group": "w",
+"winRate": 0.5326425621331787,
+"plays": 13801,
+"name": "Shadow Glider",
+"value": 0.5326425621331787
+},
+{
+"label": "Adverse Conditions",
+"id": "Adverse Conditions",
+"group": "u",
+"winRate": 0.5350008685079034,
+"plays": 5757,
+"name": "Adverse Conditions",
+"value": 0.5350008685079034
+},
+{
+"label": "Kor Castigator",
+"id": "Kor Castigator",
+"group": "w",
+"winRate": 0.5262994857815501,
+"plays": 16141,
+"name": "Kor Castigator",
+"value": 0.5262994857815501
+},
+{
+"label": "Call the Scions",
+"id": "Call the Scions",
+"group": "g",
+"winRate": 0.4772531366727325,
+"plays": 10441,
+"name": "Call the Scions",
+"value": 0.4772531366727325
+},
+{
+"label": "Processor Assault",
+"id": "Processor Assault",
+"group": "r",
+"winRate": 0.5854261012762454,
+"plays": 2429,
+"name": "Processor Assault",
+"value": 0.5854261012762454
+},
+{
+"label": "Retreat to Valakut",
+"id": "Retreat to Valakut",
+"group": "r",
+"winRate": 0.4629014396456257,
+"plays": 2709,
+"name": "Retreat to Valakut",
+"value": 0.4629014396456257
+},
+{
+"label": "Outnumber",
+"id": "Outnumber",
+"group": "r",
+"winRate": 0.5618340087047876,
+"plays": 13326,
+"name": "Outnumber",
+"value": 0.5618340087047876
+},
+{
+"label": "Boiling Earth",
+"id": "Boiling Earth",
+"group": "r",
+"winRate": 0.5253787878787879,
+"plays": 2640,
+"name": "Boiling Earth",
+"value": 0.5253787878787879
+},
+{
+"label": "Swell of Growth",
+"id": "Swell of Growth",
+"group": "g",
+"winRate": 0.4889279437609842,
+"plays": 5690,
+"name": "Swell of Growth",
+"value": 0.4889279437609842
+},
+{
+"label": "Retreat to Emeria",
+"id": "Retreat to Emeria",
+"group": "w",
+"winRate": 0.5500328083989501,
+"plays": 6096,
+"name": "Retreat to Emeria",
+"value": 0.5500328083989501
 }
 ]

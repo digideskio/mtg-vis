@@ -17,6 +17,7 @@
     margin: 0;
     position: relative;
     background: rgb(182, 165, 152);
+    font-family: sans-serif;
   }
   #mtg-network {
     width: 100%;
@@ -46,7 +47,9 @@
   <div id="progress"></div>
 
   <script type="text/javascript">
+  var minPlays = 262;
   var minWinRate = .61803398875;
+
   var options = {
     groups: {
       'x': {
@@ -118,10 +121,10 @@
       borderWidth: 0,
       color: 'rgba(0,0,0,0)',
       font: {
-        size: 14,
+        size: 13,
         color: 'rgb(20,17,17)',
         strokeColor: 'rgb(182, 165, 152)',
-        strokeWidth: 2,
+        strokeWidth: 1,
       },
       labelHighlightBold: false,
       scaling: {
@@ -145,11 +148,11 @@
         size: 0,
         color: 'rgb(20,17,17)',
         strokeColor: 'rgb(182, 165, 152)',
-        strokeWidth: 2,
+        strokeWidth: 1,
       },
       labelHighlightBold: false,
       scaling: {
-        min: .1,
+        min: 1,
         max: 60,
         customScalingFunction: function (min,max,total,value) {
           return 2 * (value - minWinRate);
@@ -189,7 +192,6 @@
       },
     },
   };
-  var minPlays = 262;
   var container = document.getElementById('mtg-network');
   var allNodes = new vis.DataSet(nodes);
   var allEdges = new vis.DataSet(edges);
@@ -206,7 +208,6 @@
 
   var highlightActive = false;
   var edgeFontSize = 9;
-  var allNodes = allNodes.get({returnType:"Object"});
 
   var hoverEdgeId = null;
   var hoverNodeId = null;
@@ -225,15 +226,15 @@
   }
 
   function dimEdge(edgeID) {
-      currentEdges.update({
-          id: edgeID,
-          color: {
-            color: 'hsla(0, 0%, 50%, .2)',
-          },
-          font: {
-              size: 0,
-          },
-      });
+    currentEdges.update({
+        id: edgeID,
+        color: {
+          color: 'hsla(0, 0%, 50%, .2)',
+        },
+        font: {
+            size: 0,
+        },
+    });
   }
 
   function highlight(nodeIDs, edgeIDs) {
@@ -247,11 +248,29 @@
     highlight(network.getSelectedNodes(), network.getSelectedEdges());
   }
 
+  function onHoverNode(nodeId) {
+    blurLastHover();
+    hoverNodeId = nodeId;
+    network.getConnectedEdges(hoverNodeId).forEach(function (edgeId) {
+        highlightEdge(edgeId);
+    });
+    var node = allNodes.get(nodeId);
+    allNodes.update({
+      id: nodeId,
+      label: Math.round(100 * node.winRate) + "% of " + node.plays,
+    });
+  }
+
   function onBlurNode(nodeId) {
     network.getConnectedEdges(nodeId).forEach(function (edgeId) {
         dimEdge(edgeId);
     });
     highlight(network.getSelectedNodes(), network.getSelectedEdges());
+    var node = allNodes.get(nodeId);
+    allNodes.update({
+      id: nodeId,
+      label: node.name,
+    });
   }
 
   function blurLastHover() {
@@ -261,17 +280,6 @@
       if (hoverNodeId != null) {
           onBlurNode(hoverNodeId);
       }
-  }
-
-  function onSelect(params) {
-    blurLastHover();
-    hoverEdgeId = null;
-
-    selectionEdgeIds.forEach(function (edgeID) {
-        dimEdge(edgeID);
-    });
-    highlight(params.nodes, params.edges)
-    selectionEdgeIds = params.edges;
   }
 
   network.on("hoverEdge", function (params) {
@@ -285,23 +293,11 @@
   });
 
   network.on("hoverNode", function (params) {
-        blurLastHover();
-        hoverNodeId = params.node;
-        network.getConnectedEdges(hoverNodeId).forEach(function (edgeId) {
-            highlightEdge(edgeId);
-        });
+    onHoverNode(params.node);
   });
 
   network.on("blurNode", function (params) {
     onBlurNode(params.node);
-  });
-
-  network.on("select", function (params) {
-    onSelect(params);
-  });
-
-  network.on("dragStart", function (params) {
-    onSelect(params);
   });
 
   network.on("stabilizationProgress", function(params) {

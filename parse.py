@@ -184,9 +184,11 @@ def write(filename, declaration, value):
 nodes = [{ 'id': card.name,
            'value': win_rate(card),
            'group': card.group(),
-           'label': str.format("{}\n{:.0f}% of {}",
-                               card.name, 100 * win_rate(card), plays(card)) }
-         for card in cards_by_name.values()]
+           'label': card.name,
+           'name': card.name,
+           'plays': plays(card),
+           'winRate': win_rate(card) }
+          for card in cards_by_name.values()]
 write('nodes.js', "var nodes = ", nodes)
 
 edges = []
